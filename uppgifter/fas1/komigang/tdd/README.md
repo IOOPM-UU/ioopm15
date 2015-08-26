@@ -17,8 +17,6 @@ Testdriven utveckling och parprogrammering
   Att använda testdriven utveckling är ett **krav** under
   projektet i Fas 2.
 
-  Från och med nu, använd TDD för resten av denna fas.
-
 2. Parprogrammering är ett enkelt sätt att bygga in granskning
   av kod och därmed förhöjd kodkvalitet i ett projekt som en del
   av utvecklingsprocessen. På denna kurs kommer vi att tillämpa
