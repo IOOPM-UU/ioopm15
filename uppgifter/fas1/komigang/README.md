@@ -31,6 +31,8 @@ som presenteras här.
     jobba med vem du vill.
 2. Logga in på en lämplig Unixmaskin.
 3. Starta ett terminalfönster.
+4. (valfritt) Klona kursens [Trello-bräde](https://trello.com/b/G6yWqros/ioopm15) 
+     och spåra dina framsteg med det tillhörande kortet.
 
 ## Innehåll
 
