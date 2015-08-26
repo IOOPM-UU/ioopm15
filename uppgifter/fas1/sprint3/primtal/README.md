@@ -323,3 +323,17 @@ for prg in programs:
 5. Utöka skripten som kör prestandamätningarna till att också
    skapa de grafer som efterfrågats. Du kan med fördel använda
    `gnuplot` för detta, läs t.ex. [här](http://mathewpeet.org/computing/software/gnuplot/tutorial2/).
+
+
+# Förslag på 3-mål att redovisa
+
+1. TODO: inluppsmål sprint 3
+2. M36 -- hela programmet är en array...
+3. L33 -- du går från sekventiell till parallell
+3. O42
+
+
+# Förslag på 4/5-mål att redovisa
+
+1. L34
+3. O43 -- duger bra att bara titta på det sekventiella för detta
