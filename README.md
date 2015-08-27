@@ -12,7 +12,7 @@ organiserat som följer:
   föreläsningsbilder och eventuell utdelad kod från de fysiska
   föreläsningarna.
 * Under [uppgifter](uppgifter) hittar du kursens
-  inlämningsuppgifter, samt "kom igång"-uppgiften för kursens
+  inlämningsuppgifter, samt [kom-igång-uppgiften](uppgifter/fas1/komigang#kom-igång-med-c) för kursens
   första vecka.
 * Under [extramaterial](extramaterial) hittar du allt annat.
 
