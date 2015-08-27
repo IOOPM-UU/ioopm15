@@ -11,12 +11,12 @@ program med nya funktioner.
   specifikationen är lång och det kommer att löna sig att ta
   anteckningar om vad du skall göra. Det ingår alltså i problemet
   som du skall lösa att *förstå problemet*. Notera att
-  [lektion 1 **TODO**]() handlar om att komma igång med uppgiften.
+  lektion 1 handlar om att komma igång med uppgiften.
   Denna lektion förutsätter att du har gått igenom uppgiftstexten
   ordentligt.
 
 **TIPS!** Efter att du har läst igenom denna uppgift kan du också
-  titta på sidan om [simple **TODO**](simple) som tar denna
+  titta på sidan om [simple](http://wrigstad.com/ioopm/simple.php) som tar denna
   uppgift som ett löpande exempel på hur man griper an ett
   programmeringsproblem.
 
@@ -59,8 +59,8 @@ engelska om du vill. Det viktiga är inte att det fungerar *exakt*
 med dessa tecken etc., bara att det är uppenbart för användaren
 hur systemet fungerar.
 
-En kort film som visar interaktionen med ett färdigskrivet
-lagerhanteringssystem finns här: **TODO**.
+En kort film som visar interaktionen med ett liknande
+(opolerat) lagerhanteringssystem finns [här](http://wrigstad.com/ioopm/images/lager.gif).
 
 
 ## Generellt för uppgiften
@@ -78,7 +78,7 @@ frågan skall ställas igen. Exempel:
     Mata in nytt pris: 1000
 
 **TIPS!** Hantering av felaktig inmatning är ett bra exempel på
-  något som man kan *ducka* (se [simple **TODO**](simple)) vid en
+  något som man kan *ducka* (se [simple](http://wrigstad.com/ioopm/simple.php)) vid en
   första implementation.
 
 
