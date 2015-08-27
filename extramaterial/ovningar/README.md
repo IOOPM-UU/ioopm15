@@ -15,7 +15,8 @@ programmeringsspråk för den delen):
 
 * [Project Euler](https://projecteuler.net/) -- En sida med
   problem av matematisk karaktär tänkta att lösas med hjälp av
-  programmering. Senare uppgifter kräver att man hittar på lite
+  programmering. Man lämnar in ett svar (till exempel "42") som 
+  rättas automatiskt. Senare uppgifter kräver att man hittar på lite
   "smartare" lösningar än det som kanske är det uppenbara.
 * [Sphere online judge](http://www.spoj.com/problems/classical/)
   -- En sida med övningar där man kan "lämna in" sin kod (i bland
