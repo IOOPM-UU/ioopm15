@@ -18,7 +18,8 @@ program med nya funktioner.
 **TIPS!** Efter att du har läst igenom denna uppgift kan du också
   titta på sidan om [simple](http://wrigstad.com/ioopm/simple.php)
   som tar denna uppgift som ett löpande exempel på hur man griper
-  an ett programmeringsproblem.
+  an ett programmeringsproblem. En work breakdown i olika tasks
+  (inkomplett, som inspiration!) finns i [vår Trello](https://trello.com/ioopm).
 
 Systemet skall hålla reda på en "databas" med varor. När
 programmet startar går det in i den såkallade "main-loopen" där
