@@ -2,7 +2,7 @@ IOOPM 2015
 ==========
 
 Välkommen till kursrepot för 2015 års instans av
-[Imperativ och objektorienterad programmeringsmetodik](wrigstad.com/ioopm)!
+[Imperativ och objektorienterad programmeringsmetodik](http://www.wrigstad.com/ioopm)!
 Här hittar du alla former av utdelat material, det vill säga
 inlämningsuppgifter, föreläsningsbilder, övningsuppgifter,
 screencasts (inspelade föreläsningar) och så vidare. Repot är
