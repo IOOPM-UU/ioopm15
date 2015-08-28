@@ -23,3 +23,6 @@ programmeringsspråk för den delen):
   annat C och Java) och få den "rättad". Har ofta formen "givet
   input X, producera output Y" (och kräver därför att man vet hur
   man läser från `stdin` och skriva till `stdout`).
+
+Har du en bra resurs för programmeringsövningar som inte står med här? 
+[Föreslå gärna tillägg](https://github.com/IOOPM-UU/ioopm15/issues/new?title=%C3%96vningstips)!
