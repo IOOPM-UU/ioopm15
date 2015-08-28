@@ -18,5 +18,5 @@ Här hittar du utdelat extramaterial:
   Det finns också tips på hur man skriver en bra rapport
 * Under [gamlakodprov](gamlakodprov) hittar du kodprov från
   tidigare kursinstanser. Vi tror dock att det är mer användbart
-  att göra de andra övningsuppgifterna än att försöka lära dig hur
+  att göra de andra övningsuppgifterna än att försöka lära sig hur
   kodproven "ser ut"
