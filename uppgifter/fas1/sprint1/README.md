@@ -16,9 +16,9 @@ program med nya funktioner.
   ordentligt.
 
 **TIPS!** Efter att du har läst igenom denna uppgift kan du också
-  titta på sidan om [simple](http://wrigstad.com/ioopm/simple.php) som tar denna
-  uppgift som ett löpande exempel på hur man griper an ett
-  programmeringsproblem.
+  titta på sidan om [simple](http://wrigstad.com/ioopm/simple.php)
+  som tar denna uppgift som ett löpande exempel på hur man griper
+  an ett programmeringsproblem.
 
 Systemet skall hålla reda på en "databas" med varor. När
 programmet startar går det in i den såkallade "main-loopen" där
@@ -78,8 +78,9 @@ frågan skall ställas igen. Exempel:
     Mata in nytt pris: 1000
 
 **TIPS!** Hantering av felaktig inmatning är ett bra exempel på
-  något som man kan *ducka* (se [simple](http://wrigstad.com/ioopm/simple.php)) vid en
-  första implementation.
+  något som man kan *ducka* (se
+  [simple](http://wrigstad.com/ioopm/simple.php)) vid en första
+  implementation.
 
 
 ### Vara
@@ -319,7 +320,8 @@ Här följer några tips för implementationen.
 
 ## Ett par lämpliga första steg
 
-Se [simple **TODO**]() för en mer detaljerad diskussion.
+Se [simple](http://wrigstad.com/ioopm/simple.php) för en mer
+detaljerad diskussion.
 
 1. Börja med att skriva `ask_question_char` och använd den för att
    implementera programmets huvudloop. På detta vis har du alltid
@@ -470,9 +472,9 @@ uppgift (eller del av uppgift) till lämpliga mål. Vi ger förslag
 -- färre och färre ju längre in i kursen vi kommer. Notera att det
 inte räcker med att bara följa förslagen för att bli godkänd.
 
-1. TODO: inluppsmål sprint 1
-2. G15 -- ett måste vid inläsning med hjälp av en buffert
-3. M36 -- vid interaktion eller iteration över databasen, t.ex.
-4. W57 -- allt som har flera inkrement borde versionshanteras
-5. U55 -- speciellt om du delar upp programmet i flera filer
-6. A1 -- genomgående inslag i denna uppgift
+1. [Inluppsmål 1](http://auportal.herokuapp.com/achievements/100)
+2. [G15](http://auportal.herokuapp.com/achievements/15) -- ett måste vid inläsning med hjälp av en buffert. Vad kan hända annars?
+3. [H20](http://auportal.herokuapp.com/achievements/20) -- vad är det för skillnad på att skicka in/returnera ett heltal respektive en sträng till/från en funktion? Kan relateras till ovanstående mål.
+4. [M36](http://auportal.herokuapp.com/achievements/36) -- vid interaktion eller iteration över databasen, t.ex.
+5. [U57](http://auportal.herokuapp.com/achievements/57) -- speciellt om du delar upp programmet i flera filer
+6. [A1](http://auportal.herokuapp.com/achievements/1) -- genomgående inslag i denna uppgift

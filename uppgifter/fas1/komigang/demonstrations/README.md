@@ -2,8 +2,9 @@ En första redovisning
 =====================
 
 Om du inte är bekant med hur denna kurs fungerar med kunskapsmål,
-etc. -- läs först om detta på [kursens webbsida](TODO). Där finns
-ocskå en förteckning över samtliga mål med tillhörande
+etc. -- läs först om detta på
+[kursens webbsida](http://wrigstad.com/ioopm/about.php#redovisa).
+Där finns också en förteckning över samtliga mål med tillhörande
 förklaringar.
 
 Du får börja redovisa mål vid labbtillfällena från och med vecka
@@ -17,18 +18,16 @@ alldeles för små och tillrättalagda för att vara tillräckligt
 lärorika. **De tar dig istället till en nivå där det blir
   vettigt att börja redovisa.**
 
-TODO:
-
-* A1
-* F1
-* M3
-* M3
-* R5
-* T53
+* [A1](auportal.herokuapp.com/achievements/1)
+* [F13](auportal.herokuapp.com/achievements/13)
+* [J26](auportal.herokuapp.com/achievements/26)
+* [M36](auportal.herokuapp.com/achievements/36)
+* [R52](auportal.herokuapp.com/achievements/52)
+* [T55](auportal.herokuapp.com/achievements/55)
 
 Se denna första redovisning som en övning i att redovisa! Under
 den första veckan **skall** du också redovisa det så kallade
-selfie-målet.
+[selfie-målet](http://auportal.herokuapp.com/achievements/63).
 
 ### Att tänka på inför sin första redovisning
 

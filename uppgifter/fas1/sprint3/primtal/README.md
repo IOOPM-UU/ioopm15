@@ -327,13 +327,12 @@ for prg in programs:
 
 # Förslag på 3-mål att redovisa
 
-1. TODO: inluppsmål sprint 3
-2. M36 -- hela programmet är en array...
-3. L33 -- du går från sekventiell till parallell
-3. O42
+1. [Inluppsmål 3](http://auportal.herokuapp.com/achievements/102)
+2. [L33](http://auportal.herokuapp.com/achievements/33) -- du går från sekventiell till parallell
+3. [O42](http://auportal.herokuapp.com/achievements/42) -- krav enligt ovan
 
 
 # Förslag på 4/5-mål att redovisa
 
-1. L34
-3. O43 -- duger bra att bara titta på det sekventiella för detta
+1. [L34](http://auportal.herokuapp.com/achievements/34) -- Hur effektivt är parallellisering i detta fall?
+3. [O43](http://auportal.herokuapp.com/achievements/43) -- duger bra att bara titta på det sekventiella för detta

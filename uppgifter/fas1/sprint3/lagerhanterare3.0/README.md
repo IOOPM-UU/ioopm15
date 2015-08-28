@@ -295,17 +295,15 @@ förstås också bra att leta efter `EOF` -- end of file.
 
 # Förslag på 3-mål att redovisa
 
-1. TODO: inluppsmål sprint 3
-2. E10 -- om du implementerar databasen t.ex. med ett binärt
+1. [Inluppsmål 3](http://auportal.herokuapp.com/achievements/102)
+2. [E10](http://auportal.herokuapp.com/achievements/10) -- om du implementerar databasen t.ex. med ett binärt
    sökträd eller en länkad lista som är kan lagra godtyckligt data
-3. I22 -- indata både från användaren och andra delar av
+3. [I22](http://auportal.herokuapp.com/achievements/22) -- indata både från användaren och andra delar av
    programmet att tänka på
-3. D9 -- återigen om du delar upp programmet i moduler...
-
 
 # Förslag på 4/5-mål att redovisa
 
-1. A3 -- om du delar upp programmet i olika moduler som antytts
+1. [A3](http://auportal.herokuapp.com/achievements/3) -- om du delar upp programmet i olika moduler som antytts
    ovan
-2. P45 -- TODO MÅLNAMN
-3. P46 -- TODO MÅLNAMN
+2. [P47](http://auportal.herokuapp.com/achievements/47) -- hjälp en annan grupp förbättra sin kod med en pull request
+3. [Q50](http://auportal.herokuapp.com/achievements/50) -- försök avgöra hur bra dina tester är

@@ -407,15 +407,14 @@ För dig som vill sitta och pilla med uppgiften och vill göra mer.
 
 # Förslag på 3-mål att redovisa
 
-1. TODO: inluppsmål sprint 2
-2. F13 -- finns flera lämpliga delar av programmet där man t.ex.
+1. [Inluppsmål 2](http://auportal.herokuapp.com/achievements/101)
+2. [F13](http://auportal.herokuapp.com/achievements/13) -- finns flera lämpliga delar av programmet där man t.ex.
    letar efter data eller räknar ut totalsumman
-3. H20 -- t.ex. vid utskrift kontra redigering eller varför inte
-   ångra
-4. D9 -- ett direkt krav ovan
+3. [J26](http://auportal.herokuapp.com/achievements/26) -- vad behöver sparas på heapen, och varför?
+4. [D9](http://auportal.herokuapp.com/achievements/9) -- ett direkt krav ovan
 
 
 # Förslag på 4/5-mål att redovisa
 
-1. M39 -- vid insättning/uttag ur länkade strukturer
-2. P45 -- TODO MÅLNAMN
+1. [K31](http://auportal.herokuapp.com/achievements/31) -- motivera din modularisering
+2. [M39](http://auportal.herokuapp.com/achievements/39) -- vid insättning/uttag ur länkade strukturer
