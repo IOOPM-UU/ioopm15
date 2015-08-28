@@ -140,7 +140,8 @@ datastrukturen som skall hålla i programmets databas:
    frigöra minne för varor som tas bort), likaså för lagerplatser.
 
 Ett utkast till gränssnittet (alltså listan av funktioner som en
-klient kan använda) för träd och lista finns [här](TODO).
+klient kan använda) för träd och lista finns [här](list.h) och
+[här](tree.h).
 
 **TIPS!** Fundera över vad som är en lämplig moduluppdelning för
 programmet så att relaterade funktioner grupperas och
