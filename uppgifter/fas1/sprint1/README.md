@@ -479,4 +479,4 @@ inte räcker med att bara följa förslagen för att bli godkänd.
 4. [M36](http://auportal.herokuapp.com/achievements/36) -- vid interaktion eller iteration över databasen, t.ex.
 5. [W57](http://auportal.herokuapp.com/achievements/57) -- speciellt om du delar upp programmet i flera filer
 6. [A1](http://auportal.herokuapp.com/achievements/1) -- genomgående inslag i denna uppgift
-7. Börja på [C7](http://auportal.herokuapp.com/achievements/7) -- du vill inte behöva efterskapa saker sedan
+7. Börja på [C7](http://auportal.herokuapp.com/achievements/7) -- du vill inte behöva efterskapa saker sedan (**Du kan alltså inte redovisa detta redan nu.**)
