@@ -129,7 +129,7 @@ Kompilera och kör så här: (`$` är prompten)
 
 ```
 $ gcc -o mygrep grep.c
-$ ./grep Hello hello.c
+$ ./mygrep Hello hello.c
 ```
 
 Nu skrivs alla rader ut i `hello.c` som innehåller texten "Hello". 
