@@ -413,7 +413,7 @@ För dig som vill sitta och pilla med uppgiften och vill göra mer.
    letar efter data eller räknar ut totalsumman
 3. [J26](http://auportal.herokuapp.com/achievements/26) -- vad behöver sparas på heapen, och varför?
 4. [D9](http://auportal.herokuapp.com/achievements/9) -- ett direkt krav ovan
-
+7. Fortsätt med [C7](http://auportal.herokuapp.com/achievements/7) -- du vill inte behöva efterskapa saker sedan (**Du kan alltså inte redovisa detta redan nu.**)
 
 # Förslag på 4/5-mål att redovisa
 
