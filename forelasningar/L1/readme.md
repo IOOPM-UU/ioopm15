@@ -54,7 +54,7 @@ Hello, Tobias!
 $ _
 ```
 
-### Program som skriver ut en fil på skärmen (cat)
+### Program som skriver ut en fil på skärmen 
 
 ```c
 #include <stdio.h>
@@ -82,11 +82,16 @@ Kompilera och kör så här: (`$` är prompten)
 
 ```
 $ gcc -o mycat mycat.c 
-$ ./mycat mycat.c
+$ ./mycat hello.c
+#include<stdio.h>
+
+int main(int argc, char *argv[])
+{
+  puts("Hello, world!");
+  return 0; 
+}
+$_
 ```
-
-Nu skrivs koden för programmet ut. 
-
 
 ### Sök efter förekomster av strängar i en fil 
 
@@ -124,10 +129,10 @@ Kompilera och kör så här: (`$` är prompten)
 
 ```
 $ gcc -o mygrep grep.c
-$ ./grep char mygrep.c
+$ ./grep Hello hello.c
 ```
 
-Nu skrivs alla rader ut som innehåller texten "char". 
+Nu skrivs alla rader ut i `hello.c` som innehåller texten "Hello". 
 
 
 ### Fibonacci
@@ -170,7 +175,7 @@ $ _
 
 # Vad du kan göra själv
 
-* Sätta igång med din egen planering!
+* Sätta igång med din egen [planering](http://wrigstad.com/ioopm/agile.php)!
 * Gör [kom igång-uppgiften](https://github.com/IOOPM-UU/ioopm15/tree/master/uppgifter/fas1/komigang#kom-igång-med-c)
 * Bekanta dig med [Piazza](http://piazza.com/uu.se/fall2015/1dl221), [Trello](http://trello.com/ioopm), [GitHub](), [kurswebben](http://wrigstad.com/ioopm)
 * Du kan läsa om kursmålen på [AUPortal](http://auportal.herokuapp.com)
