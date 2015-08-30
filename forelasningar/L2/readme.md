@@ -1,6 +1,6 @@
 # Föreläsning 2
 
-* [Bilder](l2.pdf) (pdf, publiceras 2015-08-30)
+* [Bilder](f2.pdf) (pdf, publiceras 2015-08-30)
 
 # Utdelad kod
 
