@@ -29,7 +29,7 @@ efter avsnittet "SEE ALSO". Öppna man-sidan för `printf`, tryck
 Vilken mer man-sida finns för sökordet "printf"? En man-sida
 beskriver terminal-commandot `printf`; det andra
 C-bibliotekfunktionen "printf". Titta på exemplen i man-sidan för
-C-bibliotekfunktionen "printf" (Sök efter "EXAMPLES" enligt ovan).
+C-bibliotekfunktionen "printf" (Sök efter "EXAMPLE" enligt ovan).
 
 Du kan också läsa manual-sidor i Emacs (och då följa länkar genom
 att trycka `Enter` när markören står på ett nyckelord). Kommandot
