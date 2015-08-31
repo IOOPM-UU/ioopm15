@@ -1,5 +1,5 @@
-En första redovisning
-=====================
+Att redovisa
+============
 
 Om du inte är bekant med hur denna kurs fungerar med kunskapsmål,
 etc. -- läs först om detta på
@@ -9,25 +9,10 @@ förklaringar.
 
 Du får börja redovisa mål vid labbtillfällena från och med vecka
 två i kursen. I allmänhet ska **alla** redovisningar ske med
-kod och exempel från kursens utdelade uppgifter. Om du vill kan du
-dock välja att redovisa **ett** av de nedanstående
-kunskapsmålen med hjälp av uppgifter från detta dokument. En
-anledning till att vi inte vill att du skall använda dessa
-uppgifter för att bocka av andra kunskapsmål är för att de är
-alldeles för små och tillrättalagda för att vara tillräckligt
-lärorika. **De tar dig istället till en nivå där det blir
-  vettigt att börja redovisa.**
-
-* [A1](auportal.herokuapp.com/achievements/1)
-* [F13](auportal.herokuapp.com/achievements/13)
-* [J26](auportal.herokuapp.com/achievements/26)
-* [M36](auportal.herokuapp.com/achievements/36)
-* [R52](auportal.herokuapp.com/achievements/52)
-* [T55](auportal.herokuapp.com/achievements/55)
-
-Se denna första redovisning som en övning i att redovisa! Under
-den första veckan **skall** du också redovisa det så kallade
-[selfie-målet](http://auportal.herokuapp.com/achievements/63).
+kod och exempel från kursens utdelade uppgifter. Kom-igång-uppgiften
+kan *inte* användas för att redovisa mål (programmen som skrevs här
+är helt enkelt för ointressanta). Under den första veckan **skall** 
+du också redovisa det så kallade [selfie-målet](http://auportal.herokuapp.com/achievements/63).
 
 ### Att tänka på inför sin första redovisning
 
