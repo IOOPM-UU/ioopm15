@@ -1,6 +1,9 @@
 # Föreläsning 2
 
 * [Bilder](f2.pdf) (pdf, publiceras 2015-08-30)
+* [Screencast av delar som inte hanns med 1/2](http://youtu.be/4w4miaUyhuA)
+* [Screencast av delar som inte hanns med 2/2](http://youtu.be/S6TFKftlDp4)
+
 
 # Utdelad kod
 
