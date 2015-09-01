@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <assert.h>
 
-int64_t fib(const int n, int64_t *memo)
+long fib(const int n, long *memo)
 {
   if (n == 0)   return 0;
   if (n == 1)   return 1;
@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
   else
     {
       const int n = atoi(argv[1]);
-      int64_t memo[128];
+      long memo[128];
       assert(0 <= n && n < 128);
       
       printf("fib(%d) = %zd\n", n, fib(n, memo));

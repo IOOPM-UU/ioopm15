@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <stdint.h>
 
-uint64_t fib(const int n) 
+long fib(const int n) 
 {
-  uint64_t acc1, acc2, temp;
+  long acc1, acc2, temp;
 
   acc1 = 0;
   acc2 = 1;

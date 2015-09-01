@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-uint64_t fib(const int n)
+long fib(const int n)
 {
   switch (n)
     {
