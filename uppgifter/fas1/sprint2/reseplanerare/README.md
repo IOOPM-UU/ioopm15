@@ -62,3 +62,33 @@ lowest number of steps instead the one with the overall shortest time.
    contain any part of your solution of course.
  - Implement the change.
  - Send a pull request.
+
+# Suggested Level 3 Goals
+
+- [A9 &mdash;
+Demonstrera förståelse för designprincipen informationsgömning i ett C-program med hjälp av .c och .h-filer](http://auportal.herokuapp.com/achievements/9)
+- [E10 &mdash;
+Använda void-pekare i C-program för att uppnå genericitet på ett relevant sätt, t.ex. en datasamling som kan lagra godtyckligt data](http://auportal.herokuapp.com/achievements/10)
+- [G15 &mdash;
+Använda kopiering eller liknande för att undvika aliaseringsproblem i ett C- eller Javaprogram](http://auportal.herokuapp.com/achievements/15)
+- [I22 &mdash;
+Förklara innebörden av, och tillämpa på ett konsekvent sätt, defensiv programmering i ett program](http://auportal.herokuapp.com/achievements/22)
+- [J27 &mdash;
+Demonstrera förståelse för minneshantering i C genom att skriva ett program med dynamiska strukturer som är fritt från minnesläckage och argumentera för varför det är så (och verifiera med valgrind)](http://auportal.herokuapp.com/achievements/27)
+- [M37 &mdash;
+Använda pekare för att skapa länkade strukturer](http://auportal.herokuapp.com/achievements/37)
+- [Q49 &mdash;
+Ta fram lämpliga enhetstester, motivera dem, och förklara vad testerna visar](http://auportal.herokuapp.com/achievements/49)
+
+# Suggested Level 4/5 Goals
+
+- [A3 &mdash;
+Demonstrera förståelse för designprincipen informationsgömning i ett C-program med hjälp av .c och .h-filer](http://auportal.herokuapp.com/achievements/3)
+- [G18 &mdash;
+Resonera kring hur inkapsling både kan försvåra och underlätta testning (ta gärna hjälp av kodexempel)](http://auportal.herokuapp.com/achievements/18)
+- [K31 &mdash;
+Givet ett icke-trivialt program uppdelat i moduler som i ovanstående mål, resonera kring begreppen coupling och cohesion för några av modulerna](http://auportal.herokuapp.com/achievements/31)
+- [K32 &mdash;
+Utveckla resonemanget i (4) med en diskussion om separation of concerns och hur detta har uppnåtts (alt. kan/inte kan) i programmet i fråga](http://auportal.herokuapp.com/achievements/32)
+- [M39 &mdash;
+Använda pekare till pekare (dubbelpekare) på ett lämpligt sätt i ett program](http://auportal.herokuapp.com/achievements/39)
