@@ -4,6 +4,13 @@
 * [Screencast av delar som inte hanns med 1/2](http://youtu.be/4w4miaUyhuA)
 * [Screencast av delar som inte hanns med 2/2](http://youtu.be/S6TFKftlDp4)
 
+Notera att det görs ett dumt misstag i film 2: jag (Tobias) stavar fel 
+till "fib-iter" när jag kör med time, vilket dels leder till en direkt 
+lögn (körtiden blir för kort eftersom programmet inte finns) och att 
+jag misslyckas med att visa `--verbose`. **Jag premierar att få ut dessa
+filmer nu över att rätta till felet.**
+
+Kompilera programmen och gör rätt på din egen dator! 
 
 # Utdelad kod
 
