@@ -28,7 +28,7 @@ You might need to learn more about:
 - ... how to configure your editor,
 - ... how to write proper doxygen comments,
 - ... how to use `CUnit`,
-- ... how to use function pointers in C,
+- ... how to use [function pointers](https://en.wikipedia.org/wiki/Function_pointer) in C,
 - or other things.
 
 We are not going to *actually* merge your PR (sorry, but the other
