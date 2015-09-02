@@ -40,16 +40,15 @@ Kompilera ett C-program
   foo> gcc passbyval.c
   ```
 
-  Du bör nu få ett felmeddelande `error: 'for' loop initial
+  Du får nu kanske ett felmeddelande `error: 'for' loop initial
   declaration used outside C99 mode`. Detta felmeddelande får du
   för att koden använder sig av den C-standard som fastslogs 1999
   ([en ny C-standard fastslogs 2011](http://en.wikipedia.org/wiki/C11_%28C_standard_revision%29),
-  men den har ännu inte stöd bland de flesta stora
-  C-kompilatorer). Du måste ange explicit att du vill tillåta
-  sådana "moderna features":
+  och den kommer vi att använda på kursen). Du måste ange explicit
+  att du vill tillåta sådana "moderna features":
 
   ```
-  foo> gcc -std=c99 passbyval.c
+  foo> gcc -std=c11 passbyval.c
   ```
 
   Nu bör koden kompilera som den skall.
@@ -77,7 +76,7 @@ Kompilera ett C-program
   `passbyval`:
 
   ```
-  foo> gcc -std=c99 -o passbyval passbyval.c
+  foo> gcc -std=c11 -o passbyval passbyval.c
   ```
 
 5. Normalt när vi kompilerar vill vi att kompilatorn skall vara
@@ -85,7 +84,7 @@ Kompilera ett C-program
   "alla varningar":
 
   ```
-  foo> gcc -std=c99 -Wall -o passbyval passbyval.c
+  foo> gcc -std=c11 -Wall -o passbyval passbyval.c
   ```
 
 6. Vidare vill vi slå på maximalt stöd för debuggning, och
@@ -93,7 +92,7 @@ Kompilera ett C-program
   "gdb", GNUs debugger:
 
   ```
-  foo> gcc -std=c99 -Wall -ggdb -o passbyval passbyval.c
+  foo> gcc -std=c11 -Wall -ggdb -o passbyval passbyval.c
   ```
 
   Nu har vi kommit fram till den "trollformel" som, med undantag
@@ -105,7 +104,7 @@ Kompilera ett C-program
   direkt vid kompilering:
 
   ```
-  foo> gcc -std=c99 -Wall -ggdb -o passbyval passbyval.c more.c another.c etc.c
+  foo> gcc -std=c11 -Wall -ggdb -o passbyval passbyval.c more.c another.c etc.c
   ```
 
   Lägg på din att-göra-lista att se på våra screencasts om

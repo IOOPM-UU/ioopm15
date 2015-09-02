@@ -2,12 +2,12 @@ all:	listtest
 
 # Tex settings
 C_COMPILER   = gcc
-C_OPTIONS    = -Wall -ggdb -std=c99
+C_OPTIONS    = -Wall -ggdb -std=c11
 
 list.o: list.c list.h
 	$(C_COMPILER) $(C_OPTIONS) -c list.c
 
-driver.o: driver.c 
+driver.o: driver.c
 	$(C_COMPILER) $(C_OPTIONS) -c driver.c
 
 lib: list.o
