@@ -31,7 +31,7 @@ Kompilera ett C-program
   "trollformel" som med fördel kan användas för all kompilering
   under denna sprint. Programmet som vi skall kompilera ligger i
   den här mappen och heter `passbyval.c`. Börja att ställa dig i
-  katalogen `ioopm15/uppgifter/fas0/komigang/compile`.
+  katalogen `ioopm15/uppgifter/fas1/komigang/compile`.
 
 
 2. Kompilera programmet med hjälp av C-kompilatorn GCC:
