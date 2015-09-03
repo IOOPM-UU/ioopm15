@@ -25,6 +25,11 @@ int main(int argc, char *argv[])
     {
       const int n = atoi(argv[1]);
       long memo[128];
+      for (int i = 0; i < 128; ++i)
+	{
+	  memo[i] = 0;
+	}
+      
       assert(0 <= n && n < 128);
       
       printf("fib(%d) = %zd\n", n, fib(n, memo));

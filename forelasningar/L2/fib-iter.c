@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
     }
   else
     {
-      const int n = atol(argv[1]);
+      const int n = atoi(argv[1]);
       printf("fib(%d) = %zd\n", n, fib(n));
     }
 

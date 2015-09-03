@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 {
   if (argc < 2)
     {
-      puts("Usage: ./fib <n>");
+      printf("Usage: %s <n>\n", argv[0]);
     }
   else
     {
