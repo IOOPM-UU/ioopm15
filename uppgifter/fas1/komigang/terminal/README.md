@@ -214,8 +214,9 @@ du inte bara kan kopiera den från adressfältet)!
 
   Nu borde du ha en mapp som heter `ioopm15` i din hemkatalog. Ta
   och utforska den med dina nya terminalkunskaper! Om du stöter på
-  en PDF som du vill läsa kan du öppna den med kommandot `acroread
-  file.pdf &`.
+  en PDF som du vill läsa kan du öppna den med kommandot `evince
+  file.pdf &` (byt ut `evince` mot `acroread` om du sitter på en
+  äldre maskin).
 
 Som du säkert förstår går det att göra mycket, mycket mer i
 terminalen (titta på man-filerna för de här få kommandona för att

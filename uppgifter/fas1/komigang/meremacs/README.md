@@ -2,12 +2,13 @@ Mer Emacs
 =========
 
 1. I ditt nyligen hämtade kursrepo finns ett antal lathundar,
-  bland annat [en för Emacs](/extramaterial/lathundar/emacs) där man kan läsa om
-  några av de vanligaste kommandona. På samma sida finns ett
-  referensblad som man kan skriva ut och ha liggandes bredvid
-  datorn när man arbetar. Hitta den här filen, antingen manuellt
-  med `cd` och `ls` eller genom att söka efter "cheatsheet.pdf"
-  med `find`. Öppna den med `acroread`.
+  bland annat [en för Emacs](/extramaterial/lathundar/emacs) där
+  man kan läsa om några av de vanligaste kommandona. På samma sida
+  finns ett referensblad som man kan skriva ut och ha liggandes
+  bredvid datorn när man arbetar. Hitta den här filen, antingen
+  manuellt med `cd` och `ls` eller genom att söka efter
+  "cheatsheet.pdf" med `find`. Öppna den med `evince` (eller
+  `acroread` om du sitter på en äldre maskin).
 
 2. Det finns också en init-fil för Emacs som innehåller fler
   praktiska inställningar för Emacs. Du hittar filen genom att
