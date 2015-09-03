@@ -78,7 +78,7 @@ värdet `a[i]`.
 
 8. Hur kan man ändra på loopen ni skrev i det förra steget så att
   arrayen istället innehåller kvadraten av motsvarande index (alltså
-  `{0, 1, 4, 16}`)?
+  `{0, 1, 4, 9, 16}`)?
 
 
 ## Mer arrayer
