@@ -140,7 +140,7 @@ Den valda varan listas på skärmen så här:
     Beskrivning: Tvålagerspapper med perforering. Varje pappersremsa
     har en liten bild av två blåmusslor som försiktigt vänslas.
     Pris: 20 kr
-    Lagerhylla: 25A
+    Lagerhylla: A25
     Antal: 12
 
 ## Redigera en vara
@@ -184,7 +184,7 @@ bort:
     Beskrivning: Tvålagerspapper med perforering. Varje pappersremsa
     har en liten bild av två blåmusslor som försiktigt vänslas.
     Pris: 20 kr
-    Lagerhylla: 25A
+    Lagerhylla: A25
     Antal: 12
 
     Ta bort varan? Ja/Nej: _
