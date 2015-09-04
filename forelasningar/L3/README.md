@@ -7,6 +7,9 @@
 
 Se filer i denna katalog. Generellt gäller att `foo.c` var filen
 vi började med, medan `foo_fixed.c` är det färdiga resultatet.
+`password_getline.c` innehåller en version av `password.c` som
+använder `getline` istället för `scanf`. Notera att det kräver
+att man manuellt tar bort den medföljande radbrytningen.
 
 # Vad du själv kan göra
 
