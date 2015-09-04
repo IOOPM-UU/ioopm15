@@ -6,7 +6,7 @@
 # Utdelad kod
 
 Se filer i denna katalog. Generellt gäller att `foo.c` var filen
-vi började med, medan `foo_finished.c` är det färdiga resultatet.
+vi började med, medan `foo_fixed.c` är det färdiga resultatet.
 
 # Vad du själv kan göra
 

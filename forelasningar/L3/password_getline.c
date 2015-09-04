@@ -3,13 +3,14 @@
 
 void strip_newline(char *str)
 {
-  char *new_line = strchr(str, '\n');
+  char *new_line = strchr(str, '\n'); // Finns \n i strängen...?
   if (new_line)
     {
-      *new_line = '\0';
+      *new_line = '\0'; // ...i så fall, ersätt med \0
     }
 }
 
+// En variant av funktionen ovan som också tar en maxlängd
 void strip_newline_robust(char *str, size_t len)
 {
   for (int i = 0; i < len; ++i)
