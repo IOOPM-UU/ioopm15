@@ -3,6 +3,10 @@
 * [Bilder](f3.pdf) (pdf, uppdaterade 2015-09-04)
 * [Screencast av delar som inte hanns med](http://youtu.be/dqlX-dH_suk)
 
+Se även:
+* [Tidigare screencasts](https://github.com/IOOPM-UU/ioopm15/tree/master/extramaterial/screencasts/fas1#screencasts-till-föreläsning-3) -
+  Screencasts om strängar och `printf`/`scanf`.
+
 # Utdelad kod
 
 Se filer i denna katalog. Generellt gäller att `foo.c` var filen
