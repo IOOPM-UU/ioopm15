@@ -6,8 +6,9 @@
 # Vad du kan göra själv
 
 Till denna föreläsning finns det ett antal kodexempel som du kan
-arbeta med. Vissa av dem läcker inte minne (de heter `good`),
-vissa av dem läcker minns (de heter `bad`). Din uppgift är att
+arbeta med. Vissa av dem använder minnet korrrekt (de heter `good`),
+vissa av dem läcker minne, eller använder minne dåligt på något 
+annat sätt (de heter `bad`). Din uppgift är att
 förstå varför de som inte läcker minne inte gör det, samt fixa
 minnesläckagen hos de program som läcker minne.
 
