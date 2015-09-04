@@ -55,11 +55,11 @@ gcc -Wall -ggdb -o good3 good3.c
 
 Flera av dessa kan vara sanna samtidigt!
 
-* Programmet frigör inte minne som har allokerats via `malloc`, `calloc` eller `realloc`
-* Programmet frigör inte minne som har allokerats som en sido-effekt av någon funktion som anropats i programmet (t.ex. `strdup`)
-* Programmet försöker frigöra minne som inte har allokerats på heapen (t.ex. strängliteraler eller minne på stacken)
-* Programmet försöker frigöra minne via en pekare som har ändrats via pekararitmetik (finns ej exempel på detta bland de utdelade programmen här)
-* En länkad struktur `a --> b`  frigörs inte ordentligt, t.ex. man frigör bara `a`, och förlorar därmed möjligheten att frigöra `b`
-* Programmet läcker minne genom att den sista pekaren till någon objekt `p` skrivs över utan att `free(p)` eller motsvarande görs
+1. Programmet frigör inte minne som har allokerats via `malloc`, `calloc` eller `realloc`
+2. Programmet frigör inte minne som har allokerats som en sido-effekt av någon funktion som anropats i programmet (t.ex. `strdup`)
+3. Programmet försöker frigöra minne som inte har allokerats på heapen (t.ex. strängliteraler eller minne på stacken)
+4. Programmet försöker frigöra minne via en pekare som har ändrats via pekararitmetik (finns ej exempel på detta bland de utdelade programmen här)
+ En länkad struktur `a --> b`  frigörs inte ordentligt, t.ex. man frigör bara `a`, och förlorar därmed möjligheten att frigöra `b`
+5. Programmet läcker minne genom att den sista pekaren till någon objekt `p` skrivs över utan att `free(p)` eller motsvarande görs
 
 
