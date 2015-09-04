@@ -128,78 +128,83 @@ själva programmet. Som exempel ska vi skriva ett program som läser
 in en fil och skriver ut den till en annan fil, fast med
 radnummer.
 
-1. Ett skelett till programmet finns i `linum.c`. Programmet
-  läser det första av sina argument vid terminalanropet som ett
-  filnamn (variablen `infile`), och skapar en sträng som är
-  filnamnet fast med `"lin_"` före (variabeln `outfile`). De
-  nästföljande två raderna öppnar strömmen `in` som en
-  *läsström* från `infile`, och strömmen `out` som en
-  *skrivström* till `outfile`. Funktionen `fopen` används i
-  båda fallen, men vilket läge som avses (läsning eller skrivning)
-  anges med det andra argumentet. En ström har typen `FILE*`.
+1. Ett skelett till programmet finns i `linum.c`. Programmet läser
+   det första av sina argument vid terminalanropet som ett filnamn
+   (variablen `infile`), och skapar en sträng som är filnamnet
+   fast med `"lin_"` före (variabeln `outfile`). Notera att
+   längden på `outfile` är längden av av `infile` plus *fem* - de
+   fyra tecknen i `"lin_"` och det avslutande `\0`-tecknet.
 
-  I slutet av programmet stängs båda strömmarna, vilket är viktigt för
-  att undvika korrupta filer och för att se till att programmet frigör
-  alla resurser det har allokerat.
+   De nästföljande två raderna öppnar strömmen `in` som en
+   *läsström* från `infile`, och strömmen `out` som en
+   *skrivström* till `outfile`. Funktionen `fopen` används i båda
+   fallen, men vilket läge som avses (läsning eller skrivning)
+   anges med det andra argumentet. En ström har typen `FILE*`.
 
-2. Om du kompilerar och kör programmet (med en fil som argument) så
-  kommer bara en ny tom fil med prefixet `"lin\_"` skapas. Vi ska nu
-  skriva kod som läser från strömmen `in` och skriver till strömmen
-  `out`, och vi skriver koden på det markerade stället.
+   I slutet av programmet stängs båda strömmarna, vilket är
+   viktigt för att undvika korrupta filer och för att se till att
+   programmet frigör alla resurser det har allokerat.
 
-  Vi kommer behöva två hjälpvariabler. En `int` som håller koll på
-  vilket radnummer vi är på, och en sträng som kan lagra en inläst rad
-  i taget:
+2. Om du kompilerar och kör programmet (med en fil som argument)
+   så kommer bara en ny tom fil med prefixet `"lin\_"` skapas. Vi
+   ska nu skriva kod som läser från strömmen `in` och skriver till
+   strömmen `out`, och vi skriver koden på det markerade stället.
+
+   Vi kommer behöva två hjälpvariabler. En `int` som håller koll på
+   vilket radnummer vi är på, och en sträng som kan lagra en inläst rad
+   i taget:
+
+   ``` c
+     int line = 1;
+     char buffer[128];
+   ```
+
+   Stränglängden 128 är godtycklig. Det viktiga är att en hel rad
+   från filen vi läser får plats i `buffer`.
+
+3. För att läsa rader från `in` använder vi funktionen `fgets`.
+   Anropet `fgets(buffer, 128, in)` läser en sekvens av tecken
+   från strömmen `in` tills den stöter på en radbrytning, eller
+   som mest `127` tecken, och lagrar dem i strängen `buffer`
+   (jämför med `strncpy` från
+   [avsnittet om strängar](../strings)). Radbrytningstecknet
+   följer inte med i strängen.
+
+   Vi kommer vilja utföra samma sak för varje rad i filen som `in`
+   pekar på. `fgets` returnerar `NULL` när strömmen den läser
+   ifrån tar slut och det inte finns något mer att läsa. Det här
+   kan vi använda för att skriva en while-loop med villkoret "Så
+   länge som `fgets` lyckas läsa in en rad till `buffer`":
+
+   ``` c
+       while(fgets(buffer, 128, in) != NULL){ ... }
+   ```
+
+4. Inuti loopen har `buffer` precis fyllts med en rad från från
+  `in` (om villkoret i loopen var sant, har anropet till `fgets`
+  precis lyckats). För att sedan skriva ut strängen med radnummer
+  använder vi `fprintf` som fungerar precis som vanliga `printf`
+  förutom att den också tar strömmen den ska skriva till som
+  argument (innan formatsträngen). Slutligen ökar vi på radnumret
+  med ett inför nästa loop. Nu borde loopen se ut så här:
 
   ``` c
-    int line = 1;
-    char buffer[128];
-  ```
-
-  Stränglängden 128 är godtycklig. Det viktiga är att en hel rad från
-  filen vi läser får plats i `buffer`.
-
-3. Vi kommer vilja utföra samma sak för varje rad i filen som `in`
-  pekar på, så vi skriver en while-loop med villkoret "Så länge
-  som `in` inte har nått slutet på filen":
-
-  ``` c
-      while(!(feof(in))){ ... }
-  ```
-
-  Funktionen `feof` tittar på en ström och returnerar ett heltal som
-  inte är noll om och endast om strömmen har nått slutet på en fil.
-
-4. Inuti loopen vill vi först läsa en rad från `in`. Det gör vi
-  med anropet `fgets(buffer, 128, in)` som läser en sekvens av
-  tecken från strömmen `in` tills den stöter på en radbrytning,
-  eller som mest `127` tecken, och lagrar dem i strängen `buffer`
-  (jämför med `strncpy` från [avsnittet om strängar](../strings)).
-
-  För att sedan skriva ut strängen med radnummer använder vi
-  `fprintf` som fungerar precis som vanliga `printf` förutom att
-  den också tar strömmen den ska skriva till som argument (innan
-  formatsträngen). Slutligen ökar vi på radnumret med ett inför nästa
-  loop. När den är klar borde loopen se ut så här:
-
-  ``` c
-    while(!(feof(in))){
-      fgets(buffer, 128, in);
-      fprintf(out, "%d. %s", line, buffer);
-      line++;
-    }
+  while(fgets(buffer, 128, in)){
+    fprintf(out, "%d. %s", line, buffer);
+    line++;
+  }
   ```
 
 5. Spara en ny fil med tre fyra rader text som `test.txt` och
-  provkör programmet med kommandot `./linum test.txt`. Titta sen
-  på resultatet i `lin_test.txt` med `cat`. Prova också programmet
-  på någon kodfil som du har skrivit!
+   provkör programmet med kommandot `./linum test.txt`. Titta sen
+   på resultatet i `lin_test.txt` med `cat`. Prova också
+   programmet på någon kodfil som du har skrivit!
 
 6. Slutligen kan det vara intressant att se vad som händer om man
-  allokerar en för liten sträng att lagra raderna i. Prova att
-  minska storleken på `buffer` till 5 och kompilera om programmet
-  igen. Kör det på en fil som har rader längre än fyra tecken. Vad
-  blir resultatet?
+   allokerar en för liten sträng att lagra raderna i. Prova att
+   minska storleken på `buffer` till 5 och kompilera om programmet
+   igen. Kör det på en fil som har rader längre än fyra tecken. Vad
+   blir resultatet?
 
 Det är värt att poängtera att vi hade kunnat skriva programmet
 `linum` med hjälp av omdirigering av `stdin` och `stdout`. En

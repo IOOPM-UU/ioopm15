@@ -17,8 +17,7 @@ int main(int argc, char* argv[])
 
   int line = 1;
   char buffer[128];
-  while(!(feof(in))){
-    fgets(buffer, 128, in);
+  while(fgets(buffer, 128, in)){
     fprintf(out, "%d. %s", line, buffer);
     line++;
   }
