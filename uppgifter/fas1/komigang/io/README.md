@@ -167,8 +167,8 @@ radnummer.
    från strömmen `in` tills den stöter på en radbrytning, eller
    som mest `127` tecken, och lagrar dem i strängen `buffer`
    (jämför med `strncpy` från
-   [avsnittet om strängar](../strings)). Radbrytningstecknet
-   följer inte med i strängen.
+   [avsnittet om strängar](../strings)). Radbrytningstecknet (om
+   det hittades innan `127` tecken) kommer med i strängen.
 
    Vi kommer vilja utföra samma sak för varje rad i filen som `in`
    pekar på. `fgets` returnerar `NULL` när strömmen den läser
