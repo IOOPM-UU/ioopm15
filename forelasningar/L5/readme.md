@@ -2,6 +2,13 @@
 
 * [Bilder](f5.pdf) (pdf, publiceras 2015-09-06)
 
+Läs också [addedum om stack och heap](https://github.com/IOOPM-UU/ioopm15/blob/master/extramaterial/C-addendum-om-stack-och-heap.pdf)
+
+I slutet av föreläsningsbilderna finns ett antal "Hitta felet!"
+med minnesläckage eller annan dålig minnesanvändning. Gå igenom
+dem och se till att du förstår dem. Fråga gärna någon på labben
+om hjälp! 
+
 
 # Vad du kan göra själv
 
