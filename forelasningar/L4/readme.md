@@ -15,3 +15,5 @@ Du kan också experimentera med de två programmen
 * [value_semantics.c](value_semantics.c)
 
 Som exemplifierar pekarsemantik och värdesemantik.
+
+*Vidare kan du börja med att definiera struktar för datat i lagerhanteraren.*
