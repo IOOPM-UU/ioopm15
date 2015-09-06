@@ -1,3 +1,5 @@
+![Strängar är bara en chimär](haiku.jpg)
+
 # Föreläsning 3
 
 * [Bilder](f3.pdf) (pdf, uppdaterade 2015-09-04)
