@@ -60,7 +60,7 @@ void list_prepend(list_t *list, int elem);
 /// \param index the index for elem to be inserted at
 /// \param elem  the integer to be prepended
 /// \returns true if succeeded, else false
-bool insert(list_t *list, int index, int elem);
+bool list_insert(list_t *list, int index, int elem);
 
 /// Removes an element from a list.
 ///
