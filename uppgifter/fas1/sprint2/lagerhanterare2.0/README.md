@@ -63,7 +63,7 @@ listningen ovan, men beskrivningen av varukorgen uppdateras:
     Din pall innehåller:
       - Kritor (14)
 
-    Varor i databasen:
+    Varor i databasen **listas i bokstavsordning (nytt krav iom 2.0)**:
 
     1 Hushållspapper
     2 Kritor
