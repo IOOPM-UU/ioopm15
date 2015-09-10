@@ -63,7 +63,7 @@ listningen ovan, men beskrivningen av varukorgen uppdateras:
     Din pall innehåller:
       - Kritor (14)
 
-    Varor i databasen **listas i bokstavsordning (nytt krav iom 2.0)**:
+    Varor i databasen:
 
     1 Hushållspapper
     2 Kritor
@@ -107,6 +107,10 @@ plocka från C och D för att nå 600. Om du hade plockat i ordningen
 A, B, D, C hade du behövt plocka från samtliga platser för att nå
 600. I en verklig situation hade man kanske beaktat andra
 aspekter, som avstånd mellan lagerplatser, etc.
+
+## Lista hela varukatalogen
+
+Varukatalogen skall listas i bokstavsordning. I övrigt som Lager 1.0.
 
 
 # Förändring av databasformatet
