@@ -191,7 +191,7 @@ bort:
 
 ## Lista hela varukatalogen
 
-Varukatalogen listas i bokstavsordning, max 20 varor åt gången:
+Varukatalogen listas ~~i bokstavsordning~~, max 20 varor åt gången:
 
     1 Hushållspapper
     2 Kritor
