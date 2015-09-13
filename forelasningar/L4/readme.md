@@ -1,7 +1,7 @@
 # Föreläsning 4
 
 * [Bilder](f4.pdf) (pdf, publiceras 2015-09-04)
-
+* [Bonusmaterial -- video](https://www.youtube.com/watch?v=FYTYwjXwweE)
 
 # Vad du kan göra själv
 
