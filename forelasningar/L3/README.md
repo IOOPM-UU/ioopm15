@@ -58,3 +58,28 @@ att man manuellt tar bort den medföljande radbrytningen.
 * Modifiera rövarspråksprogrammet så att det läser text från
   `stdin`, översätter texten till rövarspråket och skriver den
   till `stdout`.
+
+
+# Svenska tecken (tillagt 2015-09-14)
+
+Det är inte helt enkelt att använda svenska tecken (eller några
+andra tecken än vad som behövs för engelska) i de flesta programspråk.
+I C kan vi med fördel använda UTF-8-standarden för att skapa
+så-kallade multibyte-strängar där specialtecken som å, ä och ö
+representeras med fler än ett tecken. Det medför dock t.ex. att
+`strlen("åäö")` är 6 och inte 3. Inget stort problem men ibland
+något förvirrande.
+
+Flera studenter har märkt att teckenliteralen `'å'` inte är väldefinierad,
+eftersom å inte ryms i en byte. En teckenliteral som använder >1 byte
+kan skrivas med `L'å'`, men det går inte t.ex. att jämföra enkelt mellan
+`'a'` och `L'a'`.
+
+Biblioteken `wctype.h` och `wchar.h` går med fördel att använda för
+att programmera för rikare teckenuppsättningar. 
+
+[Här](swedish.c) finns ett exempel på ett program som manipulerar
+C-strängar med svenska tecken dels via `char *` och `wchar_t *` och
+`string.h` och `wchar.h`. Du kan med fördel använda kod från detta
+program för att konvertera en C-sträng till `wchar_t *` om du skulle
+t.ex. vilja göra en koll `str[i] == L'å'` (observera L:et i literalen).
