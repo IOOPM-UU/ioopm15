@@ -9,6 +9,10 @@ handlar också om dynamiskt minne och pekarhantering. Vi demonstrerar
 
 # Vad du kan göra själv
 
+**OBS! "Vad du kan göra själv-delarna av en föreläsning är på
+inget sätt obligatoriska. Många studenter ber om övningar att 
+göra själva på kammaren. Detta är vårt försök att möta detta.**
+
 Den dynamiska arrayen som presenteras på föreläsningen använder
 både pekarsemantik och värdesemantik. Se till att förstå vilket
 som används var och varför. Du kan med fördel experimentera genom
