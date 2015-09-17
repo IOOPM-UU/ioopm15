@@ -371,6 +371,8 @@ char ask_question_char(char *q, char *alt)
       }
 
     input = getchar();
+    ungetc(input, stdin); 
+    
   } while (strchr(alt, input) == NULL);
 
   Clear_stdin;
