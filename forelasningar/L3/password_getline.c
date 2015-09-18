@@ -26,8 +26,8 @@ void strip_newline_robust(char *str, size_t len)
 int main (void)
 {
   char password[] = "abc123";
-  size_t entered_size;
-  char *entered;
+  size_t entered_size = 0;
+  char *entered = NULL;
 
   puts("Please enter the secret code:");
   getline(&entered, &entered_size, stdin); // read input
