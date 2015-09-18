@@ -7,6 +7,13 @@ handlar också om dynamiskt minne och pekarhantering. Vi demonstrerar
 `realloc` och `calloc` som komplement/alternativ till `malloc`.
 
 
+# Notera
+
+`void darray_free(dyn_array_t *arr)` avsiktligt kraschar på
+grund av att den försöker frigöra minne på stacken. Man kan
+fixa detta genom att ta bort * i `*arr` ovan och ta bort
+det 2:a anropet till `free`.
+
 # Vad du kan göra själv
 
 **OBS! "Vad du kan göra själv-delarna av en föreläsning är på
