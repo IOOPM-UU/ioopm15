@@ -125,6 +125,7 @@ förändringar måste speglas i dokumentationen.
 
 * Programmet skriver ut en massa dumheter. Ta bort dem. 
 * Programmet kraschar om man frågar efter noder som inte finns. Fixa det (på lämpligt sätt). 
+* Programmet skall inte krascha om indatafilerna innehåller dumheter (det får avslutas eller ignorera input)
 
 Det skall gå att köra programmet så här: 
 
