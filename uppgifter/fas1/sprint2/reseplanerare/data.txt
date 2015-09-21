@@ -1,0 +1,146 @@
+10, Biomedicinskt centrum, Akademiska sodra, 3
+10, Akademiska sodra, Centralstationen, 5
+10, Centralstationen, Vaksala torg, 4
+10, Vaksala torg, Granby Centrum, 6
+11, Centralstationen, Stora Torget, 2
+11, Stora Torget, Gottsundavagen, 12
+11, Gottsundavagen, Langvagen, 7
+11, Langvagen, Cellovagen, 4
+11, Cellovagen, Gottsunda Centrum, 5
+110, Lingonvagen, Storvreta Centrum, 2
+110, Storvreta Centrum, Gamla Uppsala, 10
+110, Gamla Uppsala, Svartbackens vardcentral, 8
+110, Svartbackens vardcentral, Centralstationen, 7
+110, Centralstationen, Akademiska sjukhuset, 3
+110, Akademiska sjukhuset, Lundellska skolan, 7
+110, Lundellska skolan, Arrheniusplan, 9
+111, Balinge skola, Graalsvagen, 9
+111, Graalsvagen, Robo, 8
+111, Robo, Svartbackens vardcentral, 4
+111, Svartbackens vardcentral, Centralstationen, 7
+111, Centralstationen, Grindstugan, 5
+111, Grindstugan, Langvagen, 7
+111, Langvagen, Brostugevagen, 7
+115, Lingonvagen, Solstralevagen, 5
+115, Solstralevagen, Gamla Uppsala, 13
+115, Gamla Uppsala, Svartbackens vardcentral, 8
+115, Svartbackens vardcentral, Centralstationen, 7
+115, Centralstationen, Akademiska sjukhuset, 3
+115, Akademiska sjukhuset, Lundellska skolan, 7
+115, Lundellska skolan, Arrheniusplan, 9
+12, Gottsunda Centrum, Cellovagen, 5
+12, Cellovagen, Centrala Ultuna, 5
+12, Centrala Ultuna, Polacksbacken, 6
+12, Polacksbacken, Centralstationen, 8
+12, Centralstationen, Bolandgymnasiet, 6
+12, Bolandgymnasiet, Coop-Forum/IKEA, 6
+12, Coop-Forum/IKEA, Olandsresan, 7
+12, Olandsresan, Brostugevagen, 8
+127, Rosmarinvagen, Solstralevagen, 5
+127, Solstralevagen, Stubbakersvagen, 3
+127, Stubbakersvagen, Gamla Uppsala, 9
+127, Gamla Uppsala, Grasloksgatan, 9
+127, Grasloksgatan, Allianshallen, 8
+13, Soderforsgatan, Gimogatan, 3
+13, Gimogatan, Svartbackens vardcentral, 3
+13, Svartbackens vardcentral, Centralstationen, 7
+13, Centralstationen, Stadshuset, 3
+13, Stadshuset, Bolandgymnasiet, 5
+13, Bolandgymnasiet, Coop-Forum/IKEA, 6
+14, Garnisonen, Fottiljgatan, 3
+14, Fottiljgatan, Torbjornsgatan, 3
+14, Torbjornsgatan, Svartbackens vardcentral, 2
+14, Svartbackens vardcentral, Centralstationen, 7
+14, Centralstationen, Akademiska sjukhuset, 3
+14, Akademiska sjukhuset, Grindstugan, 3
+14, Grindstugan, Gottsunda Centrum, 7
+14, Gottsunda Centrum, Cellovagen, 6
+2, Kungshogarna, Varnlundsgatan, 3
+2, Varnlundsgatan, Heidenstamstorg, 2
+2, Heidenstamstorg, Vaksala torg, 6
+2, Vaksala torg, Stadshuset, 6
+2, Stadshuset, Ekonomikum, 4
+2, Ekonomikum, Flogsta Centrum, 5
+2, Flogsta Centrum, Saves vag, 2
+20, Nyckelaxet, Bonadsvagen, 4
+20, Bonadsvagen, Rorbacksvagen, 2
+20, Rorbacksvagen, Vimpelgatan, 5
+20, Vimpelgatan, Centralstationen, 6
+20, Centralstationen, Akademiska sodra, 5
+20, Akademiska sodra, Ultuna sodra, 10
+20, Ultuna sodra, Skarholmen, 11
+21, Stenhagenskolan, Stenhagens Centrum, 2
+21, Stenhagens Centrum, Flogsta Centrum, 5
+21, Flogsta Centrum, Vastertorg, 6
+21, Vastertorg, Taljstenen, 2
+21, Taljstenen, Akademiska sodra, 5
+21, Akademiska sodra, Kronparksgarden, 7
+21, Kronparksgarden, Arrheniusplan, 7
+22, Stenhagens IP, Myrberga, 6
+22, Myrberga, Kungsgardets center, 5
+22, Kungsgardets center, Centralstationen, 9
+22, Centralstationen, Vimpelgatan, 6
+22, Vimpelgatan, Rorbacksvagen, 5
+22, Rorbacksvagen, Vavstolsvagen, 7
+28, Allianshallen, Nymansgatan, 7
+28, Nymansgatan, Kungshornet, 7
+28, Kungshornet, Spinnrocksvagen, 7
+28, Spinnrocksvagen, Broderna Berwalds vag, 3
+28, Broderna Berwalds vag, Cellovagen, 5
+28, Cellovagen, Langvagen, 4
+3, Ostra Nyby, Bureusgatan, 5
+3, Bureusgatan, Vaksala torg, 3
+3, Vaksala torg, Centralstationen, 4
+3, Centralstationen, Akademiska sjukhuset, 3
+3, Akademiska sjukhuset, Grindstugan, 3
+3, Grindstugan, Broderna Berwalds vag, 7
+3, Broderna Berwalds vag, Cellovagen, 5
+4, Arsta Centrum, Brantingstorg, 4
+4, Brantingstorg, Vaksala torg, 4
+4, Vaksala torg, Stora Torget, 5
+4, Stora Torget, Eriksbergsvagen, 6
+4, Eriksbergsvagen, Taljstenen, 2
+4, Taljstenen, Vastertorg, 2
+4, Vastertorg, Haga by, 6
+40, Stora Torget, Psykiatrins hus, 6
+40, Psykiatrins hus, Skoghall, 8
+41, Coop-Forum/IKEA, Sodra Slavstavagen, 6
+41, Sodra Slavstavagen, Granby Centrum, 18
+41, Granby Centrum, Varnlundsgatan, 14
+41, Varnlundsgatan, Liljefors Torg, 11
+41, Liljefors Torg, Stora Torget, 9
+41, Stora Torget, Kungsgardets center, 4
+41, Kungsgardets center, Flogsta Centrum, 8
+41, Flogsta Centrum, Taljstensvagen, 15
+42, Stenhagens IP, Berthaga kyrkogard, 7
+42, Berthaga kyrkogard, Fyrishovs entre, 12
+42, Fyrishovs entre, Stora Torget, 13
+42, Stora Torget, Coop-Forum/IKEA, 17
+42, Coop-Forum/IKEA, Savja Vardcentral, 11
+42, Savja Vardcentral, Ekolnsvagen norra, 12
+42, Ekolnsvagen norra, Gottsunda Centrum, 8
+42, Gottsunda Centrum, Servicehuset Galaxen, 2
+5, Stenhagens skolan, Stenhagens Centrum, 3
+5, Stenhagens Centrum, Flogsta Centrum, 4
+5, Flogsta Centrum, Ekonomikum, 5
+5, Ekonomikum, Centralstationen, 7
+5, Centralstationen, Vimpelgatan, 3
+5, Vimpelgatan, Olandsresan, 5
+5, Olandsresan, Smalandsvagen, 5
+6, Sodra Slavstavagen, Jordgubbsgatan, 3
+6, Jordgubbsgatan, Stationsgatan, 7
+6, Stationsgatan, Stora Torget, 5
+6, Stora Torget, Taljstenen, 6
+6, Taljstenen, Vastertorg, 6
+6, Vastertorg, Gnejsplan, 3
+7, Jordgubbsgatan, Byggmastargatan, 6
+7, Byggmastargatan, Vaksala torg, 4
+7, Vaksala torg, Stora Torget, 5
+7, Stora Torget, Taljstenen, 6
+7, Taljstenen, Svamptorget, 3
+7, Svamptorget, Gottsunda Simhall, 9
+9, Timjansgatan, Ritargatan, 3
+9, Ritargatan, Vaksala torg, 7
+9, Vaksala torg, Stadshuset, 5
+9, Stadshuset, Luthagsesplanaden, 3
+9, Luthagsesplanaden, Prastgardsgatan, 8

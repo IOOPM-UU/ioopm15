@@ -1,0 +1,3133 @@
+2, Kungshogarna, 6:02
+2, Kungshogarna, 6:17
+2, Kungshogarna, 6:32
+2, Kungshogarna, 6:47
+2, Kungshogarna, 7:02
+2, Kungshogarna, 7:17
+2, Kungshogarna, 7:32
+2, Kungshogarna, 7:47
+2, Kungshogarna, 8:02
+2, Kungshogarna, 8:17
+2, Kungshogarna, 8:32
+2, Kungshogarna, 8:47
+2, Kungshogarna, 9:02
+2, Kungshogarna, 9:17
+2, Kungshogarna, 9:32
+2, Kungshogarna, 9:47
+2, Kungshogarna, 10:02
+2, Kungshogarna, 10:17
+2, Kungshogarna, 10:32
+2, Kungshogarna, 10:47
+2, Kungshogarna, 11:02
+2, Kungshogarna, 11:17
+2, Kungshogarna, 11:32
+2, Kungshogarna, 11:47
+2, Kungshogarna, 12:02
+2, Kungshogarna, 12:17
+2, Kungshogarna, 12:32
+2, Kungshogarna, 12:47
+2, Kungshogarna, 13:02
+2, Kungshogarna, 13:17
+2, Kungshogarna, 13:32
+2, Kungshogarna, 13:47
+2, Kungshogarna, 14:02
+2, Kungshogarna, 14:17
+2, Kungshogarna, 14:32
+2, Kungshogarna, 14:47
+2, Kungshogarna, 15:02
+2, Kungshogarna, 15:17
+2, Kungshogarna, 15:32
+2, Kungshogarna, 15:47
+2, Kungshogarna, 16:02
+2, Kungshogarna, 16:17
+2, Kungshogarna, 16:32
+2, Kungshogarna, 16:47
+2, Kungshogarna, 17:02
+2, Kungshogarna, 17:17
+2, Kungshogarna, 17:32
+2, Kungshogarna, 17:47
+2, Kungshogarna, 18:02
+2, Kungshogarna, 18:17
+2, Kungshogarna, 18:32
+2, Kungshogarna, 18:47
+2, Kungshogarna, 19:02
+2, Kungshogarna, 19:17
+2, Kungshogarna, 19:32
+2, Kungshogarna, 19:47
+2, Kungshogarna, 20:02
+2, Kungshogarna, 20:17
+2, Kungshogarna, 20:32
+2, Kungshogarna, 20:47
+2, Kungshogarna, 21:02
+2, Kungshogarna, 21:17
+2, Kungshogarna, 21:32
+2, Kungshogarna, 21:47
+2, Kungshogarna, 22:02
+2, Kungshogarna, 22:17
+2, Kungshogarna, 22:32
+2, Kungshogarna, 22:47
+2, Saves vag, 6:02
+2, Saves vag, 6:17
+2, Saves vag, 6:32
+2, Saves vag, 6:47
+2, Saves vag, 7:02
+2, Saves vag, 7:17
+2, Saves vag, 7:32
+2, Saves vag, 7:47
+2, Saves vag, 8:02
+2, Saves vag, 8:17
+2, Saves vag, 8:32
+2, Saves vag, 8:47
+2, Saves vag, 9:02
+2, Saves vag, 9:17
+2, Saves vag, 9:32
+2, Saves vag, 9:47
+2, Saves vag, 10:02
+2, Saves vag, 10:17
+2, Saves vag, 10:32
+2, Saves vag, 10:47
+2, Saves vag, 11:02
+2, Saves vag, 11:17
+2, Saves vag, 11:32
+2, Saves vag, 11:47
+2, Saves vag, 12:02
+2, Saves vag, 12:17
+2, Saves vag, 12:32
+2, Saves vag, 12:47
+2, Saves vag, 13:02
+2, Saves vag, 13:17
+2, Saves vag, 13:32
+2, Saves vag, 13:47
+2, Saves vag, 14:02
+2, Saves vag, 14:17
+2, Saves vag, 14:32
+2, Saves vag, 14:47
+2, Saves vag, 15:02
+2, Saves vag, 15:17
+2, Saves vag, 15:32
+2, Saves vag, 15:47
+2, Saves vag, 16:02
+2, Saves vag, 16:17
+2, Saves vag, 16:32
+2, Saves vag, 16:47
+2, Saves vag, 17:02
+2, Saves vag, 17:17
+2, Saves vag, 17:32
+2, Saves vag, 17:47
+2, Saves vag, 18:02
+2, Saves vag, 18:17
+2, Saves vag, 18:32
+2, Saves vag, 18:47
+2, Saves vag, 19:02
+2, Saves vag, 19:17
+2, Saves vag, 19:32
+2, Saves vag, 19:47
+2, Saves vag, 20:02
+2, Saves vag, 20:17
+2, Saves vag, 20:32
+2, Saves vag, 20:47
+2, Saves vag, 21:02
+2, Saves vag, 21:17
+2, Saves vag, 21:32
+2, Saves vag, 21:47
+2, Saves vag, 22:02
+2, Saves vag, 22:17
+2, Saves vag, 22:32
+2, Saves vag, 22:47
+3, Ostra Nyby, 6:03
+3, Ostra Nyby, 6:18
+3, Ostra Nyby, 6:33
+3, Ostra Nyby, 6:48
+3, Ostra Nyby, 7:03
+3, Ostra Nyby, 7:18
+3, Ostra Nyby, 7:33
+3, Ostra Nyby, 7:48
+3, Ostra Nyby, 8:03
+3, Ostra Nyby, 8:18
+3, Ostra Nyby, 8:33
+3, Ostra Nyby, 8:48
+3, Ostra Nyby, 9:03
+3, Ostra Nyby, 9:18
+3, Ostra Nyby, 9:33
+3, Ostra Nyby, 9:48
+3, Ostra Nyby, 10:03
+3, Ostra Nyby, 10:18
+3, Ostra Nyby, 10:33
+3, Ostra Nyby, 10:48
+3, Ostra Nyby, 11:03
+3, Ostra Nyby, 11:18
+3, Ostra Nyby, 11:33
+3, Ostra Nyby, 11:48
+3, Ostra Nyby, 12:03
+3, Ostra Nyby, 12:18
+3, Ostra Nyby, 12:33
+3, Ostra Nyby, 12:48
+3, Ostra Nyby, 13:03
+3, Ostra Nyby, 13:18
+3, Ostra Nyby, 13:33
+3, Ostra Nyby, 13:48
+3, Ostra Nyby, 14:03
+3, Ostra Nyby, 14:18
+3, Ostra Nyby, 14:33
+3, Ostra Nyby, 14:48
+3, Ostra Nyby, 15:03
+3, Ostra Nyby, 15:18
+3, Ostra Nyby, 15:33
+3, Ostra Nyby, 15:48
+3, Ostra Nyby, 16:03
+3, Ostra Nyby, 16:18
+3, Ostra Nyby, 16:33
+3, Ostra Nyby, 16:48
+3, Ostra Nyby, 17:03
+3, Ostra Nyby, 17:18
+3, Ostra Nyby, 17:33
+3, Ostra Nyby, 17:48
+3, Ostra Nyby, 18:03
+3, Ostra Nyby, 18:18
+3, Ostra Nyby, 18:33
+3, Ostra Nyby, 18:48
+3, Ostra Nyby, 19:03
+3, Ostra Nyby, 19:18
+3, Ostra Nyby, 19:33
+3, Ostra Nyby, 19:48
+3, Ostra Nyby, 20:03
+3, Ostra Nyby, 20:18
+3, Ostra Nyby, 20:33
+3, Ostra Nyby, 20:48
+3, Ostra Nyby, 21:03
+3, Ostra Nyby, 21:18
+3, Ostra Nyby, 21:33
+3, Ostra Nyby, 21:48
+3, Ostra Nyby, 22:03
+3, Ostra Nyby, 22:18
+3, Ostra Nyby, 22:33
+3, Ostra Nyby, 22:48
+3, Cellovagen, 6:03
+3, Cellovagen, 6:18
+3, Cellovagen, 6:33
+3, Cellovagen, 6:48
+3, Cellovagen, 7:03
+3, Cellovagen, 7:18
+3, Cellovagen, 7:33
+3, Cellovagen, 7:48
+3, Cellovagen, 8:03
+3, Cellovagen, 8:18
+3, Cellovagen, 8:33
+3, Cellovagen, 8:48
+3, Cellovagen, 9:03
+3, Cellovagen, 9:18
+3, Cellovagen, 9:33
+3, Cellovagen, 9:48
+3, Cellovagen, 10:03
+3, Cellovagen, 10:18
+3, Cellovagen, 10:33
+3, Cellovagen, 10:48
+3, Cellovagen, 11:03
+3, Cellovagen, 11:18
+3, Cellovagen, 11:33
+3, Cellovagen, 11:48
+3, Cellovagen, 12:03
+3, Cellovagen, 12:18
+3, Cellovagen, 12:33
+3, Cellovagen, 12:48
+3, Cellovagen, 13:03
+3, Cellovagen, 13:18
+3, Cellovagen, 13:33
+3, Cellovagen, 13:48
+3, Cellovagen, 14:03
+153, Cellovagen, 14:03
+303, Cellovagen, 14:03
+453, Cellovagen, 14:03
+3, Cellovagen, 15:03
+153, Cellovagen, 15:03
+303, Cellovagen, 15:03
+453, Cellovagen, 15:03
+3, Cellovagen, 16:03
+153, Cellovagen, 16:03
+303, Cellovagen, 16:03
+453, Cellovagen, 16:03
+3, Cellovagen, 17:03
+3, Cellovagen, 17:18
+3, Cellovagen, 17:33
+3, Cellovagen, 17:48
+3, Cellovagen, 18:03
+3, Cellovagen, 18:18
+3, Cellovagen, 18:33
+3, Cellovagen, 18:48
+3, Cellovagen, 19:03
+3, Cellovagen, 19:18
+3, Cellovagen, 19:33
+3, Cellovagen, 19:48
+3, Cellovagen, 20:03
+3, Cellovagen, 20:18
+3, Cellovagen, 20:33
+3, Cellovagen, 20:48
+3, Cellovagen, 21:03
+3, Cellovagen, 21:18
+3, Cellovagen, 21:33
+3, Cellovagen, 21:48
+3, Cellovagen, 22:03
+3, Cellovagen, 22:18
+3, Cellovagen, 22:33
+3, Cellovagen, 22:48
+4, Arsta Centrum, 6:04
+4, Arsta Centrum, 6:19
+4, Arsta Centrum, 6:34
+4, Arsta Centrum, 6:49
+4, Arsta Centrum, 7:04
+4, Arsta Centrum, 7:19
+4, Arsta Centrum, 7:34
+4, Arsta Centrum, 7:49
+4, Arsta Centrum, 8:04
+4, Arsta Centrum, 8:19
+4, Arsta Centrum, 8:34
+4, Arsta Centrum, 8:49
+4, Arsta Centrum, 9:04
+4, Arsta Centrum, 9:19
+4, Arsta Centrum, 9:34
+4, Arsta Centrum, 9:49
+4, Arsta Centrum, 10:04
+154, Arsta Centrum, 10:04
+304, Arsta Centrum, 10:04
+454, Arsta Centrum, 10:04
+4, Arsta Centrum, 11:04
+4, Arsta Centrum, 11:19
+4, Arsta Centrum, 11:34
+4, Arsta Centrum, 11:49
+4, Arsta Centrum, 12:04
+4, Arsta Centrum, 12:19
+4, Arsta Centrum, 12:34
+4, Arsta Centrum, 12:49
+4, Arsta Centrum, 13:04
+4, Arsta Centrum, 13:19
+4, Arsta Centrum, 13:34
+4, Arsta Centrum, 13:49
+4, Arsta Centrum, 14:04
+4, Arsta Centrum, 14:19
+4, Arsta Centrum, 14:34
+4, Arsta Centrum, 14:49
+4, Arsta Centrum, 15:04
+4, Arsta Centrum, 15:19
+4, Arsta Centrum, 15:34
+4, Arsta Centrum, 15:49
+4, Arsta Centrum, 16:04
+4, Arsta Centrum, 16:19
+4, Arsta Centrum, 16:34
+4, Arsta Centrum, 16:49
+4, Arsta Centrum, 17:04
+4, Arsta Centrum, 17:19
+4, Arsta Centrum, 17:34
+4, Arsta Centrum, 17:49
+4, Arsta Centrum, 18:04
+4, Arsta Centrum, 18:19
+4, Arsta Centrum, 18:34
+4, Arsta Centrum, 18:49
+4, Arsta Centrum, 19:04
+4, Arsta Centrum, 19:19
+4, Arsta Centrum, 19:34
+4, Arsta Centrum, 19:49
+4, Arsta Centrum, 20:04
+4, Arsta Centrum, 20:19
+4, Arsta Centrum, 20:34
+4, Arsta Centrum, 20:49
+4, Arsta Centrum, 21:04
+154, Arsta Centrum, 21:04
+304, Arsta Centrum, 21:04
+454, Arsta Centrum, 21:04
+4, Arsta Centrum, 22:04
+4, Arsta Centrum, 22:19
+4, Arsta Centrum, 22:34
+4, Arsta Centrum, 22:49
+4, Haga by, 6:04
+4, Haga by, 6:19
+4, Haga by, 6:34
+4, Haga by, 6:49
+4, Haga by, 7:04
+4, Haga by, 7:19
+4, Haga by, 7:34
+4, Haga by, 7:49
+4, Haga by, 8:04
+4, Haga by, 8:19
+4, Haga by, 8:34
+4, Haga by, 8:49
+4, Haga by, 9:04
+4, Haga by, 9:19
+4, Haga by, 9:34
+4, Haga by, 9:49
+4, Haga by, 10:04
+4, Haga by, 10:19
+4, Haga by, 10:34
+4, Haga by, 10:49
+4, Haga by, 11:04
+4, Haga by, 11:19
+4, Haga by, 11:34
+4, Haga by, 11:49
+4, Haga by, 12:04
+4, Haga by, 12:19
+4, Haga by, 12:34
+4, Haga by, 12:49
+4, Haga by, 13:04
+4, Haga by, 13:19
+4, Haga by, 13:34
+4, Haga by, 13:49
+4, Haga by, 14:04
+4, Haga by, 14:19
+4, Haga by, 14:34
+4, Haga by, 14:49
+4, Haga by, 15:04
+4, Haga by, 15:19
+4, Haga by, 15:34
+4, Haga by, 15:49
+4, Haga by, 16:04
+4, Haga by, 16:19
+4, Haga by, 16:34
+4, Haga by, 16:49
+4, Haga by, 17:04
+4, Haga by, 17:19
+4, Haga by, 17:34
+4, Haga by, 17:49
+4, Haga by, 18:04
+4, Haga by, 18:19
+4, Haga by, 18:34
+4, Haga by, 18:49
+4, Haga by, 19:04
+4, Haga by, 19:19
+4, Haga by, 19:34
+4, Haga by, 19:49
+4, Haga by, 20:04
+4, Haga by, 20:19
+4, Haga by, 20:34
+4, Haga by, 20:49
+4, Haga by, 21:04
+4, Haga by, 21:19
+4, Haga by, 21:34
+4, Haga by, 21:49
+4, Haga by, 22:04
+4, Haga by, 22:19
+4, Haga by, 22:34
+4, Haga by, 22:49
+5, Stenhagens skolan, 6:05
+5, Stenhagens skolan, 6:20
+5, Stenhagens skolan, 6:35
+5, Stenhagens skolan, 6:50
+5, Stenhagens skolan, 7:05
+5, Stenhagens skolan, 7:20
+5, Stenhagens skolan, 7:35
+5, Stenhagens skolan, 7:50
+5, Stenhagens skolan, 8:05
+5, Stenhagens skolan, 8:20
+5, Stenhagens skolan, 8:35
+5, Stenhagens skolan, 8:50
+5, Stenhagens skolan, 9:05
+5, Stenhagens skolan, 9:20
+5, Stenhagens skolan, 9:35
+5, Stenhagens skolan, 9:50
+5, Stenhagens skolan, 10:05
+5, Stenhagens skolan, 10:20
+5, Stenhagens skolan, 10:35
+5, Stenhagens skolan, 10:50
+5, Stenhagens skolan, 11:05
+5, Stenhagens skolan, 11:20
+5, Stenhagens skolan, 11:35
+5, Stenhagens skolan, 11:50
+5, Stenhagens skolan, 12:05
+5, Stenhagens skolan, 12:20
+5, Stenhagens skolan, 12:35
+5, Stenhagens skolan, 12:50
+5, Stenhagens skolan, 13:05
+5, Stenhagens skolan, 13:20
+5, Stenhagens skolan, 13:35
+5, Stenhagens skolan, 13:50
+5, Stenhagens skolan, 14:05
+5, Stenhagens skolan, 14:20
+5, Stenhagens skolan, 14:35
+5, Stenhagens skolan, 14:50
+5, Stenhagens skolan, 15:05
+5, Stenhagens skolan, 15:20
+5, Stenhagens skolan, 15:35
+5, Stenhagens skolan, 15:50
+5, Stenhagens skolan, 16:05
+5, Stenhagens skolan, 16:20
+5, Stenhagens skolan, 16:35
+5, Stenhagens skolan, 16:50
+5, Stenhagens skolan, 17:05
+5, Stenhagens skolan, 17:20
+5, Stenhagens skolan, 17:35
+5, Stenhagens skolan, 17:50
+5, Stenhagens skolan, 18:05
+5, Stenhagens skolan, 18:20
+5, Stenhagens skolan, 18:35
+5, Stenhagens skolan, 18:50
+5, Stenhagens skolan, 19:05
+5, Stenhagens skolan, 19:20
+5, Stenhagens skolan, 19:35
+5, Stenhagens skolan, 19:50
+5, Stenhagens skolan, 20:05
+5, Stenhagens skolan, 20:20
+5, Stenhagens skolan, 20:35
+5, Stenhagens skolan, 20:50
+5, Stenhagens skolan, 21:05
+5, Stenhagens skolan, 21:20
+5, Stenhagens skolan, 21:35
+5, Stenhagens skolan, 21:50
+5, Stenhagens skolan, 22:05
+5, Stenhagens skolan, 22:20
+5, Stenhagens skolan, 22:35
+5, Stenhagens skolan, 22:50
+5, Smalandsvagen, 6:05
+5, Smalandsvagen, 6:20
+5, Smalandsvagen, 6:35
+5, Smalandsvagen, 6:50
+5, Smalandsvagen, 7:05
+5, Smalandsvagen, 7:20
+5, Smalandsvagen, 7:35
+5, Smalandsvagen, 7:50
+5, Smalandsvagen, 8:05
+5, Smalandsvagen, 8:20
+5, Smalandsvagen, 8:35
+5, Smalandsvagen, 8:50
+5, Smalandsvagen, 9:05
+5, Smalandsvagen, 9:20
+5, Smalandsvagen, 9:35
+5, Smalandsvagen, 9:50
+5, Smalandsvagen, 10:05
+5, Smalandsvagen, 10:20
+5, Smalandsvagen, 10:35
+5, Smalandsvagen, 10:50
+5, Smalandsvagen, 11:05
+5, Smalandsvagen, 11:20
+5, Smalandsvagen, 11:35
+5, Smalandsvagen, 11:50
+5, Smalandsvagen, 12:05
+5, Smalandsvagen, 12:20
+5, Smalandsvagen, 12:35
+5, Smalandsvagen, 12:50
+5, Smalandsvagen, 13:05
+5, Smalandsvagen, 13:20
+5, Smalandsvagen, 13:35
+5, Smalandsvagen, 13:50
+5, Smalandsvagen, 14:05
+5, Smalandsvagen, 14:20
+5, Smalandsvagen, 14:35
+5, Smalandsvagen, 14:50
+5, Smalandsvagen, 15:05
+5, Smalandsvagen, 15:20
+5, Smalandsvagen, 15:35
+5, Smalandsvagen, 15:50
+5, Smalandsvagen, 16:05
+5, Smalandsvagen, 16:20
+5, Smalandsvagen, 16:35
+5, Smalandsvagen, 16:50
+5, Smalandsvagen, 17:05
+5, Smalandsvagen, 17:20
+5, Smalandsvagen, 17:35
+5, Smalandsvagen, 17:50
+5, Smalandsvagen, 18:05
+5, Smalandsvagen, 18:20
+5, Smalandsvagen, 18:35
+5, Smalandsvagen, 18:50
+5, Smalandsvagen, 19:05
+5, Smalandsvagen, 19:20
+5, Smalandsvagen, 19:35
+5, Smalandsvagen, 19:50
+5, Smalandsvagen, 20:05
+5, Smalandsvagen, 20:20
+5, Smalandsvagen, 20:35
+5, Smalandsvagen, 20:50
+5, Smalandsvagen, 21:05
+155, Smalandsvagen, 21:05
+305, Smalandsvagen, 21:05
+455, Smalandsvagen, 21:05
+5, Smalandsvagen, 22:05
+155, Smalandsvagen, 22:05
+305, Smalandsvagen, 22:05
+455, Smalandsvagen, 22:05
+6, Sodra Slavstavagen, 6:06
+6, Sodra Slavstavagen, 6:21
+6, Sodra Slavstavagen, 6:36
+6, Sodra Slavstavagen, 6:51
+6, Sodra Slavstavagen, 7:06
+6, Sodra Slavstavagen, 7:21
+6, Sodra Slavstavagen, 7:36
+6, Sodra Slavstavagen, 7:51
+6, Sodra Slavstavagen, 8:06
+6, Sodra Slavstavagen, 8:21
+6, Sodra Slavstavagen, 8:36
+6, Sodra Slavstavagen, 8:51
+6, Sodra Slavstavagen, 9:06
+6, Sodra Slavstavagen, 9:21
+6, Sodra Slavstavagen, 9:36
+6, Sodra Slavstavagen, 9:51
+6, Sodra Slavstavagen, 10:06
+6, Sodra Slavstavagen, 10:21
+6, Sodra Slavstavagen, 10:36
+6, Sodra Slavstavagen, 10:51
+6, Sodra Slavstavagen, 11:06
+6, Sodra Slavstavagen, 11:21
+6, Sodra Slavstavagen, 11:36
+6, Sodra Slavstavagen, 11:51
+6, Sodra Slavstavagen, 12:06
+6, Sodra Slavstavagen, 12:21
+6, Sodra Slavstavagen, 12:36
+6, Sodra Slavstavagen, 12:51
+6, Sodra Slavstavagen, 13:06
+6, Sodra Slavstavagen, 13:21
+6, Sodra Slavstavagen, 13:36
+6, Sodra Slavstavagen, 13:51
+6, Sodra Slavstavagen, 14:06
+6, Sodra Slavstavagen, 14:21
+6, Sodra Slavstavagen, 14:36
+6, Sodra Slavstavagen, 14:51
+6, Sodra Slavstavagen, 15:06
+6, Sodra Slavstavagen, 15:21
+6, Sodra Slavstavagen, 15:36
+6, Sodra Slavstavagen, 15:51
+6, Sodra Slavstavagen, 16:06
+6, Sodra Slavstavagen, 16:21
+6, Sodra Slavstavagen, 16:36
+6, Sodra Slavstavagen, 16:51
+6, Sodra Slavstavagen, 17:06
+6, Sodra Slavstavagen, 17:21
+6, Sodra Slavstavagen, 17:36
+6, Sodra Slavstavagen, 17:51
+6, Sodra Slavstavagen, 18:06
+6, Sodra Slavstavagen, 18:21
+6, Sodra Slavstavagen, 18:36
+6, Sodra Slavstavagen, 18:51
+6, Sodra Slavstavagen, 19:06
+6, Sodra Slavstavagen, 19:21
+6, Sodra Slavstavagen, 19:36
+6, Sodra Slavstavagen, 19:51
+6, Sodra Slavstavagen, 20:06
+6, Sodra Slavstavagen, 20:21
+6, Sodra Slavstavagen, 20:36
+6, Sodra Slavstavagen, 20:51
+6, Sodra Slavstavagen, 21:06
+6, Sodra Slavstavagen, 21:21
+6, Sodra Slavstavagen, 21:36
+6, Sodra Slavstavagen, 21:51
+6, Sodra Slavstavagen, 22:06
+6, Sodra Slavstavagen, 22:21
+6, Sodra Slavstavagen, 22:36
+6, Sodra Slavstavagen, 22:51
+6, Gnejsplan, 6:06
+6, Gnejsplan, 6:21
+6, Gnejsplan, 6:36
+6, Gnejsplan, 6:51
+6, Gnejsplan, 7:06
+6, Gnejsplan, 7:21
+6, Gnejsplan, 7:36
+6, Gnejsplan, 7:51
+6, Gnejsplan, 8:06
+6, Gnejsplan, 8:21
+6, Gnejsplan, 8:36
+6, Gnejsplan, 8:51
+6, Gnejsplan, 9:06
+6, Gnejsplan, 9:21
+6, Gnejsplan, 9:36
+6, Gnejsplan, 9:51
+6, Gnejsplan, 10:06
+6, Gnejsplan, 10:21
+6, Gnejsplan, 10:36
+6, Gnejsplan, 10:51
+6, Gnejsplan, 11:06
+6, Gnejsplan, 11:21
+6, Gnejsplan, 11:36
+6, Gnejsplan, 11:51
+6, Gnejsplan, 12:06
+6, Gnejsplan, 12:21
+6, Gnejsplan, 12:36
+6, Gnejsplan, 12:51
+6, Gnejsplan, 13:06
+6, Gnejsplan, 13:21
+6, Gnejsplan, 13:36
+6, Gnejsplan, 13:51
+6, Gnejsplan, 14:06
+6, Gnejsplan, 14:21
+6, Gnejsplan, 14:36
+6, Gnejsplan, 14:51
+6, Gnejsplan, 15:06
+6, Gnejsplan, 15:21
+6, Gnejsplan, 15:36
+6, Gnejsplan, 15:51
+6, Gnejsplan, 16:06
+6, Gnejsplan, 16:21
+6, Gnejsplan, 16:36
+6, Gnejsplan, 16:51
+6, Gnejsplan, 17:06
+6, Gnejsplan, 17:21
+6, Gnejsplan, 17:36
+6, Gnejsplan, 17:51
+6, Gnejsplan, 18:06
+6, Gnejsplan, 18:21
+6, Gnejsplan, 18:36
+6, Gnejsplan, 18:51
+6, Gnejsplan, 19:06
+6, Gnejsplan, 19:21
+6, Gnejsplan, 19:36
+6, Gnejsplan, 19:51
+6, Gnejsplan, 20:06
+6, Gnejsplan, 20:21
+6, Gnejsplan, 20:36
+6, Gnejsplan, 20:51
+6, Gnejsplan, 21:06
+6, Gnejsplan, 21:21
+6, Gnejsplan, 21:36
+6, Gnejsplan, 21:51
+6, Gnejsplan, 22:06
+6, Gnejsplan, 22:21
+6, Gnejsplan, 22:36
+6, Gnejsplan, 22:51
+7, Jordgubbsgatan, 6:07
+7, Jordgubbsgatan, 6:22
+7, Jordgubbsgatan, 6:37
+7, Jordgubbsgatan, 6:52
+7, Jordgubbsgatan, 7:07
+7, Jordgubbsgatan, 7:22
+7, Jordgubbsgatan, 7:37
+7, Jordgubbsgatan, 7:52
+7, Jordgubbsgatan, 8:07
+7, Jordgubbsgatan, 8:22
+7, Jordgubbsgatan, 8:37
+7, Jordgubbsgatan, 8:52
+7, Jordgubbsgatan, 9:07
+7, Jordgubbsgatan, 9:22
+7, Jordgubbsgatan, 9:37
+7, Jordgubbsgatan, 9:52
+7, Jordgubbsgatan, 10:07
+7, Jordgubbsgatan, 10:22
+7, Jordgubbsgatan, 10:37
+7, Jordgubbsgatan, 10:52
+7, Jordgubbsgatan, 11:07
+7, Jordgubbsgatan, 11:22
+7, Jordgubbsgatan, 11:37
+7, Jordgubbsgatan, 11:52
+7, Jordgubbsgatan, 12:07
+7, Jordgubbsgatan, 12:22
+7, Jordgubbsgatan, 12:37
+7, Jordgubbsgatan, 12:52
+7, Jordgubbsgatan, 13:07
+7, Jordgubbsgatan, 13:22
+7, Jordgubbsgatan, 13:37
+7, Jordgubbsgatan, 13:52
+7, Jordgubbsgatan, 14:07
+7, Jordgubbsgatan, 14:22
+7, Jordgubbsgatan, 14:37
+7, Jordgubbsgatan, 14:52
+7, Jordgubbsgatan, 15:07
+7, Jordgubbsgatan, 15:22
+7, Jordgubbsgatan, 15:37
+7, Jordgubbsgatan, 15:52
+7, Jordgubbsgatan, 16:07
+7, Jordgubbsgatan, 16:22
+7, Jordgubbsgatan, 16:37
+7, Jordgubbsgatan, 16:52
+7, Jordgubbsgatan, 17:07
+7, Jordgubbsgatan, 17:22
+7, Jordgubbsgatan, 17:37
+7, Jordgubbsgatan, 17:52
+7, Jordgubbsgatan, 18:07
+7, Jordgubbsgatan, 18:22
+7, Jordgubbsgatan, 18:37
+7, Jordgubbsgatan, 18:52
+7, Jordgubbsgatan, 19:07
+7, Jordgubbsgatan, 19:22
+7, Jordgubbsgatan, 19:37
+7, Jordgubbsgatan, 19:52
+7, Jordgubbsgatan, 20:07
+7, Jordgubbsgatan, 20:22
+7, Jordgubbsgatan, 20:37
+7, Jordgubbsgatan, 20:52
+7, Jordgubbsgatan, 21:07
+7, Jordgubbsgatan, 21:22
+7, Jordgubbsgatan, 21:37
+7, Jordgubbsgatan, 21:52
+7, Jordgubbsgatan, 22:07
+7, Jordgubbsgatan, 22:22
+7, Jordgubbsgatan, 22:37
+7, Jordgubbsgatan, 22:52
+7, Gottsunda Simhall, 6:07
+7, Gottsunda Simhall, 6:22
+7, Gottsunda Simhall, 6:37
+7, Gottsunda Simhall, 6:52
+7, Gottsunda Simhall, 7:07
+7, Gottsunda Simhall, 7:22
+7, Gottsunda Simhall, 7:37
+7, Gottsunda Simhall, 7:52
+7, Gottsunda Simhall, 8:07
+7, Gottsunda Simhall, 8:22
+7, Gottsunda Simhall, 8:37
+7, Gottsunda Simhall, 8:52
+7, Gottsunda Simhall, 9:07
+7, Gottsunda Simhall, 9:22
+7, Gottsunda Simhall, 9:37
+7, Gottsunda Simhall, 9:52
+7, Gottsunda Simhall, 10:07
+7, Gottsunda Simhall, 10:22
+7, Gottsunda Simhall, 10:37
+7, Gottsunda Simhall, 10:52
+7, Gottsunda Simhall, 11:07
+7, Gottsunda Simhall, 11:22
+7, Gottsunda Simhall, 11:37
+7, Gottsunda Simhall, 11:52
+7, Gottsunda Simhall, 12:07
+7, Gottsunda Simhall, 12:22
+7, Gottsunda Simhall, 12:37
+7, Gottsunda Simhall, 12:52
+7, Gottsunda Simhall, 13:07
+7, Gottsunda Simhall, 13:22
+7, Gottsunda Simhall, 13:37
+7, Gottsunda Simhall, 13:52
+7, Gottsunda Simhall, 14:07
+7, Gottsunda Simhall, 14:22
+7, Gottsunda Simhall, 14:37
+7, Gottsunda Simhall, 14:52
+7, Gottsunda Simhall, 15:07
+7, Gottsunda Simhall, 15:22
+7, Gottsunda Simhall, 15:37
+7, Gottsunda Simhall, 15:52
+7, Gottsunda Simhall, 16:07
+7, Gottsunda Simhall, 16:22
+7, Gottsunda Simhall, 16:37
+7, Gottsunda Simhall, 16:52
+7, Gottsunda Simhall, 17:07
+7, Gottsunda Simhall, 17:22
+7, Gottsunda Simhall, 17:37
+7, Gottsunda Simhall, 17:52
+7, Gottsunda Simhall, 18:07
+7, Gottsunda Simhall, 18:22
+7, Gottsunda Simhall, 18:37
+7, Gottsunda Simhall, 18:52
+7, Gottsunda Simhall, 19:07
+7, Gottsunda Simhall, 19:22
+7, Gottsunda Simhall, 19:37
+7, Gottsunda Simhall, 19:52
+7, Gottsunda Simhall, 20:07
+7, Gottsunda Simhall, 20:22
+7, Gottsunda Simhall, 20:37
+7, Gottsunda Simhall, 20:52
+7, Gottsunda Simhall, 21:07
+7, Gottsunda Simhall, 21:22
+7, Gottsunda Simhall, 21:37
+7, Gottsunda Simhall, 21:52
+7, Gottsunda Simhall, 22:07
+7, Gottsunda Simhall, 22:22
+7, Gottsunda Simhall, 22:37
+7, Gottsunda Simhall, 22:52
+9, Timjansgatan, 6:09
+9, Timjansgatan, 6:24
+9, Timjansgatan, 6:39
+9, Timjansgatan, 6:54
+9, Timjansgatan, 7:09
+9, Timjansgatan, 7:24
+9, Timjansgatan, 7:39
+9, Timjansgatan, 7:54
+9, Timjansgatan, 8:09
+9, Timjansgatan, 8:24
+9, Timjansgatan, 8:39
+9, Timjansgatan, 8:54
+9, Timjansgatan, 9:09
+9, Timjansgatan, 9:24
+9, Timjansgatan, 9:39
+9, Timjansgatan, 9:54
+9, Timjansgatan, 10:09
+9, Timjansgatan, 10:24
+9, Timjansgatan, 10:39
+9, Timjansgatan, 10:54
+9, Timjansgatan, 11:09
+9, Timjansgatan, 11:24
+9, Timjansgatan, 11:39
+9, Timjansgatan, 11:54
+9, Timjansgatan, 12:09
+9, Timjansgatan, 12:24
+9, Timjansgatan, 12:39
+9, Timjansgatan, 12:54
+9, Timjansgatan, 13:09
+9, Timjansgatan, 13:24
+9, Timjansgatan, 13:39
+9, Timjansgatan, 13:54
+9, Timjansgatan, 14:09
+9, Timjansgatan, 14:24
+9, Timjansgatan, 14:39
+9, Timjansgatan, 14:54
+9, Timjansgatan, 15:09
+9, Timjansgatan, 15:24
+9, Timjansgatan, 15:39
+9, Timjansgatan, 15:54
+9, Timjansgatan, 16:09
+9, Timjansgatan, 16:24
+9, Timjansgatan, 16:39
+9, Timjansgatan, 16:54
+9, Timjansgatan, 17:09
+9, Timjansgatan, 17:24
+9, Timjansgatan, 17:39
+9, Timjansgatan, 17:54
+9, Timjansgatan, 18:09
+9, Timjansgatan, 18:24
+9, Timjansgatan, 18:39
+9, Timjansgatan, 18:54
+9, Timjansgatan, 19:09
+9, Timjansgatan, 19:24
+9, Timjansgatan, 19:39
+9, Timjansgatan, 19:54
+9, Timjansgatan, 20:09
+9, Timjansgatan, 20:24
+9, Timjansgatan, 20:39
+9, Timjansgatan, 20:54
+9, Timjansgatan, 21:09
+9, Timjansgatan, 21:24
+9, Timjansgatan, 21:39
+9, Timjansgatan, 21:54
+9, Timjansgatan, 22:09
+9, Timjansgatan, 22:24
+9, Timjansgatan, 22:39
+9, Timjansgatan, 22:54
+9, Prastgardsgatan, 6:09
+9, Prastgardsgatan, 6:24
+9, Prastgardsgatan, 6:39
+9, Prastgardsgatan, 6:54
+9, Prastgardsgatan, 7:09
+9, Prastgardsgatan, 7:24
+9, Prastgardsgatan, 7:39
+9, Prastgardsgatan, 7:54
+9, Prastgardsgatan, 8:09
+9, Prastgardsgatan, 8:24
+9, Prastgardsgatan, 8:39
+9, Prastgardsgatan, 8:54
+9, Prastgardsgatan, 9:09
+9, Prastgardsgatan, 9:24
+9, Prastgardsgatan, 9:39
+9, Prastgardsgatan, 9:54
+9, Prastgardsgatan, 10:09
+9, Prastgardsgatan, 10:24
+9, Prastgardsgatan, 10:39
+9, Prastgardsgatan, 10:54
+9, Prastgardsgatan, 11:09
+9, Prastgardsgatan, 11:24
+9, Prastgardsgatan, 11:39
+9, Prastgardsgatan, 11:54
+9, Prastgardsgatan, 12:09
+9, Prastgardsgatan, 12:24
+9, Prastgardsgatan, 12:39
+9, Prastgardsgatan, 12:54
+9, Prastgardsgatan, 13:09
+9, Prastgardsgatan, 13:24
+9, Prastgardsgatan, 13:39
+9, Prastgardsgatan, 13:54
+9, Prastgardsgatan, 14:09
+9, Prastgardsgatan, 14:24
+9, Prastgardsgatan, 14:39
+9, Prastgardsgatan, 14:54
+9, Prastgardsgatan, 15:09
+9, Prastgardsgatan, 15:24
+9, Prastgardsgatan, 15:39
+9, Prastgardsgatan, 15:54
+9, Prastgardsgatan, 16:09
+9, Prastgardsgatan, 16:24
+9, Prastgardsgatan, 16:39
+9, Prastgardsgatan, 16:54
+9, Prastgardsgatan, 17:09
+9, Prastgardsgatan, 17:24
+9, Prastgardsgatan, 17:39
+9, Prastgardsgatan, 17:54
+9, Prastgardsgatan, 18:09
+9, Prastgardsgatan, 18:24
+9, Prastgardsgatan, 18:39
+9, Prastgardsgatan, 18:54
+9, Prastgardsgatan, 19:09
+9, Prastgardsgatan, 19:24
+9, Prastgardsgatan, 19:39
+9, Prastgardsgatan, 19:54
+9, Prastgardsgatan, 20:09
+9, Prastgardsgatan, 20:24
+9, Prastgardsgatan, 20:39
+9, Prastgardsgatan, 20:54
+9, Prastgardsgatan, 21:09
+9, Prastgardsgatan, 21:24
+9, Prastgardsgatan, 21:39
+9, Prastgardsgatan, 21:54
+9, Prastgardsgatan, 22:09
+9, Prastgardsgatan, 22:24
+9, Prastgardsgatan, 22:39
+9, Prastgardsgatan, 22:54
+10, Biomedicinskt centrum, 6:01
+10, Biomedicinskt centrum, 6:16
+10, Biomedicinskt centrum, 6:31
+10, Biomedicinskt centrum, 6:46
+10, Biomedicinskt centrum, 7:01
+10, Biomedicinskt centrum, 7:16
+10, Biomedicinskt centrum, 7:31
+10, Biomedicinskt centrum, 7:46
+10, Biomedicinskt centrum, 8:01
+10, Biomedicinskt centrum, 8:16
+10, Biomedicinskt centrum, 8:31
+10, Biomedicinskt centrum, 8:46
+10, Biomedicinskt centrum, 9:01
+10, Biomedicinskt centrum, 9:16
+10, Biomedicinskt centrum, 9:31
+10, Biomedicinskt centrum, 9:46
+10, Biomedicinskt centrum, 10:01
+10, Biomedicinskt centrum, 10:16
+10, Biomedicinskt centrum, 10:31
+10, Biomedicinskt centrum, 10:46
+10, Biomedicinskt centrum, 11:01
+10, Biomedicinskt centrum, 11:16
+10, Biomedicinskt centrum, 11:31
+10, Biomedicinskt centrum, 11:46
+10, Biomedicinskt centrum, 12:01
+10, Biomedicinskt centrum, 12:16
+10, Biomedicinskt centrum, 12:31
+10, Biomedicinskt centrum, 12:46
+10, Biomedicinskt centrum, 13:01
+10, Biomedicinskt centrum, 13:16
+10, Biomedicinskt centrum, 13:31
+10, Biomedicinskt centrum, 13:46
+10, Biomedicinskt centrum, 14:01
+10, Biomedicinskt centrum, 14:16
+10, Biomedicinskt centrum, 14:31
+10, Biomedicinskt centrum, 14:46
+10, Biomedicinskt centrum, 15:01
+10, Biomedicinskt centrum, 15:16
+10, Biomedicinskt centrum, 15:31
+10, Biomedicinskt centrum, 15:46
+10, Biomedicinskt centrum, 16:01
+10, Biomedicinskt centrum, 16:16
+10, Biomedicinskt centrum, 16:31
+10, Biomedicinskt centrum, 16:46
+10, Biomedicinskt centrum, 17:01
+10, Biomedicinskt centrum, 17:16
+10, Biomedicinskt centrum, 17:31
+10, Biomedicinskt centrum, 17:46
+10, Biomedicinskt centrum, 18:01
+10, Biomedicinskt centrum, 18:16
+10, Biomedicinskt centrum, 18:31
+10, Biomedicinskt centrum, 18:46
+10, Biomedicinskt centrum, 19:01
+10, Biomedicinskt centrum, 19:16
+10, Biomedicinskt centrum, 19:31
+10, Biomedicinskt centrum, 19:46
+10, Biomedicinskt centrum, 20:01
+10, Biomedicinskt centrum, 20:16
+10, Biomedicinskt centrum, 20:31
+10, Biomedicinskt centrum, 20:46
+10, Biomedicinskt centrum, 21:01
+10, Biomedicinskt centrum, 21:16
+10, Biomedicinskt centrum, 21:31
+10, Biomedicinskt centrum, 21:46
+10, Biomedicinskt centrum, 22:01
+10, Biomedicinskt centrum, 22:16
+10, Biomedicinskt centrum, 22:31
+10, Biomedicinskt centrum, 22:46
+10, Granby Centrum, 6:01
+10, Granby Centrum, 6:16
+10, Granby Centrum, 6:31
+10, Granby Centrum, 6:46
+10, Granby Centrum, 7:01
+10, Granby Centrum, 7:16
+10, Granby Centrum, 7:31
+10, Granby Centrum, 7:46
+10, Granby Centrum, 8:01
+10, Granby Centrum, 8:16
+10, Granby Centrum, 8:31
+10, Granby Centrum, 8:46
+10, Granby Centrum, 9:01
+10, Granby Centrum, 9:16
+10, Granby Centrum, 9:31
+10, Granby Centrum, 9:46
+10, Granby Centrum, 10:01
+10, Granby Centrum, 10:16
+10, Granby Centrum, 10:31
+10, Granby Centrum, 10:46
+10, Granby Centrum, 11:01
+10, Granby Centrum, 11:16
+10, Granby Centrum, 11:31
+10, Granby Centrum, 11:46
+10, Granby Centrum, 12:01
+10, Granby Centrum, 12:16
+10, Granby Centrum, 12:31
+10, Granby Centrum, 12:46
+10, Granby Centrum, 13:01
+10, Granby Centrum, 13:16
+10, Granby Centrum, 13:31
+10, Granby Centrum, 13:46
+10, Granby Centrum, 14:01
+10, Granby Centrum, 14:16
+10, Granby Centrum, 14:31
+10, Granby Centrum, 14:46
+10, Granby Centrum, 15:01
+10, Granby Centrum, 15:16
+10, Granby Centrum, 15:31
+10, Granby Centrum, 15:46
+10, Granby Centrum, 16:01
+10, Granby Centrum, 16:16
+10, Granby Centrum, 16:31
+10, Granby Centrum, 16:46
+10, Granby Centrum, 17:01
+10, Granby Centrum, 17:16
+10, Granby Centrum, 17:31
+10, Granby Centrum, 17:46
+10, Granby Centrum, 18:01
+10, Granby Centrum, 18:16
+10, Granby Centrum, 18:31
+10, Granby Centrum, 18:46
+10, Granby Centrum, 19:01
+10, Granby Centrum, 19:16
+10, Granby Centrum, 19:31
+10, Granby Centrum, 19:46
+10, Granby Centrum, 20:01
+10, Granby Centrum, 20:16
+10, Granby Centrum, 20:31
+10, Granby Centrum, 20:46
+10, Granby Centrum, 21:01
+10, Granby Centrum, 21:16
+10, Granby Centrum, 21:31
+10, Granby Centrum, 21:46
+10, Granby Centrum, 22:01
+10, Granby Centrum, 22:16
+10, Granby Centrum, 22:31
+10, Granby Centrum, 22:46
+11, Centralstationen, 6:01
+11, Centralstationen, 6:16
+11, Centralstationen, 6:31
+11, Centralstationen, 6:46
+11, Centralstationen, 7:01
+11, Centralstationen, 7:16
+11, Centralstationen, 7:31
+11, Centralstationen, 7:46
+11, Centralstationen, 8:01
+11, Centralstationen, 8:16
+11, Centralstationen, 8:31
+11, Centralstationen, 8:46
+11, Centralstationen, 9:01
+11, Centralstationen, 9:16
+11, Centralstationen, 9:31
+11, Centralstationen, 9:46
+11, Centralstationen, 10:01
+11, Centralstationen, 10:16
+11, Centralstationen, 10:31
+11, Centralstationen, 10:46
+11, Centralstationen, 11:01
+11, Centralstationen, 11:16
+11, Centralstationen, 11:31
+11, Centralstationen, 11:46
+11, Centralstationen, 12:01
+11, Centralstationen, 12:16
+11, Centralstationen, 12:31
+11, Centralstationen, 12:46
+11, Centralstationen, 13:01
+11, Centralstationen, 13:16
+11, Centralstationen, 13:31
+11, Centralstationen, 13:46
+11, Centralstationen, 14:01
+11, Centralstationen, 14:16
+11, Centralstationen, 14:31
+11, Centralstationen, 14:46
+11, Centralstationen, 15:01
+11, Centralstationen, 15:16
+11, Centralstationen, 15:31
+11, Centralstationen, 15:46
+11, Centralstationen, 16:01
+11, Centralstationen, 16:16
+11, Centralstationen, 16:31
+11, Centralstationen, 16:46
+11, Centralstationen, 17:01
+11, Centralstationen, 17:16
+11, Centralstationen, 17:31
+11, Centralstationen, 17:46
+11, Centralstationen, 18:01
+11, Centralstationen, 18:16
+11, Centralstationen, 18:31
+11, Centralstationen, 18:46
+11, Centralstationen, 19:01
+11, Centralstationen, 19:16
+11, Centralstationen, 19:31
+11, Centralstationen, 19:46
+11, Centralstationen, 20:01
+11, Centralstationen, 20:16
+11, Centralstationen, 20:31
+11, Centralstationen, 20:46
+11, Centralstationen, 21:01
+11, Centralstationen, 21:16
+11, Centralstationen, 21:31
+11, Centralstationen, 21:46
+11, Centralstationen, 22:01
+11, Centralstationen, 22:16
+11, Centralstationen, 22:31
+11, Centralstationen, 22:46
+11, Gottsunda Centrum, 6:01
+11, Gottsunda Centrum, 6:16
+11, Gottsunda Centrum, 6:31
+11, Gottsunda Centrum, 6:46
+11, Gottsunda Centrum, 7:01
+11, Gottsunda Centrum, 7:16
+11, Gottsunda Centrum, 7:31
+11, Gottsunda Centrum, 7:46
+11, Gottsunda Centrum, 8:01
+11, Gottsunda Centrum, 8:16
+11, Gottsunda Centrum, 8:31
+11, Gottsunda Centrum, 8:46
+11, Gottsunda Centrum, 9:01
+11, Gottsunda Centrum, 9:16
+11, Gottsunda Centrum, 9:31
+11, Gottsunda Centrum, 9:46
+11, Gottsunda Centrum, 10:01
+11, Gottsunda Centrum, 10:16
+11, Gottsunda Centrum, 10:31
+11, Gottsunda Centrum, 10:46
+11, Gottsunda Centrum, 11:01
+11, Gottsunda Centrum, 11:16
+11, Gottsunda Centrum, 11:31
+11, Gottsunda Centrum, 11:46
+11, Gottsunda Centrum, 12:01
+11, Gottsunda Centrum, 12:16
+11, Gottsunda Centrum, 12:31
+11, Gottsunda Centrum, 12:46
+11, Gottsunda Centrum, 13:01
+11, Gottsunda Centrum, 13:16
+11, Gottsunda Centrum, 13:31
+11, Gottsunda Centrum, 13:46
+11, Gottsunda Centrum, 14:01
+11, Gottsunda Centrum, 14:16
+11, Gottsunda Centrum, 14:31
+11, Gottsunda Centrum, 14:46
+11, Gottsunda Centrum, 15:01
+11, Gottsunda Centrum, 15:16
+11, Gottsunda Centrum, 15:31
+11, Gottsunda Centrum, 15:46
+11, Gottsunda Centrum, 16:01
+11, Gottsunda Centrum, 16:16
+11, Gottsunda Centrum, 16:31
+11, Gottsunda Centrum, 16:46
+11, Gottsunda Centrum, 17:01
+11, Gottsunda Centrum, 17:16
+11, Gottsunda Centrum, 17:31
+11, Gottsunda Centrum, 17:46
+11, Gottsunda Centrum, 18:01
+11, Gottsunda Centrum, 18:16
+11, Gottsunda Centrum, 18:31
+11, Gottsunda Centrum, 18:46
+11, Gottsunda Centrum, 19:01
+11, Gottsunda Centrum, 19:16
+11, Gottsunda Centrum, 19:31
+11, Gottsunda Centrum, 19:46
+11, Gottsunda Centrum, 20:01
+11, Gottsunda Centrum, 20:16
+11, Gottsunda Centrum, 20:31
+11, Gottsunda Centrum, 20:46
+11, Gottsunda Centrum, 21:01
+11, Gottsunda Centrum, 21:16
+11, Gottsunda Centrum, 21:31
+11, Gottsunda Centrum, 21:46
+11, Gottsunda Centrum, 22:01
+11, Gottsunda Centrum, 22:16
+11, Gottsunda Centrum, 22:31
+11, Gottsunda Centrum, 22:46
+12, Gottsunda Centrum, 6:01
+12, Gottsunda Centrum, 6:16
+12, Gottsunda Centrum, 6:31
+12, Gottsunda Centrum, 6:46
+12, Gottsunda Centrum, 7:01
+12, Gottsunda Centrum, 7:16
+12, Gottsunda Centrum, 7:31
+12, Gottsunda Centrum, 7:46
+12, Gottsunda Centrum, 8:01
+12, Gottsunda Centrum, 8:16
+12, Gottsunda Centrum, 8:31
+12, Gottsunda Centrum, 8:46
+12, Gottsunda Centrum, 9:01
+12, Gottsunda Centrum, 9:16
+12, Gottsunda Centrum, 9:31
+12, Gottsunda Centrum, 9:46
+12, Gottsunda Centrum, 10:01
+12, Gottsunda Centrum, 10:16
+12, Gottsunda Centrum, 10:31
+12, Gottsunda Centrum, 10:46
+12, Gottsunda Centrum, 11:01
+12, Gottsunda Centrum, 11:16
+12, Gottsunda Centrum, 11:31
+12, Gottsunda Centrum, 11:46
+12, Gottsunda Centrum, 12:01
+12, Gottsunda Centrum, 12:16
+12, Gottsunda Centrum, 12:31
+12, Gottsunda Centrum, 12:46
+12, Gottsunda Centrum, 13:01
+12, Gottsunda Centrum, 13:16
+12, Gottsunda Centrum, 13:31
+12, Gottsunda Centrum, 13:46
+12, Gottsunda Centrum, 14:01
+12, Gottsunda Centrum, 14:16
+12, Gottsunda Centrum, 14:31
+12, Gottsunda Centrum, 14:46
+12, Gottsunda Centrum, 15:01
+12, Gottsunda Centrum, 15:16
+12, Gottsunda Centrum, 15:31
+12, Gottsunda Centrum, 15:46
+12, Gottsunda Centrum, 16:01
+12, Gottsunda Centrum, 16:16
+12, Gottsunda Centrum, 16:31
+12, Gottsunda Centrum, 16:46
+12, Gottsunda Centrum, 17:01
+12, Gottsunda Centrum, 17:16
+12, Gottsunda Centrum, 17:31
+12, Gottsunda Centrum, 17:46
+12, Gottsunda Centrum, 18:01
+12, Gottsunda Centrum, 18:16
+12, Gottsunda Centrum, 18:31
+12, Gottsunda Centrum, 18:46
+12, Gottsunda Centrum, 19:01
+12, Gottsunda Centrum, 19:16
+12, Gottsunda Centrum, 19:31
+12, Gottsunda Centrum, 19:46
+12, Gottsunda Centrum, 20:01
+12, Gottsunda Centrum, 20:16
+12, Gottsunda Centrum, 20:31
+12, Gottsunda Centrum, 20:46
+12, Gottsunda Centrum, 21:01
+12, Gottsunda Centrum, 21:16
+12, Gottsunda Centrum, 21:31
+12, Gottsunda Centrum, 21:46
+12, Gottsunda Centrum, 22:01
+12, Gottsunda Centrum, 22:16
+12, Gottsunda Centrum, 22:31
+12, Gottsunda Centrum, 22:46
+12, Brostugevagen, 6:01
+12, Brostugevagen, 6:16
+12, Brostugevagen, 6:31
+12, Brostugevagen, 6:46
+12, Brostugevagen, 7:01
+12, Brostugevagen, 7:16
+12, Brostugevagen, 7:31
+12, Brostugevagen, 7:46
+12, Brostugevagen, 8:01
+12, Brostugevagen, 8:16
+12, Brostugevagen, 8:31
+12, Brostugevagen, 8:46
+12, Brostugevagen, 9:01
+12, Brostugevagen, 9:16
+12, Brostugevagen, 9:31
+12, Brostugevagen, 9:46
+12, Brostugevagen, 10:01
+12, Brostugevagen, 10:16
+12, Brostugevagen, 10:31
+12, Brostugevagen, 10:46
+12, Brostugevagen, 11:01
+12, Brostugevagen, 11:16
+12, Brostugevagen, 11:31
+12, Brostugevagen, 11:46
+12, Brostugevagen, 12:01
+12, Brostugevagen, 12:16
+12, Brostugevagen, 12:31
+12, Brostugevagen, 12:46
+12, Brostugevagen, 13:01
+12, Brostugevagen, 13:16
+12, Brostugevagen, 13:31
+12, Brostugevagen, 13:46
+12, Brostugevagen, 14:01
+12, Brostugevagen, 14:16
+12, Brostugevagen, 14:31
+12, Brostugevagen, 14:46
+12, Brostugevagen, 15:01
+12, Brostugevagen, 15:16
+12, Brostugevagen, 15:31
+12, Brostugevagen, 15:46
+12, Brostugevagen, 16:01
+12, Brostugevagen, 16:16
+12, Brostugevagen, 16:31
+12, Brostugevagen, 16:46
+12, Brostugevagen, 17:01
+12, Brostugevagen, 17:16
+12, Brostugevagen, 17:31
+12, Brostugevagen, 17:46
+12, Brostugevagen, 18:01
+12, Brostugevagen, 18:16
+12, Brostugevagen, 18:31
+12, Brostugevagen, 18:46
+12, Brostugevagen, 19:01
+12, Brostugevagen, 19:16
+12, Brostugevagen, 19:31
+12, Brostugevagen, 19:46
+12, Brostugevagen, 20:01
+12, Brostugevagen, 20:16
+12, Brostugevagen, 20:31
+12, Brostugevagen, 20:46
+12, Brostugevagen, 21:01
+12, Brostugevagen, 21:16
+12, Brostugevagen, 21:31
+12, Brostugevagen, 21:46
+12, Brostugevagen, 22:01
+12, Brostugevagen, 22:16
+12, Brostugevagen, 22:31
+12, Brostugevagen, 22:46
+13, Soderforsgatan, 6:01
+13, Soderforsgatan, 6:16
+13, Soderforsgatan, 6:31
+13, Soderforsgatan, 6:46
+13, Soderforsgatan, 7:01
+13, Soderforsgatan, 7:16
+13, Soderforsgatan, 7:31
+13, Soderforsgatan, 7:46
+13, Soderforsgatan, 8:01
+13, Soderforsgatan, 8:16
+13, Soderforsgatan, 8:31
+13, Soderforsgatan, 8:46
+13, Soderforsgatan, 9:01
+13, Soderforsgatan, 9:16
+13, Soderforsgatan, 9:31
+13, Soderforsgatan, 9:46
+13, Soderforsgatan, 10:01
+13, Soderforsgatan, 10:16
+13, Soderforsgatan, 10:31
+13, Soderforsgatan, 10:46
+13, Soderforsgatan, 11:01
+13, Soderforsgatan, 11:16
+13, Soderforsgatan, 11:31
+13, Soderforsgatan, 11:46
+13, Soderforsgatan, 11:01
+13, Soderforsgatan, 11:16
+13, Soderforsgatan, 11:31
+13, Soderforsgatan, 11:46
+13, Soderforsgatan, 11:01
+13, Soderforsgatan, 11:16
+13, Soderforsgatan, 11:31
+13, Soderforsgatan, 11:46
+13, Soderforsgatan, 11:01
+13, Soderforsgatan, 11:16
+13, Soderforsgatan, 11:31
+13, Soderforsgatan, 11:46
+13, Soderforsgatan, 12:01
+13, Soderforsgatan, 12:16
+13, Soderforsgatan, 12:31
+13, Soderforsgatan, 12:46
+13, Soderforsgatan, 13:01
+13, Soderforsgatan, 13:16
+13, Soderforsgatan, 13:31
+13, Soderforsgatan, 13:46
+13, Soderforsgatan, 14:01
+13, Soderforsgatan, 14:16
+13, Soderforsgatan, 14:31
+13, Soderforsgatan, 14:46
+13, Soderforsgatan, 15:01
+13, Soderforsgatan, 15:16
+13, Soderforsgatan, 15:31
+13, Soderforsgatan, 15:46
+13, Soderforsgatan, 16:01
+13, Soderforsgatan, 16:16
+13, Soderforsgatan, 16:31
+13, Soderforsgatan, 16:46
+13, Soderforsgatan, 17:01
+13, Soderforsgatan, 17:16
+13, Soderforsgatan, 17:31
+13, Soderforsgatan, 17:46
+13, Soderforsgatan, 18:01
+13, Soderforsgatan, 18:16
+13, Soderforsgatan, 18:31
+13, Soderforsgatan, 18:46
+13, Soderforsgatan, 19:01
+13, Soderforsgatan, 19:16
+13, Soderforsgatan, 19:31
+13, Soderforsgatan, 19:46
+13, Soderforsgatan, 20:01
+13, Soderforsgatan, 20:16
+13, Soderforsgatan, 20:31
+13, Soderforsgatan, 20:46
+13, Soderforsgatan, 21:01
+13, Soderforsgatan, 21:16
+13, Soderforsgatan, 21:31
+13, Soderforsgatan, 21:46
+13, Soderforsgatan, 22:01
+13, Soderforsgatan, 22:16
+13, Soderforsgatan, 22:31
+13, Soderforsgatan, 22:46
+13, Coop-Forum/IKEA, 6:01
+13, Coop-Forum/IKEA, 6:16
+13, Coop-Forum/IKEA, 6:31
+13, Coop-Forum/IKEA, 6:46
+13, Coop-Forum/IKEA, 7:01
+13, Coop-Forum/IKEA, 7:16
+13, Coop-Forum/IKEA, 7:31
+13, Coop-Forum/IKEA, 7:46
+13, Coop-Forum/IKEA, 8:01
+13, Coop-Forum/IKEA, 8:16
+13, Coop-Forum/IKEA, 8:31
+13, Coop-Forum/IKEA, 8:46
+13, Coop-Forum/IKEA, 9:01
+13, Coop-Forum/IKEA, 9:16
+13, Coop-Forum/IKEA, 9:31
+13, Coop-Forum/IKEA, 9:46
+13, Coop-Forum/IKEA, 10:01
+13, Coop-Forum/IKEA, 10:16
+13, Coop-Forum/IKEA, 10:31
+13, Coop-Forum/IKEA, 10:46
+13, Coop-Forum/IKEA, 11:01
+13, Coop-Forum/IKEA, 11:16
+13, Coop-Forum/IKEA, 11:31
+13, Coop-Forum/IKEA, 11:46
+13, Coop-Forum/IKEA, 12:01
+13, Coop-Forum/IKEA, 12:16
+13, Coop-Forum/IKEA, 12:31
+13, Coop-Forum/IKEA, 12:46
+13, Coop-Forum/IKEA, 13:01
+13, Coop-Forum/IKEA, 13:16
+13, Coop-Forum/IKEA, 13:31
+13, Coop-Forum/IKEA, 13:46
+13, Coop-Forum/IKEA, 14:01
+13, Coop-Forum/IKEA, 14:16
+13, Coop-Forum/IKEA, 14:31
+13, Coop-Forum/IKEA, 14:46
+13, Coop-Forum/IKEA, 15:01
+13, Coop-Forum/IKEA, 15:16
+13, Coop-Forum/IKEA, 15:31
+13, Coop-Forum/IKEA, 15:46
+13, Coop-Forum/IKEA, 17:01
+13, Coop-Forum/IKEA, 17:16
+13, Coop-Forum/IKEA, 17:31
+13, Coop-Forum/IKEA, 17:46
+13, Coop-Forum/IKEA, 18:01
+13, Coop-Forum/IKEA, 18:16
+13, Coop-Forum/IKEA, 18:31
+13, Coop-Forum/IKEA, 18:46
+13, Coop-Forum/IKEA, 19:01
+13, Coop-Forum/IKEA, 19:16
+13, Coop-Forum/IKEA, 19:31
+13, Coop-Forum/IKEA, 19:46
+13, Coop-Forum/IKEA, 20:01
+13, Coop-Forum/IKEA, 20:16
+13, Coop-Forum/IKEA, 20:31
+13, Coop-Forum/IKEA, 20:46
+13, Coop-Forum/IKEA, 21:01
+13, Coop-Forum/IKEA, 21:16
+13, Coop-Forum/IKEA, 21:31
+13, Coop-Forum/IKEA, 21:46
+13, Coop-Forum/IKEA, 22:01
+13, Coop-Forum/IKEA, 22:16
+13, Coop-Forum/IKEA, 22:31
+13, Coop-Forum/IKEA, 22:46
+14, Garnisonen, 6:01
+14, Garnisonen, 6:16
+14, Garnisonen, 6:31
+14, Garnisonen, 6:46
+14, Garnisonen, 7:01
+14, Garnisonen, 7:16
+14, Garnisonen, 7:31
+14, Garnisonen, 7:46
+14, Garnisonen, 8:01
+14, Garnisonen, 8:16
+14, Garnisonen, 8:31
+14, Garnisonen, 8:46
+14, Garnisonen, 9:01
+14, Garnisonen, 9:16
+14, Garnisonen, 9:31
+14, Garnisonen, 9:46
+14, Garnisonen, 10:01
+14, Garnisonen, 10:16
+14, Garnisonen, 10:31
+14, Garnisonen, 10:46
+14, Garnisonen, 11:01
+14, Garnisonen, 11:16
+14, Garnisonen, 11:31
+14, Garnisonen, 11:46
+14, Garnisonen, 12:01
+14, Garnisonen, 12:16
+14, Garnisonen, 12:31
+14, Garnisonen, 12:46
+14, Garnisonen, 13:01
+14, Garnisonen, 13:16
+14, Garnisonen, 13:31
+14, Garnisonen, 13:46
+14, Garnisonen, 14:01
+14, Garnisonen, 14:16
+14, Garnisonen, 14:31
+14, Garnisonen, 14:46
+14, Garnisonen, 15:01
+14, Garnisonen, 15:16
+14, Garnisonen, 15:31
+14, Garnisonen, 15:46
+14, Garnisonen, 16:01
+14, Garnisonen, 16:16
+14, Garnisonen, 16:31
+14, Garnisonen, 16:46
+14, Garnisonen, 17:01
+14, Garnisonen, 17:16
+14, Garnisonen, 17:31
+14, Garnisonen, 17:46
+14, Garnisonen, 18:01
+14, Garnisonen, 18:16
+14, Garnisonen, 18:31
+14, Garnisonen, 18:46
+14, Garnisonen, 19:01
+14, Garnisonen, 19:16
+14, Garnisonen, 19:31
+14, Garnisonen, 19:46
+14, Garnisonen, 20:01
+14, Garnisonen, 20:16
+14, Garnisonen, 20:31
+14, Garnisonen, 20:46
+14, Garnisonen, 21:01
+14, Garnisonen, 21:16
+14, Garnisonen, 21:31
+14, Garnisonen, 21:46
+14, Garnisonen, 22:01
+14, Garnisonen, 22:16
+14, Garnisonen, 22:31
+14, Garnisonen, 22:46
+14, Cellovagen, 6:01
+14, Cellovagen, 6:16
+14, Cellovagen, 6:31
+14, Cellovagen, 6:46
+14, Cellovagen, 7:01
+14, Cellovagen, 7:16
+14, Cellovagen, 7:31
+14, Cellovagen, 7:46
+14, Cellovagen, 8:01
+14, Cellovagen, 8:16
+14, Cellovagen, 8:31
+14, Cellovagen, 8:46
+14, Cellovagen, 9:01
+14, Cellovagen, 9:16
+14, Cellovagen, 9:31
+14, Cellovagen, 9:46
+14, Cellovagen, 10:01
+14, Cellovagen, 10:16
+14, Cellovagen, 10:31
+14, Cellovagen, 10:46
+14, Cellovagen, 11:01
+14, Cellovagen, 11:16
+14, Cellovagen, 11:31
+14, Cellovagen, 11:46
+14, Cellovagen, 12:01
+14, Cellovagen, 12:16
+14, Cellovagen, 12:31
+14, Cellovagen, 12:46
+14, Cellovagen, 13:01
+14, Cellovagen, 13:16
+14, Cellovagen, 13:31
+14, Cellovagen, 13:46
+14, Cellovagen, 14:01
+14, Cellovagen, 14:16
+14, Cellovagen, 14:31
+14, Cellovagen, 14:46
+14, Cellovagen, 15:01
+14, Cellovagen, 15:16
+14, Cellovagen, 15:31
+14, Cellovagen, 15:46
+14, Cellovagen, 16:01
+14, Cellovagen, 16:16
+14, Cellovagen, 16:31
+14, Cellovagen, 16:46
+14, Cellovagen, 17:01
+14, Cellovagen, 17:16
+14, Cellovagen, 17:31
+14, Cellovagen, 17:46
+14, Cellovagen, 18:01
+14, Cellovagen, 18:16
+14, Cellovagen, 18:31
+14, Cellovagen, 18:46
+14, Cellovagen, 19:01
+14, Cellovagen, 19:16
+14, Cellovagen, 19:31
+14, Cellovagen, 19:46
+14, Cellovagen, 20:01
+14, Cellovagen, 20:16
+14, Cellovagen, 20:31
+14, Cellovagen, 20:46
+14, Cellovagen, 21:01
+14, Cellovagen, 21:16
+14, Cellovagen, 21:31
+14, Cellovagen, 21:46
+14, Cellovagen, 22:01
+14, Cellovagen, 22:16
+14, Cellovagen, 22:31
+14, Cellovagen, 22:46
+20, Nyckelaxet, 6:02
+20, Nyckelaxet, 6:17
+20, Nyckelaxet, 6:32
+20, Nyckelaxet, 6:47
+20, Nyckelaxet, 7:02
+20, Nyckelaxet, 7:17
+20, Nyckelaxet, 7:32
+20, Nyckelaxet, 7:47
+20, Nyckelaxet, 8:02
+20, Nyckelaxet, 8:17
+20, Nyckelaxet, 8:32
+20, Nyckelaxet, 8:47
+20, Nyckelaxet, 9:02
+20, Nyckelaxet, 9:17
+20, Nyckelaxet, 9:32
+20, Nyckelaxet, 9:47
+20, Nyckelaxet, 10:02
+20, Nyckelaxet, 10:17
+20, Nyckelaxet, 10:32
+20, Nyckelaxet, 10:47
+20, Nyckelaxet, 11:02
+20, Nyckelaxet, 11:17
+20, Nyckelaxet, 11:32
+20, Nyckelaxet, 11:47
+20, Nyckelaxet, 12:02
+20, Nyckelaxet, 12:17
+20, Nyckelaxet, 12:32
+20, Nyckelaxet, 12:47
+20, Nyckelaxet, 13:02
+20, Nyckelaxet, 13:17
+20, Nyckelaxet, 13:32
+20, Nyckelaxet, 13:47
+20, Nyckelaxet, 14:02
+20, Nyckelaxet, 14:17
+20, Nyckelaxet, 14:32
+20, Nyckelaxet, 14:47
+20, Nyckelaxet, 15:02
+20, Nyckelaxet, 15:17
+20, Nyckelaxet, 15:32
+20, Nyckelaxet, 15:47
+20, Nyckelaxet, 16:02
+20, Nyckelaxet, 16:17
+20, Nyckelaxet, 16:32
+20, Nyckelaxet, 16:47
+20, Nyckelaxet, 17:02
+20, Nyckelaxet, 17:17
+20, Nyckelaxet, 17:32
+20, Nyckelaxet, 17:47
+20, Nyckelaxet, 18:02
+20, Nyckelaxet, 18:17
+20, Nyckelaxet, 18:32
+20, Nyckelaxet, 18:47
+20, Nyckelaxet, 19:02
+20, Nyckelaxet, 19:17
+20, Nyckelaxet, 19:32
+20, Nyckelaxet, 19:47
+20, Nyckelaxet, 20:02
+20, Nyckelaxet, 20:17
+20, Nyckelaxet, 20:32
+20, Nyckelaxet, 20:47
+20, Nyckelaxet, 21:02
+20, Nyckelaxet, 21:17
+20, Nyckelaxet, 21:32
+20, Nyckelaxet, 21:47
+20, Nyckelaxet, 22:02
+20, Nyckelaxet, 22:17
+20, Nyckelaxet, 22:32
+20, Nyckelaxet, 22:47
+20, Skarholmen, 6:02
+20, Skarholmen, 6:17
+20, Skarholmen, 6:32
+20, Skarholmen, 6:47
+20, Skarholmen, 7:02
+20, Skarholmen, 7:17
+20, Skarholmen, 7:32
+20, Skarholmen, 7:47
+20, Skarholmen, 8:02
+20, Skarholmen, 8:17
+20, Skarholmen, 8:32
+20, Skarholmen, 8:47
+20, Skarholmen, 9:02
+20, Skarholmen, 9:17
+20, Skarholmen, 9:32
+20, Skarholmen, 9:47
+20, Skarholmen, 10:02
+20, Skarholmen, 10:17
+20, Skarholmen, 10:32
+20, Skarholmen, 10:47
+20, Skarholmen, 11:02
+20, Skarholmen, 11:17
+20, Skarholmen, 11:32
+20, Skarholmen, 11:47
+20, Skarholmen, 12:02
+20, Skarholmen, 12:17
+20, Skarholmen, 12:32
+20, Skarholmen, 12:47
+20, Skarholmen, 13:02
+20, Skarholmen, 13:17
+20, Skarholmen, 13:32
+20, Skarholmen, 13:47
+20, Skarholmen, 14:02
+20, Skarholmen, 14:17
+20, Skarholmen, 14:32
+20, Skarholmen, 14:47
+20, Skarholmen, 15:02
+20, Skarholmen, 15:17
+20, Skarholmen, 15:32
+20, Skarholmen, 15:47
+20, Skarholmen, 16:02
+20, Skarholmen, 16:17
+20, Skarholmen, 16:32
+20, Skarholmen, 16:47
+20, Skarholmen, 17:02
+20, Skarholmen, 17:17
+20, Skarholmen, 17:32
+20, Skarholmen, 17:47
+20, Skarholmen, 18:02
+20, Skarholmen, 18:17
+20, Skarholmen, 18:32
+20, Skarholmen, 18:47
+20, Skarholmen, 19:02
+20, Skarholmen, 19:17
+20, Skarholmen, 19:32
+20, Skarholmen, 19:47
+20, Skarholmen, 20:02
+20, Skarholmen, 20:17
+20, Skarholmen, 20:32
+20, Skarholmen, 20:47
+20, Skarholmen, 21:02
+20, Skarholmen, 21:17
+20, Skarholmen, 21:32
+20, Skarholmen, 21:47
+20, Skarholmen, 22:02
+20, Skarholmen, 22:17
+20, Skarholmen, 22:32
+20, Skarholmen, 22:47
+21, Stenhagenskolan, 6:02
+21, Stenhagenskolan, 6:17
+21, Stenhagenskolan, 6:32
+21, Stenhagenskolan, 6:47
+21, Stenhagenskolan, 7:02
+21, Stenhagenskolan, 7:17
+21, Stenhagenskolan, 7:32
+21, Stenhagenskolan, 7:47
+21, Stenhagenskolan, 8:02
+21, Stenhagenskolan, 8:17
+21, Stenhagenskolan, 8:32
+21, Stenhagenskolan, 8:47
+21, Stenhagenskolan, 9:02
+21, Stenhagenskolan, 9:17
+21, Stenhagenskolan, 9:32
+21, Stenhagenskolan, 9:47
+21, Stenhagenskolan, 10:02
+21, Stenhagenskolan, 10:17
+21, Stenhagenskolan, 10:32
+21, Stenhagenskolan, 10:47
+21, Stenhagenskolan, 11:02
+21, Stenhagenskolan, 11:17
+21, Stenhagenskolan, 11:32
+21, Stenhagenskolan, 11:47
+21, Stenhagenskolan, 12:02
+21, Stenhagenskolan, 12:17
+21, Stenhagenskolan, 12:32
+21, Stenhagenskolan, 12:47
+21, Stenhagenskolan, 13:02
+21, Stenhagenskolan, 13:17
+21, Stenhagenskolan, 13:32
+21, Stenhagenskolan, 13:47
+21, Stenhagenskolan, 14:02
+21, Stenhagenskolan, 14:17
+21, Stenhagenskolan, 14:32
+21, Stenhagenskolan, 14:47
+21, Stenhagenskolan, 15:02
+21, Stenhagenskolan, 15:17
+21, Stenhagenskolan, 15:32
+21, Stenhagenskolan, 15:47
+21, Stenhagenskolan, 16:02
+21, Stenhagenskolan, 16:17
+21, Stenhagenskolan, 16:32
+21, Stenhagenskolan, 16:47
+21, Stenhagenskolan, 17:02
+21, Stenhagenskolan, 17:17
+21, Stenhagenskolan, 17:32
+21, Stenhagenskolan, 17:47
+21, Stenhagenskolan, 18:02
+21, Stenhagenskolan, 18:17
+21, Stenhagenskolan, 18:32
+21, Stenhagenskolan, 18:47
+21, Stenhagenskolan, 19:02
+21, Stenhagenskolan, 19:17
+21, Stenhagenskolan, 19:32
+21, Stenhagenskolan, 19:47
+21, Stenhagenskolan, 20:02
+21, Stenhagenskolan, 20:17
+21, Stenhagenskolan, 20:32
+21, Stenhagenskolan, 20:47
+21, Stenhagenskolan, 21:02
+21, Stenhagenskolan, 21:17
+21, Stenhagenskolan, 21:32
+21, Stenhagenskolan, 21:47
+21, Stenhagenskolan, 22:02
+21, Stenhagenskolan, 22:17
+21, Stenhagenskolan, 22:32
+21, Stenhagenskolan, 22:47
+21, Arrheniusplan, 6:02
+21, Arrheniusplan, 6:17
+21, Arrheniusplan, 6:32
+21, Arrheniusplan, 6:47
+21, Arrheniusplan, 7:02
+21, Arrheniusplan, 7:17
+21, Arrheniusplan, 7:32
+21, Arrheniusplan, 7:47
+21, Arrheniusplan, 8:02
+21, Arrheniusplan, 8:17
+21, Arrheniusplan, 8:32
+21, Arrheniusplan, 8:47
+21, Arrheniusplan, 9:02
+21, Arrheniusplan, 9:17
+21, Arrheniusplan, 9:32
+21, Arrheniusplan, 9:47
+21, Arrheniusplan, 10:02
+21, Arrheniusplan, 10:17
+21, Arrheniusplan, 10:32
+21, Arrheniusplan, 10:47
+21, Arrheniusplan, 11:02
+21, Arrheniusplan, 11:17
+21, Arrheniusplan, 11:32
+21, Arrheniusplan, 11:47
+21, Arrheniusplan, 12:02
+21, Arrheniusplan, 12:17
+21, Arrheniusplan, 12:32
+21, Arrheniusplan, 12:47
+21, Arrheniusplan, 13:02
+21, Arrheniusplan, 13:17
+21, Arrheniusplan, 13:32
+21, Arrheniusplan, 13:47
+21, Arrheniusplan, 14:02
+21, Arrheniusplan, 14:17
+21, Arrheniusplan, 14:32
+21, Arrheniusplan, 14:47
+21, Arrheniusplan, 15:02
+21, Arrheniusplan, 15:17
+21, Arrheniusplan, 15:32
+21, Arrheniusplan, 15:47
+21, Arrheniusplan, 16:02
+21, Arrheniusplan, 16:17
+21, Arrheniusplan, 16:32
+21, Arrheniusplan, 16:47
+21, Arrheniusplan, 17:02
+21, Arrheniusplan, 17:17
+21, Arrheniusplan, 17:32
+21, Arrheniusplan, 17:47
+21, Arrheniusplan, 18:02
+21, Arrheniusplan, 18:17
+21, Arrheniusplan, 18:32
+21, Arrheniusplan, 18:47
+21, Arrheniusplan, 19:02
+21, Arrheniusplan, 19:17
+21, Arrheniusplan, 19:32
+21, Arrheniusplan, 19:47
+21, Arrheniusplan, 20:02
+21, Arrheniusplan, 20:17
+21, Arrheniusplan, 20:32
+21, Arrheniusplan, 20:47
+21, Arrheniusplan, 21:02
+21, Arrheniusplan, 21:17
+21, Arrheniusplan, 21:32
+21, Arrheniusplan, 21:47
+21, Arrheniusplan, 22:02
+21, Arrheniusplan, 22:17
+21, Arrheniusplan, 22:32
+21, Arrheniusplan, 22:47
+22, Stenhagens IP, 6:02
+22, Stenhagens IP, 6:17
+22, Stenhagens IP, 6:32
+22, Stenhagens IP, 6:47
+22, Stenhagens IP, 7:02
+22, Stenhagens IP, 7:17
+22, Stenhagens IP, 7:32
+22, Stenhagens IP, 7:47
+22, Stenhagens IP, 8:02
+22, Stenhagens IP, 8:17
+22, Stenhagens IP, 8:32
+22, Stenhagens IP, 8:47
+22, Stenhagens IP, 9:02
+22, Stenhagens IP, 9:17
+22, Stenhagens IP, 9:32
+22, Stenhagens IP, 9:47
+22, Stenhagens IP, 10:02
+22, Stenhagens IP, 10:17
+22, Stenhagens IP, 10:32
+22, Stenhagens IP, 10:47
+22, Stenhagens IP, 11:02
+22, Stenhagens IP, 11:17
+22, Stenhagens IP, 11:32
+22, Stenhagens IP, 11:47
+22, Stenhagens IP, 12:02
+22, Stenhagens IP, 12:17
+22, Stenhagens IP, 12:32
+22, Stenhagens IP, 12:47
+22, Stenhagens IP, 13:02
+22, Stenhagens IP, 13:17
+22, Stenhagens IP, 13:32
+22, Stenhagens IP, 13:47
+22, Stenhagens IP, 14:02
+22, Stenhagens IP, 14:17
+22, Stenhagens IP, 14:32
+22, Stenhagens IP, 14:47
+22, Stenhagens IP, 15:02
+22, Stenhagens IP, 15:17
+22, Stenhagens IP, 15:32
+22, Stenhagens IP, 15:47
+22, Stenhagens IP, 16:02
+22, Stenhagens IP, 16:17
+22, Stenhagens IP, 16:32
+22, Stenhagens IP, 16:47
+22, Stenhagens IP, 17:02
+22, Stenhagens IP, 17:17
+22, Stenhagens IP, 17:32
+22, Stenhagens IP, 17:47
+22, Stenhagens IP, 18:02
+22, Stenhagens IP, 18:17
+22, Stenhagens IP, 18:32
+22, Stenhagens IP, 18:47
+22, Stenhagens IP, 19:02
+22, Stenhagens IP, 19:17
+22, Stenhagens IP, 19:32
+22, Stenhagens IP, 19:47
+22, Stenhagens IP, 20:02
+22, Stenhagens IP, 20:17
+22, Stenhagens IP, 20:32
+22, Stenhagens IP, 20:47
+22, Stenhagens IP, 21:02
+22, Stenhagens IP, 21:17
+22, Stenhagens IP, 21:32
+22, Stenhagens IP, 21:47
+22, Stenhagens IP, 22:02
+22, Stenhagens IP, 22:17
+22, Stenhagens IP, 22:32
+22, Stenhagens IP, 22:47
+22, Vavstolsvagen, 6:02
+22, Vavstolsvagen, 6:17
+22, Vavstolsvagen, 6:32
+22, Vavstolsvagen, 6:47
+22, Vavstolsvagen, 7:02
+22, Vavstolsvagen, 7:17
+22, Vavstolsvagen, 7:32
+22, Vavstolsvagen, 7:47
+22, Vavstolsvagen, 8:02
+22, Vavstolsvagen, 8:17
+22, Vavstolsvagen, 8:32
+22, Vavstolsvagen, 8:47
+22, Vavstolsvagen, 9:02
+22, Vavstolsvagen, 9:17
+22, Vavstolsvagen, 9:32
+22, Vavstolsvagen, 9:47
+22, Vavstolsvagen, 10:02
+22, Vavstolsvagen, 10:17
+22, Vavstolsvagen, 10:32
+22, Vavstolsvagen, 10:47
+22, Vavstolsvagen, 11:02
+22, Vavstolsvagen, 11:17
+22, Vavstolsvagen, 11:32
+22, Vavstolsvagen, 11:47
+22, Vavstolsvagen, 12:02
+22, Vavstolsvagen, 12:17
+22, Vavstolsvagen, 12:32
+22, Vavstolsvagen, 12:47
+22, Vavstolsvagen, 13:02
+22, Vavstolsvagen, 13:17
+22, Vavstolsvagen, 13:32
+22, Vavstolsvagen, 13:47
+22, Vavstolsvagen, 14:02
+22, Vavstolsvagen, 14:17
+22, Vavstolsvagen, 14:32
+22, Vavstolsvagen, 14:47
+22, Vavstolsvagen, 15:02
+22, Vavstolsvagen, 15:17
+22, Vavstolsvagen, 15:32
+22, Vavstolsvagen, 15:47
+22, Vavstolsvagen, 16:02
+22, Vavstolsvagen, 16:17
+22, Vavstolsvagen, 16:32
+22, Vavstolsvagen, 16:47
+22, Vavstolsvagen, 17:02
+22, Vavstolsvagen, 17:17
+22, Vavstolsvagen, 17:32
+22, Vavstolsvagen, 17:47
+22, Vavstolsvagen, 18:02
+22, Vavstolsvagen, 18:17
+22, Vavstolsvagen, 18:32
+22, Vavstolsvagen, 18:47
+22, Vavstolsvagen, 19:02
+22, Vavstolsvagen, 19:17
+22, Vavstolsvagen, 19:32
+22, Vavstolsvagen, 19:47
+22, Vavstolsvagen, 20:02
+22, Vavstolsvagen, 20:17
+22, Vavstolsvagen, 20:32
+22, Vavstolsvagen, 20:47
+22, Vavstolsvagen, 21:02
+22, Vavstolsvagen, 21:17
+22, Vavstolsvagen, 21:32
+22, Vavstolsvagen, 21:47
+22, Vavstolsvagen, 22:02
+22, Vavstolsvagen, 22:17
+22, Vavstolsvagen, 22:32
+22, Vavstolsvagen, 22:47
+28, Allianshallen, 6:02
+28, Allianshallen, 6:17
+28, Allianshallen, 6:32
+28, Allianshallen, 6:47
+28, Allianshallen, 7:02
+28, Allianshallen, 7:17
+28, Allianshallen, 7:32
+28, Allianshallen, 7:47
+28, Allianshallen, 8:02
+28, Allianshallen, 8:17
+28, Allianshallen, 8:32
+28, Allianshallen, 8:47
+28, Allianshallen, 9:02
+28, Allianshallen, 9:17
+28, Allianshallen, 9:32
+28, Allianshallen, 9:47
+28, Allianshallen, 10:02
+28, Allianshallen, 10:17
+28, Allianshallen, 10:32
+28, Allianshallen, 10:47
+28, Allianshallen, 11:02
+28, Allianshallen, 11:17
+28, Allianshallen, 11:32
+28, Allianshallen, 11:47
+28, Allianshallen, 12:02
+28, Allianshallen, 12:17
+28, Allianshallen, 12:32
+28, Allianshallen, 12:47
+28, Allianshallen, 13:02
+28, Allianshallen, 13:17
+28, Allianshallen, 13:32
+28, Allianshallen, 13:47
+28, Allianshallen, 14:02
+28, Allianshallen, 14:17
+28, Allianshallen, 14:32
+28, Allianshallen, 14:47
+28, Allianshallen, 15:02
+28, Allianshallen, 15:17
+28, Allianshallen, 15:32
+28, Allianshallen, 15:47
+28, Allianshallen, 16:02
+28, Allianshallen, 16:17
+28, Allianshallen, 16:32
+28, Allianshallen, 16:47
+28, Allianshallen, 17:02
+28, Allianshallen, 17:17
+28, Allianshallen, 17:32
+28, Allianshallen, 17:47
+28, Allianshallen, 18:02
+28, Allianshallen, 18:17
+28, Allianshallen, 18:32
+28, Allianshallen, 18:47
+28, Allianshallen, 19:02
+28, Allianshallen, 19:17
+28, Allianshallen, 19:32
+28, Allianshallen, 19:47
+28, Allianshallen, 20:02
+28, Allianshallen, 20:17
+28, Allianshallen, 20:32
+28, Allianshallen, 20:47
+28, Allianshallen, 21:02
+28, Allianshallen, 21:17
+28, Allianshallen, 21:32
+28, Allianshallen, 21:47
+28, Allianshallen, 22:02
+28, Allianshallen, 22:17
+28, Allianshallen, 22:32
+28, Allianshallen, 22:47
+28, Langvagen, 6:02
+28, Langvagen, 6:17
+28, Langvagen, 6:32
+28, Langvagen, 6:47
+28, Langvagen, 7:02
+28, Langvagen, 7:17
+28, Langvagen, 7:32
+28, Langvagen, 7:47
+28, Langvagen, 8:02
+28, Langvagen, 8:17
+28, Langvagen, 8:32
+28, Langvagen, 8:47
+28, Langvagen, 9:02
+28, Langvagen, 9:17
+28, Langvagen, 9:32
+28, Langvagen, 9:47
+28, Langvagen, 10:02
+28, Langvagen, 10:17
+28, Langvagen, 10:32
+28, Langvagen, 10:47
+28, Langvagen, 11:02
+28, Langvagen, 11:17
+28, Langvagen, 11:32
+28, Langvagen, 11:47
+28, Langvagen, 12:02
+28, Langvagen, 12:17
+28, Langvagen, 12:32
+28, Langvagen, 12:47
+28, Langvagen, 13:02
+28, Langvagen, 13:17
+28, Langvagen, 13:32
+28, Langvagen, 13:47
+28, Langvagen, 14:02
+28, Langvagen, 14:17
+28, Langvagen, 14:32
+28, Langvagen, 14:47
+28, Langvagen, 15:02
+28, Langvagen, 15:17
+28, Langvagen, 15:32
+28, Langvagen, 15:47
+28, Langvagen, 16:02
+28, Langvagen, 16:17
+28, Langvagen, 16:32
+28, Langvagen, 16:47
+28, Langvagen, 17:02
+28, Langvagen, 17:17
+28, Langvagen, 17:32
+28, Langvagen, 17:47
+28, Langvagen, 18:02
+28, Langvagen, 18:17
+28, Langvagen, 18:32
+28, Langvagen, 18:47
+28, Langvagen, 19:02
+28, Langvagen, 19:17
+28, Langvagen, 19:32
+28, Langvagen, 19:47
+28, Langvagen, 20:02
+28, Langvagen, 20:17
+28, Langvagen, 20:32
+28, Langvagen, 20:47
+28, Langvagen, 21:02
+28, Langvagen, 21:17
+28, Langvagen, 21:32
+28, Langvagen, 21:47
+28, Langvagen, 22:02
+28, Langvagen, 22:17
+28, Langvagen, 22:32
+28, Langvagen, 22:47
+40, Stora Torget, 6:04
+40, Stora Torget, 6:19
+40, Stora Torget, 6:34
+40, Stora Torget, 6:49
+40, Stora Torget, 7:04
+40, Stora Torget, 7:19
+40, Stora Torget, 7:34
+40, Stora Torget, 7:49
+40, Stora Torget, 8:04
+40, Stora Torget, 8:19
+40, Stora Torget, 8:34
+40, Stora Torget, 8:49
+40, Stora Torget, 9:04
+40, Stora Torget, 9:19
+40, Stora Torget, 9:34
+40, Stora Torget, 9:49
+40, Stora Torget, 10:04
+40, Stora Torget, 10:19
+40, Stora Torget, 10:34
+40, Stora Torget, 10:49
+40, Stora Torget, 11:04
+40, Stora Torget, 11:19
+40, Stora Torget, 11:34
+40, Stora Torget, 11:49
+40, Stora Torget, 12:04
+40, Stora Torget, 12:19
+40, Stora Torget, 12:34
+40, Stora Torget, 12:49
+40, Stora Torget, 13:04
+40, Stora Torget, 13:19
+40, Stora Torget, 13:34
+40, Stora Torget, 13:49
+40, Stora Torget, 14:04
+40, Stora Torget, 14:19
+40, Stora Torget, 14:34
+40, Stora Torget, 14:49
+40, Stora Torget, 15:04
+40, Stora Torget, 15:19
+40, Stora Torget, 15:34
+40, Stora Torget, 15:49
+40, Stora Torget, 16:04
+40, Stora Torget, 16:19
+40, Stora Torget, 16:34
+40, Stora Torget, 16:49
+40, Stora Torget, 17:04
+40, Stora Torget, 17:19
+40, Stora Torget, 17:34
+40, Stora Torget, 17:49
+40, Stora Torget, 18:04
+40, Stora Torget, 18:19
+40, Stora Torget, 18:34
+40, Stora Torget, 18:49
+40, Stora Torget, 19:04
+40, Stora Torget, 19:19
+40, Stora Torget, 19:34
+40, Stora Torget, 19:49
+40, Stora Torget, 20:04
+40, Stora Torget, 20:19
+40, Stora Torget, 20:34
+40, Stora Torget, 20:49
+40, Stora Torget, 21:04
+40, Stora Torget, 21:19
+40, Stora Torget, 21:34
+40, Stora Torget, 21:49
+40, Stora Torget, 22:04
+40, Stora Torget, 22:19
+40, Stora Torget, 22:34
+40, Stora Torget, 22:49
+40, Skoghall, 6:04
+40, Skoghall, 6:19
+40, Skoghall, 6:34
+40, Skoghall, 6:49
+40, Skoghall, 7:04
+40, Skoghall, 7:19
+40, Skoghall, 7:34
+40, Skoghall, 7:49
+40, Skoghall, 8:04
+40, Skoghall, 8:19
+40, Skoghall, 8:34
+40, Skoghall, 8:49
+40, Skoghall, 9:04
+40, Skoghall, 9:19
+40, Skoghall, 9:34
+40, Skoghall, 9:49
+40, Skoghall, 10:04
+40, Skoghall, 10:19
+40, Skoghall, 10:34
+40, Skoghall, 10:49
+40, Skoghall, 11:04
+40, Skoghall, 11:19
+40, Skoghall, 11:34
+40, Skoghall, 11:49
+40, Skoghall, 12:04
+40, Skoghall, 12:19
+40, Skoghall, 12:34
+40, Skoghall, 12:49
+40, Skoghall, 13:04
+40, Skoghall, 13:19
+40, Skoghall, 13:34
+40, Skoghall, 13:49
+40, Skoghall, 14:04
+40, Skoghall, 14:19
+40, Skoghall, 14:34
+40, Skoghall, 14:49
+40, Skoghall, 15:04
+40, Skoghall, 15:19
+40, Skoghall, 15:34
+40, Skoghall, 15:49
+40, Skoghall, 16:04
+40, Skoghall, 16:19
+40, Skoghall, 16:34
+40, Skoghall, 16:49
+40, Skoghall, 17:04
+40, Skoghall, 17:19
+40, Skoghall, 17:34
+40, Skoghall, 17:49
+40, Skoghall, 18:04
+40, Skoghall, 18:19
+40, Skoghall, 18:34
+40, Skoghall, 18:49
+40, Skoghall, 19:04
+40, Skoghall, 19:19
+40, Skoghall, 19:34
+40, Skoghall, 19:49
+40, Skoghall, 20:04
+40, Skoghall, 20:19
+40, Skoghall, 20:34
+40, Skoghall, 20:49
+40, Skoghall, 21:04
+40, Skoghall, 21:19
+40, Skoghall, 21:34
+40, Skoghall, 21:49
+40, Skoghall, 22:04
+40, Skoghall, 22:19
+40, Skoghall, 22:34
+40, Skoghall, 22:49
+41, Coop-Forum/IKEA, 6:04
+41, Coop-Forum/IKEA, 6:19
+41, Coop-Forum/IKEA, 6:34
+41, Coop-Forum/IKEA, 6:49
+41, Coop-Forum/IKEA, 7:04
+41, Coop-Forum/IKEA, 7:19
+41, Coop-Forum/IKEA, 7:34
+41, Coop-Forum/IKEA, 7:49
+41, Coop-Forum/IKEA, 8:04
+41, Coop-Forum/IKEA, 8:19
+41, Coop-Forum/IKEA, 8:34
+41, Coop-Forum/IKEA, 8:49
+41, Coop-Forum/IKEA, 9:04
+41, Coop-Forum/IKEA, 9:19
+41, Coop-Forum/IKEA, 9:34
+41, Coop-Forum/IKEA, 9:49
+41, Coop-Forum/IKEA, 10:04
+41, Coop-Forum/IKEA, 10:19
+41, Coop-Forum/IKEA, 10:34
+41, Coop-Forum/IKEA, 10:49
+41, Coop-Forum/IKEA, 11:04
+41, Coop-Forum/IKEA, 11:19
+41, Coop-Forum/IKEA, 11:34
+41, Coop-Forum/IKEA, 11:49
+41, Coop-Forum/IKEA, 12:04
+41, Coop-Forum/IKEA, 12:19
+41, Coop-Forum/IKEA, 12:34
+41, Coop-Forum/IKEA, 12:49
+41, Coop-Forum/IKEA, 13:04
+41, Coop-Forum/IKEA, 13:19
+41, Coop-Forum/IKEA, 13:34
+41, Coop-Forum/IKEA, 13:49
+41, Coop-Forum/IKEA, 14:04
+41, Coop-Forum/IKEA, 14:19
+41, Coop-Forum/IKEA, 14:34
+41, Coop-Forum/IKEA, 14:49
+41, Coop-Forum/IKEA, 15:04
+41, Coop-Forum/IKEA, 15:19
+41, Coop-Forum/IKEA, 15:34
+41, Coop-Forum/IKEA, 15:49
+41, Coop-Forum/IKEA, 16:04
+41, Coop-Forum/IKEA, 16:19
+41, Coop-Forum/IKEA, 16:34
+41, Coop-Forum/IKEA, 16:49
+41, Coop-Forum/IKEA, 17:04
+41, Coop-Forum/IKEA, 17:19
+41, Coop-Forum/IKEA, 17:34
+41, Coop-Forum/IKEA, 17:49
+41, Coop-Forum/IKEA, 18:04
+41, Coop-Forum/IKEA, 18:19
+41, Coop-Forum/IKEA, 18:34
+41, Coop-Forum/IKEA, 18:49
+41, Coop-Forum/IKEA, 19:04
+41, Coop-Forum/IKEA, 19:19
+41, Coop-Forum/IKEA, 19:34
+41, Coop-Forum/IKEA, 19:49
+41, Coop-Forum/IKEA, 20:04
+41, Coop-Forum/IKEA, 20:19
+41, Coop-Forum/IKEA, 20:34
+41, Coop-Forum/IKEA, 20:49
+41, Coop-Forum/IKEA, 21:04
+41, Coop-Forum/IKEA, 21:19
+41, Coop-Forum/IKEA, 21:34
+41, Coop-Forum/IKEA, 21:49
+41, Coop-Forum/IKEA, 22:04
+41, Coop-Forum/IKEA, 22:19
+41, Coop-Forum/IKEA, 22:34
+41, Coop-Forum/IKEA, 22:49
+41, Taljstensvagen, 6:04
+41, Taljstensvagen, 6:19
+41, Taljstensvagen, 6:34
+41, Taljstensvagen, 6:49
+41, Taljstensvagen, 7:04
+41, Taljstensvagen, 7:19
+41, Taljstensvagen, 7:34
+41, Taljstensvagen, 7:49
+41, Taljstensvagen, 8:04
+41, Taljstensvagen, 8:19
+41, Taljstensvagen, 8:34
+41, Taljstensvagen, 8:49
+41, Taljstensvagen, 9:04
+41, Taljstensvagen, 9:19
+41, Taljstensvagen, 9:34
+41, Taljstensvagen, 9:49
+41, Taljstensvagen, 10:04
+41, Taljstensvagen, 10:19
+41, Taljstensvagen, 10:34
+41, Taljstensvagen, 10:49
+41, Taljstensvagen, 11:04
+41, Taljstensvagen, 11:19
+41, Taljstensvagen, 11:34
+41, Taljstensvagen, 11:49
+41, Taljstensvagen, 12:04
+41, Taljstensvagen, 12:19
+41, Taljstensvagen, 12:34
+41, Taljstensvagen, 12:49
+41, Taljstensvagen, 13:04
+41, Taljstensvagen, 13:19
+41, Taljstensvagen, 13:34
+41, Taljstensvagen, 13:49
+41, Taljstensvagen, 14:04
+41, Taljstensvagen, 14:19
+41, Taljstensvagen, 14:34
+41, Taljstensvagen, 14:49
+41, Taljstensvagen, 15:04
+41, Taljstensvagen, 15:19
+41, Taljstensvagen, 15:34
+41, Taljstensvagen, 15:49
+41, Taljstensvagen, 16:04
+41, Taljstensvagen, 16:19
+41, Taljstensvagen, 16:34
+41, Taljstensvagen, 16:49
+41, Taljstensvagen, 17:04
+41, Taljstensvagen, 17:19
+41, Taljstensvagen, 17:34
+41, Taljstensvagen, 17:49
+41, Taljstensvagen, 18:04
+41, Taljstensvagen, 18:19
+41, Taljstensvagen, 18:34
+41, Taljstensvagen, 18:49
+41, Taljstensvagen, 19:04
+41, Taljstensvagen, 19:19
+41, Taljstensvagen, 19:34
+41, Taljstensvagen, 19:49
+41, Taljstensvagen, 20:04
+41, Taljstensvagen, 20:19
+41, Taljstensvagen, 20:34
+41, Taljstensvagen, 20:49
+41, Taljstensvagen, 21:04
+41, Taljstensvagen, 21:19
+41, Taljstensvagen, 21:34
+41, Taljstensvagen, 21:49
+41, Taljstensvagen, 22:04
+41, Taljstensvagen, 22:19
+41, Taljstensvagen, 22:34
+41, Taljstensvagen, 22:49
+42, Stenhagens IP, 6:04
+42, Stenhagens IP, 6:19
+42, Stenhagens IP, 6:34
+42, Stenhagens IP, 6:49
+42, Stenhagens IP, 7:04
+42, Stenhagens IP, 7:19
+42, Stenhagens IP, 7:34
+42, Stenhagens IP, 7:49
+42, Stenhagens IP, 8:04
+42, Stenhagens IP, 8:19
+42, Stenhagens IP, 8:34
+42, Stenhagens IP, 8:49
+42, Stenhagens IP, 9:04
+42, Stenhagens IP, 9:19
+42, Stenhagens IP, 9:34
+42, Stenhagens IP, 9:49
+42, Stenhagens IP, 10:04
+42, Stenhagens IP, 10:19
+42, Stenhagens IP, 10:34
+42, Stenhagens IP, 10:49
+42, Stenhagens IP, 11:04
+42, Stenhagens IP, 11:19
+42, Stenhagens IP, 11:34
+42, Stenhagens IP, 11:49
+42, Stenhagens IP, 12:04
+42, Stenhagens IP, 12:19
+42, Stenhagens IP, 12:34
+42, Stenhagens IP, 12:49
+42, Stenhagens IP, 13:04
+42, Stenhagens IP, 13:19
+42, Stenhagens IP, 13:34
+42, Stenhagens IP, 13:49
+42, Stenhagens IP, 14:04
+42, Stenhagens IP, 14:19
+42, Stenhagens IP, 14:34
+42, Stenhagens IP, 14:49
+42, Stenhagens IP, 15:04
+42, Stenhagens IP, 15:19
+42, Stenhagens IP, 15:34
+42, Stenhagens IP, 15:49
+42, Stenhagens IP, 16:04
+42, Stenhagens IP, 16:19
+42, Stenhagens IP, 16:34
+42, Stenhagens IP, 16:49
+42, Stenhagens IP, 17:04
+42, Stenhagens IP, 17:19
+42, Stenhagens IP, 17:34
+42, Stenhagens IP, 17:49
+42, Stenhagens IP, 18:04
+42, Stenhagens IP, 18:19
+42, Stenhagens IP, 18:34
+42, Stenhagens IP, 18:49
+42, Stenhagens IP, 19:04
+42, Stenhagens IP, 19:19
+42, Stenhagens IP, 19:34
+42, Stenhagens IP, 19:49
+42, Stenhagens IP, 20:04
+42, Stenhagens IP, 20:19
+42, Stenhagens IP, 20:34
+42, Stenhagens IP, 20:49
+42, Stenhagens IP, 21:04
+42, Stenhagens IP, 21:19
+42, Stenhagens IP, 21:34
+42, Stenhagens IP, 21:49
+42, Stenhagens IP, 22:04
+42, Stenhagens IP, 22:19
+42, Stenhagens IP, 22:34
+42, Stenhagens IP, 22:49
+42, Servicehuset Galaxen, 6:04
+42, Servicehuset Galaxen, 6:19
+42, Servicehuset Galaxen, 6:34
+42, Servicehuset Galaxen, 6:49
+42, Servicehuset Galaxen, 7:04
+42, Servicehuset Galaxen, 7:19
+42, Servicehuset Galaxen, 7:34
+42, Servicehuset Galaxen, 7:49
+42, Servicehuset Galaxen, 8:04
+42, Servicehuset Galaxen, 8:19
+42, Servicehuset Galaxen, 8:34
+42, Servicehuset Galaxen, 8:49
+42, Servicehuset Galaxen, 9:04
+42, Servicehuset Galaxen, 9:19
+42, Servicehuset Galaxen, 9:34
+42, Servicehuset Galaxen, 9:49
+42, Servicehuset Galaxen, 10:04
+42, Servicehuset Galaxen, 10:19
+42, Servicehuset Galaxen, 10:34
+42, Servicehuset Galaxen, 10:49
+42, Servicehuset Galaxen, 11:04
+42, Servicehuset Galaxen, 11:19
+42, Servicehuset Galaxen, 11:34
+42, Servicehuset Galaxen, 11:49
+42, Servicehuset Galaxen, 12:04
+42, Servicehuset Galaxen, 12:19
+42, Servicehuset Galaxen, 12:34
+42, Servicehuset Galaxen, 12:49
+42, Servicehuset Galaxen, 13:04
+42, Servicehuset Galaxen, 13:19
+42, Servicehuset Galaxen, 13:34
+42, Servicehuset Galaxen, 13:49
+42, Servicehuset Galaxen, 14:04
+42, Servicehuset Galaxen, 14:19
+42, Servicehuset Galaxen, 14:34
+42, Servicehuset Galaxen, 14:49
+42, Servicehuset Galaxen, 15:04
+42, Servicehuset Galaxen, 15:19
+42, Servicehuset Galaxen, 15:34
+42, Servicehuset Galaxen, 15:49
+42, Servicehuset Galaxen, 16:04
+42, Servicehuset Galaxen, 16:19
+42, Servicehuset Galaxen, 16:34
+42, Servicehuset Galaxen, 16:49
+42, Servicehuset Galaxen, 17:04
+42, Servicehuset Galaxen, 17:19
+42, Servicehuset Galaxen, 17:34
+42, Servicehuset Galaxen, 17:49
+42, Servicehuset Galaxen, 18:04
+42, Servicehuset Galaxen, 18:19
+42, Servicehuset Galaxen, 18:34
+42, Servicehuset Galaxen, 18:49
+42, Servicehuset Galaxen, 19:04
+42, Servicehuset Galaxen, 19:19
+42, Servicehuset Galaxen, 19:34
+42, Servicehuset Galaxen, 19:49
+42, Servicehuset Galaxen, 20:04
+42, Servicehuset Galaxen, 20:19
+42, Servicehuset Galaxen, 20:34
+42, Servicehuset Galaxen, 20:49
+42, Servicehuset Galaxen, 21:04
+42, Servicehuset Galaxen, 21:19
+42, Servicehuset Galaxen, 21:34
+42, Servicehuset Galaxen, 21:49
+42, Servicehuset Galaxen, 22:04
+42, Servicehuset Galaxen, 22:19
+42, Servicehuset Galaxen, 22:34
+42, Servicehuset Galaxen, 22:49
+110, Lingonvagen, 6:01
+110, Lingonvagen, 6:16
+110, Lingonvagen, 6:31
+110, Lingonvagen, 6:46
+110, Lingonvagen, 7:01
+110, Lingonvagen, 7:16
+110, Lingonvagen, 7:31
+110, Lingonvagen, 7:46
+110, Lingonvagen, 8:01
+110, Lingonvagen, 8:16
+110, Lingonvagen, 8:31
+110, Lingonvagen, 8:46
+110, Lingonvagen, 9:01
+110, Lingonvagen, 9:16
+110, Lingonvagen, 9:31
+110, Lingonvagen, 9:46
+110, Lingonvagen, 10:01
+110, Lingonvagen, 10:16
+110, Lingonvagen, 10:31
+110, Lingonvagen, 10:46
+110, Lingonvagen, 11:01
+110, Lingonvagen, 11:16
+110, Lingonvagen, 11:31
+110, Lingonvagen, 11:46
+110, Lingonvagen, 12:01
+110, Lingonvagen, 12:16
+110, Lingonvagen, 12:31
+110, Lingonvagen, 12:46
+110, Lingonvagen, 13:01
+110, Lingonvagen, 13:16
+110, Lingonvagen, 13:31
+110, Lingonvagen, 13:46
+110, Lingonvagen, 14:01
+110, Lingonvagen, 14:16
+110, Lingonvagen, 14:31
+110, Lingonvagen, 14:46
+110, Lingonvagen, 15:01
+110, Lingonvagen, 15:16
+110, Lingonvagen, 15:31
+110, Lingonvagen, 15:46
+110, Lingonvagen, 16:01
+110, Lingonvagen, 16:16
+110, Lingonvagen, 16:31
+110, Lingonvagen, 16:46
+110, Lingonvagen, 17:01
+110, Lingonvagen, 17:16
+110, Lingonvagen, 17:31
+110, Lingonvagen, 17:46
+110, Lingonvagen, 18:01
+110, Lingonvagen, 18:16
+110, Lingonvagen, 18:31
+110, Lingonvagen, 18:46
+110, Lingonvagen, 19:01
+110, Lingonvagen, 19:16
+110, Lingonvagen, 19:31
+110, Lingonvagen, 19:46
+110, Lingonvagen, 20:01
+110, Lingonvagen, 20:16
+110, Lingonvagen, 20:31
+110, Lingonvagen, 20:46
+110, Lingonvagen, 21:01
+110, Lingonvagen, 21:16
+110, Lingonvagen, 21:31
+110, Lingonvagen, 21:46
+110, Lingonvagen, 22:01
+110, Lingonvagen, 22:16
+110, Lingonvagen, 22:31
+110, Lingonvagen, 22:46
+110, Arrheniusplan, 6:01
+110, Arrheniusplan, 6:16
+110, Arrheniusplan, 6:31
+110, Arrheniusplan, 6:46
+110, Arrheniusplan, 7:01
+110, Arrheniusplan, 7:16
+110, Arrheniusplan, 7:31
+110, Arrheniusplan, 7:46
+110, Arrheniusplan, 8:01
+110, Arrheniusplan, 8:16
+110, Arrheniusplan, 8:31
+110, Arrheniusplan, 8:46
+110, Arrheniusplan, 9:01
+110, Arrheniusplan, 9:16
+110, Arrheniusplan, 9:31
+110, Arrheniusplan, 9:46
+110, Arrheniusplan, 10:01
+110, Arrheniusplan, 10:16
+110, Arrheniusplan, 10:31
+110, Arrheniusplan, 10:46
+110, Arrheniusplan, 11:01
+110, Arrheniusplan, 11:16
+110, Arrheniusplan, 11:31
+110, Arrheniusplan, 11:46
+110, Arrheniusplan, 12:01
+110, Arrheniusplan, 12:16
+110, Arrheniusplan, 12:31
+110, Arrheniusplan, 12:46
+110, Arrheniusplan, 13:01
+110, Arrheniusplan, 13:16
+110, Arrheniusplan, 13:31
+110, Arrheniusplan, 13:46
+110, Arrheniusplan, 14:01
+110, Arrheniusplan, 14:16
+110, Arrheniusplan, 14:31
+110, Arrheniusplan, 14:46
+110, Arrheniusplan, 15:01
+110, Arrheniusplan, 15:16
+110, Arrheniusplan, 15:31
+110, Arrheniusplan, 15:46
+110, Arrheniusplan, 16:01
+110, Arrheniusplan, 16:16
+110, Arrheniusplan, 16:31
+110, Arrheniusplan, 16:46
+110, Arrheniusplan, 17:01
+110, Arrheniusplan, 17:16
+110, Arrheniusplan, 17:31
+110, Arrheniusplan, 17:46
+110, Arrheniusplan, 18:01
+110, Arrheniusplan, 18:16
+110, Arrheniusplan, 18:31
+110, Arrheniusplan, 18:46
+110, Arrheniusplan, 19:01
+110, Arrheniusplan, 19:16
+110, Arrheniusplan, 19:31
+110, Arrheniusplan, 19:46
+110, Arrheniusplan, 20:01
+110, Arrheniusplan, 20:16
+110, Arrheniusplan, 20:31
+110, Arrheniusplan, 20:46
+110, Arrheniusplan, 21:01
+110, Arrheniusplan, 21:16
+110, Arrheniusplan, 21:31
+110, Arrheniusplan, 21:46
+110, Arrheniusplan, 22:01
+110, Arrheniusplan, 22:16
+110, Arrheniusplan, 22:31
+110, Arrheniusplan, 22:46
+111, Balinge skola, 6:01
+111, Balinge skola, 6:16
+111, Balinge skola, 6:31
+111, Balinge skola, 6:46
+111, Balinge skola, 7:01
+111, Balinge skola, 7:16
+111, Balinge skola, 7:31
+111, Balinge skola, 7:46
+111, Balinge skola, 8:01
+111, Balinge skola, 8:16
+111, Balinge skola, 8:31
+111, Balinge skola, 8:46
+111, Balinge skola, 9:01
+111, Balinge skola, 9:16
+111, Balinge skola, 9:31
+111, Balinge skola, 9:46
+111, Balinge skola, 10:01
+111, Balinge skola, 10:16
+111, Balinge skola, 10:31
+111, Balinge skola, 10:46
+111, Balinge skola, 11:01
+111, Balinge skola, 11:16
+111, Balinge skola, 11:31
+111, Balinge skola, 11:46
+111, Balinge skola, 12:01
+111, Balinge skola, 12:16
+111, Balinge skola, 12:31
+111, Balinge skola, 12:46
+111, Balinge skola, 13:01
+111, Balinge skola, 13:16
+111, Balinge skola, 13:31
+111, Balinge skola, 13:46
+111, Balinge skola, 14:01
+111, Balinge skola, 14:16
+111, Balinge skola, 14:31
+111, Balinge skola, 14:46
+111, Balinge skola, 15:01
+111, Balinge skola, 15:16
+111, Balinge skola, 15:31
+111, Balinge skola, 15:46
+111, Balinge skola, 16:01
+111, Balinge skola, 16:16
+111, Balinge skola, 16:31
+111, Balinge skola, 16:46
+111, Balinge skola, 17:01
+111, Balinge skola, 17:16
+111, Balinge skola, 17:31
+111, Balinge skola, 17:46
+111, Balinge skola, 18:01
+111, Balinge skola, 18:16
+111, Balinge skola, 18:31
+111, Balinge skola, 18:46
+111, Balinge skola, 19:01
+111, Balinge skola, 19:16
+111, Balinge skola, 19:31
+111, Balinge skola, 19:46
+111, Balinge skola, 20:01
+111, Balinge skola, 20:16
+111, Balinge skola, 20:31
+111, Balinge skola, 20:46
+111, Balinge skola, 21:01
+111, Balinge skola, 21:16
+111, Balinge skola, 21:31
+111, Balinge skola, 21:46
+111, Balinge skola, 22:01
+111, Balinge skola, 22:16
+111, Balinge skola, 22:31
+111, Balinge skola, 22:46
+111, Brostugevagen, 6:01
+111, Brostugevagen, 6:16
+111, Brostugevagen, 6:31
+111, Brostugevagen, 6:46
+111, Brostugevagen, 7:01
+111, Brostugevagen, 7:16
+111, Brostugevagen, 7:31
+111, Brostugevagen, 7:46
+111, Brostugevagen, 8:01
+111, Brostugevagen, 8:16
+111, Brostugevagen, 8:31
+111, Brostugevagen, 8:46
+111, Brostugevagen, 9:01
+111, Brostugevagen, 9:16
+111, Brostugevagen, 9:31
+111, Brostugevagen, 9:46
+111, Brostugevagen, 10:01
+111, Brostugevagen, 10:16
+111, Brostugevagen, 10:31
+111, Brostugevagen, 10:46
+111, Brostugevagen, 11:01
+111, Brostugevagen, 11:16
+111, Brostugevagen, 11:31
+111, Brostugevagen, 11:46
+111, Brostugevagen, 12:01
+111, Brostugevagen, 12:16
+111, Brostugevagen, 12:31
+111, Brostugevagen, 12:46
+111, Brostugevagen, 13:01
+111, Brostugevagen, 13:16
+111, Brostugevagen, 13:31
+111, Brostugevagen, 13:46
+111, Brostugevagen, 14:01
+111, Brostugevagen, 14:16
+111, Brostugevagen, 14:31
+111, Brostugevagen, 14:46
+111, Brostugevagen, 15:01
+111, Brostugevagen, 15:16
+111, Brostugevagen, 15:31
+111, Brostugevagen, 15:46
+111, Brostugevagen, 16:01
+111, Brostugevagen, 16:16
+111, Brostugevagen, 16:31
+111, Brostugevagen, 16:46
+111, Brostugevagen, 17:01
+111, Brostugevagen, 17:16
+111, Brostugevagen, 17:31
+111, Brostugevagen, 17:46
+111, Brostugevagen, 18:01
+111, Brostugevagen, 18:16
+111, Brostugevagen, 18:31
+111, Brostugevagen, 18:46
+111, Brostugevagen, 19:01
+111, Brostugevagen, 19:16
+111, Brostugevagen, 19:31
+111, Brostugevagen, 19:46
+111, Brostugevagen, 20:01
+111, Brostugevagen, 20:16
+111, Brostugevagen, 20:31
+111, Brostugevagen, 20:46
+111, Brostugevagen, 21:01
+111, Brostugevagen, 21:16
+111, Brostugevagen, 21:31
+111, Brostugevagen, 21:46
+111, Brostugevagen, 22:01
+111, Brostugevagen, 22:16
+111, Brostugevagen, 22:31
+111, Brostugevagen, 22:46
+115, Lingonvagen, 6:01
+115, Lingonvagen, 6:16
+115, Lingonvagen, 6:31
+115, Lingonvagen, 6:46
+115, Lingonvagen, 7:01
+115, Lingonvagen, 7:16
+115, Lingonvagen, 7:31
+115, Lingonvagen, 7:46
+115, Lingonvagen, 8:01
+115, Lingonvagen, 8:16
+115, Lingonvagen, 8:31
+115, Lingonvagen, 8:46
+115, Lingonvagen, 9:01
+115, Lingonvagen, 9:16
+115, Lingonvagen, 9:31
+115, Lingonvagen, 9:46
+115, Lingonvagen, 10:01
+115, Lingonvagen, 10:16
+115, Lingonvagen, 10:31
+115, Lingonvagen, 10:46
+115, Lingonvagen, 11:01
+115, Lingonvagen, 11:16
+115, Lingonvagen, 11:31
+115, Lingonvagen, 11:46
+115, Lingonvagen, 12:01
+115, Lingonvagen, 12:16
+115, Lingonvagen, 12:31
+115, Lingonvagen, 12:46
+115, Lingonvagen, 13:01
+115, Lingonvagen, 13:16
+115, Lingonvagen, 13:31
+115, Lingonvagen, 13:46
+115, Lingonvagen, 14:01
+115, Lingonvagen, 14:16
+115, Lingonvagen, 14:31
+115, Lingonvagen, 14:46
+115, Lingonvagen, 15:01
+115, Lingonvagen, 15:16
+115, Lingonvagen, 15:31
+115, Lingonvagen, 15:46
+115, Lingonvagen, 16:01
+115, Lingonvagen, 16:16
+115, Lingonvagen, 16:31
+115, Lingonvagen, 16:46
+115, Lingonvagen, 17:01
+115, Lingonvagen, 17:16
+115, Lingonvagen, 17:31
+115, Lingonvagen, 17:46
+115, Lingonvagen, 18:01
+115, Lingonvagen, 18:16
+115, Lingonvagen, 18:31
+115, Lingonvagen, 18:46
+115, Lingonvagen, 19:01
+115, Lingonvagen, 19:16
+115, Lingonvagen, 19:31
+115, Lingonvagen, 19:46
+115, Lingonvagen, 20:01
+115, Lingonvagen, 20:16
+115, Lingonvagen, 20:31
+115, Lingonvagen, 20:46
+115, Lingonvagen, 21:01
+115, Lingonvagen, 21:16
+115, Lingonvagen, 21:31
+115, Lingonvagen, 21:46
+115, Lingonvagen, 22:01
+115, Lingonvagen, 22:16
+115, Lingonvagen, 22:31
+115, Lingonvagen, 22:46
+115, Arrheniusplan, 6:01
+115, Arrheniusplan, 6:16
+115, Arrheniusplan, 6:31
+115, Arrheniusplan, 6:46
+115, Arrheniusplan, 7:01
+115, Arrheniusplan, 7:16
+115, Arrheniusplan, 7:31
+115, Arrheniusplan, 7:46
+115, Arrheniusplan, 8:01
+115, Arrheniusplan, 8:16
+115, Arrheniusplan, 8:31
+115, Arrheniusplan, 8:46
+115, Arrheniusplan, 9:01
+115, Arrheniusplan, 9:16
+115, Arrheniusplan, 9:31
+115, Arrheniusplan, 9:46
+115, Arrheniusplan, 10:01
+115, Arrheniusplan, 10:16
+115, Arrheniusplan, 10:31
+115, Arrheniusplan, 10:46
+115, Arrheniusplan, 11:01
+115, Arrheniusplan, 11:16
+115, Arrheniusplan, 11:31
+115, Arrheniusplan, 11:46
+115, Arrheniusplan, 12:01
+115, Arrheniusplan, 12:16
+115, Arrheniusplan, 12:31
+115, Arrheniusplan, 12:46
+115, Arrheniusplan, 13:01
+115, Arrheniusplan, 13:16
+115, Arrheniusplan, 13:31
+115, Arrheniusplan, 13:46
+115, Arrheniusplan, 14:01
+115, Arrheniusplan, 14:16
+115, Arrheniusplan, 14:31
+115, Arrheniusplan, 14:46
+115, Arrheniusplan, 15:01
+115, Arrheniusplan, 15:16
+115, Arrheniusplan, 15:31
+115, Arrheniusplan, 15:46
+115, Arrheniusplan, 16:01
+115, Arrheniusplan, 16:16
+115, Arrheniusplan, 16:31
+115, Arrheniusplan, 16:46
+115, Arrheniusplan, 17:01
+115, Arrheniusplan, 17:16
+115, Arrheniusplan, 17:31
+115, Arrheniusplan, 17:46
+115, Arrheniusplan, 18:01
+115, Arrheniusplan, 18:16
+115, Arrheniusplan, 18:31
+115, Arrheniusplan, 18:46
+115, Arrheniusplan, 19:01
+115, Arrheniusplan, 19:16
+115, Arrheniusplan, 19:31
+115, Arrheniusplan, 19:46
+115, Arrheniusplan, 20:01
+115, Arrheniusplan, 20:16
+115, Arrheniusplan, 20:31
+115, Arrheniusplan, 20:46
+115, Arrheniusplan, 21:01
+115, Arrheniusplan, 21:16
+115, Arrheniusplan, 21:31
+115, Arrheniusplan, 21:46
+115, Arrheniusplan, 22:01
+115, Arrheniusplan, 22:16
+115, Arrheniusplan, 22:31
+115, Arrheniusplan, 22:46
+127, Rosmarinvagen, 6:01
+127, Rosmarinvagen, 6:16
+127, Rosmarinvagen, 6:31
+127, Rosmarinvagen, 6:46
+127, Rosmarinvagen, 7:01
+127, Rosmarinvagen, 7:16
+127, Rosmarinvagen, 7:31
+127, Rosmarinvagen, 7:46
+127, Rosmarinvagen, 8:01
+127, Rosmarinvagen, 8:16
+127, Rosmarinvagen, 8:31
+127, Rosmarinvagen, 8:46
+127, Rosmarinvagen, 9:01
+127, Rosmarinvagen, 9:16
+127, Rosmarinvagen, 9:31
+127, Rosmarinvagen, 9:46
+127, Rosmarinvagen, 10:01
+127, Rosmarinvagen, 10:16
+127, Rosmarinvagen, 10:31
+127, Rosmarinvagen, 10:46
+127, Rosmarinvagen, 11:01
+127, Rosmarinvagen, 11:16
+127, Rosmarinvagen, 11:31
+127, Rosmarinvagen, 11:46
+127, Rosmarinvagen, 12:01
+127, Rosmarinvagen, 12:16
+127, Rosmarinvagen, 12:31
+127, Rosmarinvagen, 12:46
+127, Rosmarinvagen, 13:01
+127, Rosmarinvagen, 13:16
+127, Rosmarinvagen, 13:31
+127, Rosmarinvagen, 13:46
+127, Rosmarinvagen, 14:01
+127, Rosmarinvagen, 14:16
+127, Rosmarinvagen, 14:31
+127, Rosmarinvagen, 14:46
+127, Rosmarinvagen, 15:01
+127, Rosmarinvagen, 15:16
+127, Rosmarinvagen, 15:31
+127, Rosmarinvagen, 15:46
+127, Rosmarinvagen, 16:01
+127, Rosmarinvagen, 16:16
+127, Rosmarinvagen, 16:31
+127, Rosmarinvagen, 16:46
+127, Rosmarinvagen, 17:01
+127, Rosmarinvagen, 17:16
+127, Rosmarinvagen, 17:31
+127, Rosmarinvagen, 17:46
+127, Rosmarinvagen, 18:01
+127, Rosmarinvagen, 18:16
+127, Rosmarinvagen, 18:31
+127, Rosmarinvagen, 18:46
+127, Rosmarinvagen, 19:01
+127, Rosmarinvagen, 19:16
+127, Rosmarinvagen, 19:31
+127, Rosmarinvagen, 19:46
+127, Rosmarinvagen, 20:01
+127, Rosmarinvagen, 20:16
+127, Rosmarinvagen, 20:31
+127, Rosmarinvagen, 20:46
+127, Rosmarinvagen, 21:01
+127, Rosmarinvagen, 21:16
+127, Rosmarinvagen, 21:31
+127, Rosmarinvagen, 21:46
+127, Rosmarinvagen, 22:01
+127, Rosmarinvagen, 22:16
+127, Rosmarinvagen, 22:31
+127, Rosmarinvagen, 22:46
+127, Allianshallen, 6:01
+127, Allianshallen, 6:16
+127, Allianshallen, 6:31
+127, Allianshallen, 6:46
+127, Allianshallen, 7:01
+127, Allianshallen, 7:16
+127, Allianshallen, 7:31
+127, Allianshallen, 7:46
+127, Allianshallen, 8:01
+127, Allianshallen, 8:16
+127, Allianshallen, 8:31
+127, Allianshallen, 8:46
+127, Allianshallen, 9:01
+127, Allianshallen, 9:16
+127, Allianshallen, 9:31
+127, Allianshallen, 9:46
+127, Allianshallen, 10:01
+127, Allianshallen, 10:16
+127, Allianshallen, 10:31
+127, Allianshallen, 10:46
+127, Allianshallen, 11:01
+127, Allianshallen, 11:16
+127, Allianshallen, 11:31
+127, Allianshallen, 11:46
+127, Allianshallen, 12:01
+127, Allianshallen, 12:16
+127, Allianshallen, 12:31
+127, Allianshallen, 12:46
+127, Allianshallen, 13:01
+127, Allianshallen, 13:16
+127, Allianshallen, 13:31
+127, Allianshallen, 13:46
+127, Allianshallen, 14:01
+127, Allianshallen, 14:16
+127, Allianshallen, 14:31
+127, Allianshallen, 14:46
+127, Allianshallen, 16:01
+127, Allianshallen, 16:16
+127, Allianshallen, 16:31
+127, Allianshallen, 16:46
+127, Allianshallen, 17:01
+127, Allianshallen, 17:16
+127, Allianshallen, 17:31
+127, Allianshallen, 17:46
+127, Allianshallen, 18:01
+127, Allianshallen, 18:16
+127, Allianshallen, 18:31
+127, Allianshallen, 18:46
+127, Allianshallen, 19:01
+127, Allianshallen, 19:16
+127, Allianshallen, 19:31
+127, Allianshallen, 19:46
+127, Allianshallen, 20:01
+127, Allianshallen, 20:16
+127, Allianshallen, 20:31
+127, Allianshallen, 20:46
+127, Allianshallen, 21:01
+127, Allianshallen, 21:16
+127, Allianshallen, 21:31
+127, Allianshallen, 21:46
+127, Allianshallen, 22:01
+127, Allianshallen, 22:16
+127, Allianshallen, 22:31
+127, Allianshallen, 22:46
+

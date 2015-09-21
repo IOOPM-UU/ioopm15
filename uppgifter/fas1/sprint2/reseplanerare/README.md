@@ -112,6 +112,7 @@ Det finns minnesläckage i programmet. De skall åtgärdas!
 Det finns dokumentation i programmet. Alla nya funktioner och alla
 förändringar måste speglas i dokumentationen.
 
+**Notera att `make doc` genererar HTML-dokumentation som du kan läsa!**
 
 ## Steg 5: Ta bort skräputskrifter, etc.
 
