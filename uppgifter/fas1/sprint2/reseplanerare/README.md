@@ -99,6 +99,12 @@ med B1 just den vikt V som står på bågen mellan noderna (så långt
 när närmaste avgång är. Om den är vid tiden T', så kan vi räkna ut
 "kostnaden" att åka H1 till H2 med B2 som T' - T + V.
 
+Efter denna förändring kommer alltså reseplaneraren att jämföra
+två resor med avseende på tiden de tar, inklusive byten och väntan.
+
+Du kan se nedan under Styck 5 ett exempel på hur denna information
+skall användas i programmet. 
+
 Ett enkelt sätt att åstadkomma denna förändring är genom att
 använda en [funktionspekare](http://c.learncodethehardway.org/book/ex18.html).
 
