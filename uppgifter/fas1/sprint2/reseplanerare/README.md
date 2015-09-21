@@ -1,6 +1,6 @@
-**Notera att denna fil kommer att uppdateras med tips på mål etc.**
-**Jag ruschar ut den nu så att ingen blockerar på den. **
-**Med reservationer för eventuella ändringar, alltså. /Tobias**
+**Notera att denna fil kommer att uppdateras med tips på mål etc.
+Jag ruschar ut den nu så att ingen blockerar på den. 
+Med reservationer för eventuella ändringar, alltså. /Tobias**
 
 
 # Reseplanerare 1.0
