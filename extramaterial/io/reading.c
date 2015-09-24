@@ -55,10 +55,3 @@ int ask_int_question(char *question)
   puts(question);
   return read_int(VALIDATE);
 }
-
-int main(int argc, char *argv[])
-{
-  printf("'%d'\n", ask_int_question("Give me an int: "));
-  printf("'%s'\n", ask_string_question("Give me a string:"));
-  return 0;
-}
