@@ -42,5 +42,7 @@ int main (void)
       puts("Incorrect password!");
     }
 
+  free(entered); 
+
   return 0;
 }
