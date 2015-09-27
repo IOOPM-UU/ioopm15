@@ -16,7 +16,7 @@ static void strip(char *s)
 char *askString(char *q)
 {
   char *answer = NULL;
-  size_t length;
+  size_t length = 0;
   puts(q);
   getline(&answer, &length, stdin);
   strip(answer);

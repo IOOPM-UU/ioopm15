@@ -11,8 +11,8 @@ int main(int argc, char *argv[])
     {
       FILE *f = fopen(argv[2], "r");
       int str_len;
-      size_t buf_siz;
-      char *string; 
+      size_t buf_siz = 0;
+      char *string = NULL; 
       char *pattern = argv[1];
       
       while ((str_len = getline(&string, &buf_siz, f)) > 0)
