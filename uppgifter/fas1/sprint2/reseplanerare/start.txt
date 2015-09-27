@@ -1,3 +1,4 @@
+Line, Stop, Time
 2, Kungshogarna, 6:02
 2, Kungshogarna, 6:17
 2, Kungshogarna, 6:32
@@ -235,17 +236,17 @@
 3, Cellovagen, 13:33
 3, Cellovagen, 13:48
 3, Cellovagen, 14:03
-153, Cellovagen, 14:03
-303, Cellovagen, 14:03
-453, Cellovagen, 14:03
+3, Cellovagen, 14:18
+3, Cellovagen, 14:33
+3, Cellovagen, 14:48
 3, Cellovagen, 15:03
-153, Cellovagen, 15:03
-303, Cellovagen, 15:03
-453, Cellovagen, 15:03
+3, Cellovagen, 15:18
+3, Cellovagen, 15:33
+3, Cellovagen, 15:48
 3, Cellovagen, 16:03
-153, Cellovagen, 16:03
-303, Cellovagen, 16:03
-453, Cellovagen, 16:03
+3, Cellovagen, 16:18
+3, Cellovagen, 16:33
+3, Cellovagen, 16:48
 3, Cellovagen, 17:03
 3, Cellovagen, 17:18
 3, Cellovagen, 17:33
@@ -287,9 +288,9 @@
 4, Arsta Centrum, 9:34
 4, Arsta Centrum, 9:49
 4, Arsta Centrum, 10:04
-154, Arsta Centrum, 10:04
-304, Arsta Centrum, 10:04
-454, Arsta Centrum, 10:04
+4, Arsta Centrum, 10:19
+4, Arsta Centrum, 10:34
+4, Arsta Centrum, 10:49
 4, Arsta Centrum, 11:04
 4, Arsta Centrum, 11:19
 4, Arsta Centrum, 11:34
@@ -331,9 +332,9 @@
 4, Arsta Centrum, 20:34
 4, Arsta Centrum, 20:49
 4, Arsta Centrum, 21:04
-154, Arsta Centrum, 21:04
-304, Arsta Centrum, 21:04
-454, Arsta Centrum, 21:04
+4, Arsta Centrum, 21:19
+4, Arsta Centrum, 21:34
+4, Arsta Centrum, 21:49
 4, Arsta Centrum, 22:04
 4, Arsta Centrum, 22:19
 4, Arsta Centrum, 22:34
@@ -535,13 +536,13 @@
 5, Smalandsvagen, 20:35
 5, Smalandsvagen, 20:50
 5, Smalandsvagen, 21:05
-155, Smalandsvagen, 21:05
-305, Smalandsvagen, 21:05
-455, Smalandsvagen, 21:05
+5, Smalandsvagen, 21:20
+5, Smalandsvagen, 21:35
+5, Smalandsvagen, 21:50
 5, Smalandsvagen, 22:05
-155, Smalandsvagen, 22:05
-305, Smalandsvagen, 22:05
-455, Smalandsvagen, 22:05
+5, Smalandsvagen, 22:20
+5, Smalandsvagen, 22:35
+5, Smalandsvagen, 22:50
 6, Sodra Slavstavagen, 6:06
 6, Sodra Slavstavagen, 6:21
 6, Sodra Slavstavagen, 6:36
@@ -3130,4 +3131,3 @@
 127, Allianshallen, 22:16
 127, Allianshallen, 22:31
 127, Allianshallen, 22:46
-
