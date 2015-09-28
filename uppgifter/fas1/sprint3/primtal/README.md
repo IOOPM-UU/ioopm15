@@ -16,6 +16,8 @@ enkel -- några futtiga rader. Du kommer inte att skriva så många
 rader kod i denna uppgift, svårigheten ligger i att koordinera
 flera trådar, och i att optimera och mäta.
 
+**OBS! Det kommer en lektion senare under kursen som låter dig ta
+parallelism-mål på nivå 3.**
 
 ## Eratosthenes sekventiella håv
 
