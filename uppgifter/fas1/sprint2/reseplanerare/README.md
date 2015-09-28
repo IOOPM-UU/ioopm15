@@ -113,6 +113,13 @@ använda en [funktionspekare](http://c.learncodethehardway.org/book/ex18.html).
 
 Det finns minnesläckage i programmet. De skall åtgärdas! 
 
+Som gåtts igenom redan i introuppgiften kan man med fördel använda
+[valgrind](http://valgrind.org) för att [hitta minnesfel](http://valgrind.org/docs/manual/quick-start.html). Om du kör
+`valgrind --leak-check=full ./mittprogram` så visas läckagen, och
+även om programmet läser minne innan det har initierats, t.ex.
+om jag deklarerar en variabel och glömmer bort att den inte är
+nollställd automatiskt. 
+
 
 ## Steg 4: Dokumentation
 
