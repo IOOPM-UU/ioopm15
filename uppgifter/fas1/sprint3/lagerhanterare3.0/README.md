@@ -327,7 +327,7 @@ int desc_siz;        // antal tecken i nästföljande sträng
 char[desc_siz] desc; // beskrivningen
 int price;           // pris
 int storage_siz;     // antal lagerplatser
-lagerplats_t[storage_siz] storage; // lagerplatserna
+lagerplats_t storage[storage_siz]; // lagerplatserna
 ```
 
 Egentligen är `storage_siz` onödig, men det blir något enklare på
