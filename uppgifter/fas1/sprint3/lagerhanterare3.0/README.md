@@ -225,7 +225,71 @@ för det andra kodparets repository.
 
 ## Enhetstester
 
-**TODO**
+Nu skall vi på allvar enhetstesta vår kod (se föreläsningen om
+testning). Egentligen skall all kod enhetstestas, men det räcker
+med en delmängd i detta fall.
+
+**Alla** funktioner i list- och trädmodulerna skall testas. Det
+kommer att vara bra att ha när ni skall använda kod från ett annat
+par. Vidare skall ni testa åtminstone *alla funktioner* som
+används för att lägga till och ta bort en vara ur lagrets databas,
+samt undo-funktionen. Med alla funktioner avses här alla
+funktioner som ni har skrivit i ert program som som anropas i
+samband med tillägg av vara, etc.
+
+**Observera:** Ni skall inte testa funktioner som läser in data
+från användaren. Om det är omöjligt att göra det (för att det är
+inläsningar överallt ... hm ...) behöver ert program
+*refaktoreras*, så att inläsningslogik och applikationslogik
+separeras från varandra. Exempelvis, om det finns en `add_goods`
+som ser ut så här (pseudokod):
+
+```python
+def add_goods(DB):
+  name = input_string("Namn: ")
+  desc = input_string("Beskrivning: ")
+  cost = input_int("Pris: ")
+  # logik för att kolla att indatat är OK (utelämnad här)
+  ware = new_ware(name, desc, cost)
+  if ask_save_true():
+    DB.add_ware(ware)
+```
+
+så skall den ändras till två funktioner:
+
+```python
+def add_goods_ui(DB):
+  name = input_string("Namn: ")
+  desc = input_string("Beskrivning: ")
+  cost = input_int("Pris: ")
+  if ask_save_true():
+    add_goods(DB, name, desc, cost)
+
+def add_goods(DB, name, desc, cost):
+  # logik för att kolla att indatat är OK (utelämnad här)
+  ware = new_ware(name, desc, cost)
+  DB.add_ware(ware)
+```
+
+Här ser vi att alla inläsningar (`input_...` och `ask_...`) är i
+funktionen som heter `add_goods_ui`. Denna funktion behöver inte
+testas -- det räcker med den där logiken för att kolla att indatat
+är OK ligger, tillsammans med den faktiska tilläggningen. 
+
+Skriv ett enhetstest för varje funktion, alltså testa exempelvis
+skapa ny lista, stoppa in och ta bort separat -- alltså i tre
+olika test.
+
+Börja varje test med att skapa en ny "ren" testsituation. I fallet
+den länkade listan handlar det alltså om att skapa en ny lista det
+första vi gör i varje test. Syftet är att minska de möjliga
+felkällorna när vi sedan skall leta efter varför ett test inte
+passerar. I slutet av varje test skall vi också ta bort alla
+temporära data.
+
+
+
+
 
 
 ## Persistens på fil
