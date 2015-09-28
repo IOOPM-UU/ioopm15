@@ -1,8 +1,3 @@
-**Notera att denna fil kommer att uppdateras med tips på mål etc.
-Jag ruschar ut den nu så att ingen blockerar på den. 
-Med reservationer för eventuella ändringar, alltså. Det kommer
-också att komma fler tips och mer hjälp. /Tobias**
-
 
 # Reseplanerare 1.0
 
@@ -91,13 +86,13 @@ stationsnamn och datat är en lista över alla hålltider.
 
 Reseplaneraren använder Dijkstras algoritm för grafsökning. Den
 tittar på kortaste sträckan vidare, men tar inte bytestid med i
-beräkningen. Låt T vara den tid som vi anlöper hållplats H1. Vi
+beräkningen. Låt *T* vara den tid som vi anlöper hållplats H1. Vi
 vill vidare till H2 och det finns två bussar -- B1 och B2. B1 är
 den vi sitter på -- då är "kostnaden" för att åka från H1 till H2
-med B1 just den vikt V som står på bågen mellan noderna (så långt
+med B1 just den vikt *V* som står på bågen mellan noderna (så långt
 är allt oförändrat). För B2 måste vi dock slå upp i tidtabellen
-när närmaste avgång är. Om den är vid tiden T', så kan vi räkna ut
-"kostnaden" att åka H1 till H2 med B2 som T' - T + V.
+när närmaste avgång är. Om den är vid tiden *T'*, så kan vi räkna ut
+"kostnaden" att åka H1 till H2 med B2 som *T'* - *T* + *V*.
 
 Efter denna förändring kommer alltså reseplaneraren att jämföra
 två resor med avseende på tiden de tar, inklusive byten och väntan.
