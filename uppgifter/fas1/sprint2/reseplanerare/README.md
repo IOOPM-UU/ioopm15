@@ -154,3 +154,18 @@ kortaste resväg i minuter.
 Du uppmanas å det starkaste att lägga till tester för allt du
 skriver! Det är inte (ännu) ett krav, men det kommer att hjälpa dig!
 Använd också programmets tester för regressionstester! 
+
+
+# Förslag på 3-mål att redovisa
+
+1. [Inluppsmål 2](http://auportal.herokuapp.com/achievements/101)
+2. [F13](http://auportal.herokuapp.com/achievements/13) -- finns flera lämpliga delar av programmet 
+3. [J26](http://auportal.herokuapp.com/achievements/26) -- vad behöver sparas på heapen, och varför?
+4. [G15](http://auportal.herokuapp.com/achievements/15) -- t.ex. vid inläsning
+5. [J27](http://auportal.herokuapp.com/achievements/27) -- faller ut av uppgiften
+7. Fortsätt med [C7](http://auportal.herokuapp.com/achievements/7) -- du vill inte behöva efterskapa saker sedan (**Du kan alltså inte redovisa detta redan nu.**)
+
+# Förslag på 4/5-mål att redovisa
+
+1. [K31](http://auportal.herokuapp.com/achievements/31) -- motivera din modularisering, eller den som är gjord
+2. [M39](http://auportal.herokuapp.com/achievements/39) -- vid insättning/uttag ur länkade strukturer
