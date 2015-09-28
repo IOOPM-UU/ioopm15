@@ -138,7 +138,7 @@ $ ./travel --from Polacksbacken --to "Uppsala C" --start 15:30
 för att få fram snabbaste resvägen från Polacksbacken till 
 Uppsala C som avgår 15:30. Programmet skall titta på den 
 närmaste avgången efter 15:30 och använda det som *senaste
-tillåtna ankomsttid*. Programmet skall titta på alla bussar
+tillåtna avgångstid*. Programmet skall titta på alla bussar
 som avgår mellan starttid och senaste ankomsttid från 
 Polacksbacken (i detta exempel) för att hitta den som har
 kortaste resväg i minuter. 
