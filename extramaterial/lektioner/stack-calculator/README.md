@@ -1,14 +1,33 @@
-Här är koden som skrevs på föreläsningen den 22 september, plus
-koden för iteratorn som behövs i funktionen `showStack` i
-`calc.c`. `Makefile` har utökats med kommentarer, och `stack.c`
-innehåller en kort presentation av iteratorer i kommentarerna.
+# Screencast
 
-Programmet `calc` är en mycket enkel stackkalkylator. Skriver man
-ett heltal pushas det på stacken. '+' adderar de två översta talen
-på stacken och ersätter dem med summan. '*' multiplicerar de två
+Eftersom det var många som pluggade till en mattedugga så finns
+den här lektionen som en screencast i tre delar:
+
+* [Del 1](https://youtu.be/1Wtb6nYEoYI) - Vi implementerar en stack
+* [Del 2](https://youtu.be/ndrevAdwjgQ) - Stacken får en iterator
+* [Del 3](https://youtu.be/vwvNFKnSXmY) - Vi skriver ett program som använder stacken (och iteratorn)
+
+Notera att det kan finnas små skillnader i den utdelade koden och
+den som skrevs i screencasten (eller på lektionerna). Det betyder
+inte att någon av versionerna är mer rätt eller fel!
+
+# Kod till lektion 2
+
+I mappen [finished](finished) ligger en färdig version av hela
+programmet. Lektionen börjar utifrån filerna i rotmappen.
+
+* `stack.c` och `stack.h` implementerar en generell stack med stöd
+  för att pusha och poppa (lägg till respektive ta bort det
+  översta elementet) samt att titta på vad som ligger överst.
+
+* `test.c` innehåller tester för stacken.
+
+* `calc.c` är en mycket enkel stackkalkylator. Skriver man ett
+heltal pushas det på stacken. '+' adderar de två översta talen på
+stacken och ersätter dem med summan. '*' multiplicerar de två
 översta talen på stacken och ersätter dem med produkten.
 
-Förslag på utökningar:
+Förslag på utökningar av `calc.c`:
 
 * En seriös implementation skulle förstås innehålla fler
   operationer än bara addition och multiplikation. Lägg till stöd
