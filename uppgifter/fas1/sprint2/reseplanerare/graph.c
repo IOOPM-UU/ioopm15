@@ -98,7 +98,7 @@ bool graph_has_edge(graph_t *g, void *from, void *to, void **label)
     for (it = iter(g->edges); !iter_done(it); iter_next(it))
         {
             edge_t  *e = iter_get(it);
-            if (g->comp(from, e->from) && g->comp(to, e->to))
+            if ((g->comp(from, e->from) && g->comp(to, e->to)) || (g->comp(from, e->to) && g->comp(to, e->from)))
                 {
                     *label = e->label;
                     iter_free(it);
@@ -121,6 +121,10 @@ list_t *graph_find_neighbors(graph_t *g, void *node)
                 {
                     list_add(ret, e->to);
                 }
+            else if (g->comp(e->to, node))
+              {
+                    list_add(ret, e->from);
+              }
         }
     iter_free(eit);
     return ret;
