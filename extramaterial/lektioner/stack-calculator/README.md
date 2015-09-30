@@ -14,7 +14,9 @@ inte att någon av versionerna är mer rätt eller fel!
 # Kod till lektion 2
 
 I mappen [finished](finished) ligger en färdig version av hela
-programmet. Lektionen börjar utifrån filerna i rotmappen.
+programmet. Lektionen börjar utifrån filerna i rotmappen. (Om man
+vill se koden som Stephan skrev på sin lektion finns den
+[här](https://gist.github.com/kaeluka/169020abdb4f06a7cc20)).
 
 * `stack.c` och `stack.h` implementerar en generell stack med stöd
   för att pusha och poppa (lägg till respektive ta bort det
