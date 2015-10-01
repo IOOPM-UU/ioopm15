@@ -6,7 +6,7 @@
 			 ("melpa"     . "http://melpa.milkbox.net/packages/")))
 
 ;; list the packages you want
-(setq package-list '(smex move-text find-file-in-project multiple-cursors idomenu highlight-symbol s))
+(setq package-list '(smex move-text find-file-in-project multiple-cursors idomenu highlight-symbol s magit))
 					
 ;; fetch the list of packages available
 (unless package-archive-contents
