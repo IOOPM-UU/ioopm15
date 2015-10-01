@@ -222,6 +222,23 @@ int foo(bar_t *arg);
 I genomgång av funktionerna i programmet är funktionsprototyperna
 för de flesta funktionerna som du kommer att behöva listade.
 
+## Buffert-tips!
+
+Ett enkelt sätt att implementera iteratorn för filen i
+extrauppgiften är att använda `ungetc` som stoppar tillbaka
+ett tecken i filen, alltså som getc fast tvärtom.
+
+Logiken för word_iterator_next blir då:
+
+1. Hoppa över alla tecken i filen tills du ser en bokstav
+   eller EOF.
+2. Om bokstav, fortsätt läsa in bokstäver i en buffert tills du 
+   ser ett tecken som INTE är en bokstav eller är EOF
+3. Knuffa tillbaka det sist lästa tecknet på filen med ungetc
+4. Om vi har läst EOF, flagga i iteratorn att filen är slut
+5. Om vi har läst in något i vår buffert, returnera den
+   (se till att den är på heapen!)
+6. Om vi inte läst in något i vår buffert, returna NULL
 
 
 # Redovisning av mål
