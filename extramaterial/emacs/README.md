@@ -113,6 +113,23 @@ funktionsanrop till definitionen av funktionen. Läs mer här:
 	      (ggtags-mode 1))))
 ```
 
+**OBS!** För att få ovanstående att fungera måste du ha [GNU Global]()
+installerat på din dator. Med [homebrew]() på OS X kan du bara
+köra:
+
+```
+$ brew install global
+```
+
+Linux-distributioner är olika, så det är svårt att ge installations-
+instruktioner. Men pröva gärna:
+
+```
+$ sudo apt-get install global
+```
+
+---
+
 Nytt kortkommando: Shift + TAB. Expanderar ord. Pröva att skriva
 "FooBar" i Emacs, ställ dig sedan på raden under och skriv "F" och
 tryck Shift + TAB. Glädje. 
