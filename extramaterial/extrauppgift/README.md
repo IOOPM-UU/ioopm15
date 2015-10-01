@@ -180,7 +180,7 @@ int main(int argc, char *argv[])
       word_iterator_t iter = word_iterator_new(argv[i]);
 	  while (word_iterator_has_more(&iter))
         {
-	      index_add(word_iterator_next(&iter));
+	      index_add_word(index, word_iterator_next(&iter));
 	    }
     }
   index_print(true);
