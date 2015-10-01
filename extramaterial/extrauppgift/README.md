@@ -183,7 +183,7 @@ int main(int argc, char *argv[])
 	      index_add_word(index, word_iterator_next(&iter));
 	    }
     }
-  index_print(true);
+  index_print(index, true);
   index_free(index);
   return 0;
 }
