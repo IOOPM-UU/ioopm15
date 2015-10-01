@@ -236,9 +236,21 @@ Logiken för word_iterator_next blir då:
    ser ett tecken som INTE är en bokstav eller är EOF
 3. Knuffa tillbaka det sist lästa tecknet på filen med ungetc
 4. Om vi har läst EOF, flagga i iteratorn att filen är slut
+   (och stäng filen)
 5. Om vi har läst in något i vår buffert, returnera den
    (se till att den är på heapen!)
 6. Om vi inte läst in något i vår buffert, returna NULL
+
+På samma sätt kan vi implementera word_iterator_has_more:
+
+1. Hoppa över alla tecken i filen tills du ser en bokstav
+   eller EOF.
+2. Knuffa tillbaka det sist lästa tecknet på filen med ungetc
+3. Om det sista tecknet var EOF, returnera false
+4. Annars, returnera true
+
+I samband med 3. och 4. ovan kan man också passa på att
+flagga i iteratorn att filen är slut, och stänga filen. 
 
 
 # Redovisning av mål
