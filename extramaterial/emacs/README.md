@@ -201,3 +201,9 @@ dem):
 (define-key key-translation-map (kbd "M-4") (kbd "$"))
 ```
 
+# Magit
+
+Install-filen installerar även [Magit](http://magit.vc), som är 
+en gåva till Git. Kolla t.ex. här: 
+* [An introduction to Magit, an Emacs mode for Git](https://www.masteringemacs.org/article/introduction-magit-emacs-mode-git)
+* [Video tutorial on Vimeo](https://vimeo.com/2871241)
