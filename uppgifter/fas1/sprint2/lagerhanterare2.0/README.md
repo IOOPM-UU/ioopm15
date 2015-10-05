@@ -203,7 +203,7 @@ eller pris. Istället frågar vi bara om lagerplats och kvantitet
 och uppdaterar L med den informationen.
 
 Så här kan man tänka sig att interaktionen med användaren ser ut
-(text inom <vinkelparenteser> avser text som användaren matat in).
+(text inom `<`vinkelparenteser`>` avser text som användaren matat in).
 
     Vad vill du göra idag? <L>
 
