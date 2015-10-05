@@ -139,7 +139,8 @@ datastrukturen som skall hålla i programmets databas:
 1. Det skall inte finnas något hårt maxtak på antalet varor i
    systemet (förutom vad som ryms i det lediga minnet).
 2. Sökning efter varor skall ske i O(log n) tid (**OBS!** du
-   behöver *inte* balansera trädet).
+   behöver *inte* balansera trädet utan kan förutsätta att indatat
+   matas in en en lämplig ordining som ger bra balans).
 3. Systemet skall inte använda minne för varor som inte finns (och
    frigöra minne för varor som tas bort), likaså för lagerplatser.
 
