@@ -51,7 +51,7 @@ void list_prepend(list_t *list, int elem);
 ///
 /// Negative indexes should be supported:
 ///
-/// list_insert(l, 1, -45);       // l == [43, 44, 42, 45]
+/// list_insert(l, -1, 45);       // l == [43, 44, 42, 45]
 ///
 /// A positive index can be calculated from a 
 /// negative like this: pos_i = size + 1 - neg_i.
