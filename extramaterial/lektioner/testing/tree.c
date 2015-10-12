@@ -50,3 +50,21 @@ void node_forall(node_t *n, action_f f, void *arg1, void *arg2)
   f(n->value, arg1, arg2);
   if (n->right) node_forall(n->right, f, arg1, arg2);
 }
+
+int node_size(node_t * n) 
+{
+  return
+    (n->left  ? node_size(n->left)  : 0) + 
+    (n->right ? node_size(n->right) : 0);
+}
+
+static inline int max(int a, int b)
+{
+  return a < b ? b : a;
+}
+
+int node_depth(node_t *n) 
+{
+  return max(n->left  ? node_size(n->left)  : 0,
+             n->right ? node_size(n->right) : 0);
+}
