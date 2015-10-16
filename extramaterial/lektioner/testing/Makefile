@@ -2,7 +2,7 @@ CC_COMPILER = gcc
 CC_FLAGS    = -Wall -g
 
 test:	test.c set.o tree.o
-	$(CC_COMPILER) $(CC_FLAGS) $^ -o $@
+	$(CC_COMPILER) $(CC_FLAGS) $^ -o $@ -lcunit
 	./test
 
 .PHONY: all

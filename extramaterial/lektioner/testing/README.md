@@ -1,6 +1,9 @@
 # Lektionsmaterial om testning, 2015-10-08
 
-**OBS! Tentativ data**
+**OBS** Under lektionen går vi igenom testning
+av mängden, dvs. det högsta abstraktionslagret.
+För den som vill finns även det underliggande
+trädet här att gå vidare med. 
 
 ## Introduktion 
 
@@ -94,8 +97,8 @@ Vi hänvisar istället till att köra `valgrind` på
 testfall för `set_free` och kontrollera att inga
 minnesläckage finns.
 
-Nästa steg är att testa det träd som implementerar mängden,
-alltså `tree.h`: 
+Nästa steg (utanför lektionstid, frivillig övning) är att testa
+det träd som implementerar mängden, alltså `tree.h`:
 
 ```c
 // Skapar en ny lövnod med värdet value
