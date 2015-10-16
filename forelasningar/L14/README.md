@@ -1,4 +1,4 @@
-# Föreläsning 13
+# Föreläsning 14
 
 Vi löste [kodprov3](../../extramaterial/gamlakodprov/kodprov3.pdf)
 och [kodprov5](../../extramaterial/gamlakodprov/kodprov5.pdf).
