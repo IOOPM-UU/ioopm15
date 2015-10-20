@@ -50,7 +50,7 @@ Actions:
 [I]gnore friend  |  [L]ist friends   |  [E]dit account   |  [Q]uit
 U
 Received class SyncResponse message
-{tobias} says:
+tobias says:
 Hej, hopp!
 ```
 
@@ -273,7 +273,7 @@ Observera att klassen `Feed` inte är korrekt integrerad i
 systemet. I funktionen `newPost()` läggs poster in i feeden, men
 feeden används inte för att skriva ut, och vad värre är --
 `newPost()` anropas aldrig. En lämplig plats att anropa
-`newPost()` på är i `sync()`. 
+`newPost()` på är i `sync()`.
 
 
 ## Deluppgift 3: Unignore friend
@@ -294,6 +294,11 @@ skriver ut meddelanden på skärmen, och lägg till ett separat
 alternativ, `[U]pdate feed`, som skriver ut meddelanden med hjälp
 av det `Feed`-objekt som redan finns i klienten och som också är
 en del av deluppgiften "Filtrera meddelanden på klienstidan". 
+
+Observera också mängden *delegering* som görs vid utskrifter av en
+feed. `myFeed.renderAll()` bygger en sträng med alla meddelanden
+genom att be varje meddelande att bygga en sträng av sig själv. 
+
 
 
 ## Deluppgift 5: Uppdatera namn
@@ -558,6 +563,9 @@ servern kan man t.ex. använda en separat `Like`-klass (alt.
 använda `Comment`-klassen). Använd det globala post id:t för att
 identifiera vilket meddelande som en kommentar/ett gillande avser.
 
+Du kan med fördel ändra i `render()` i `Post` så för att skriva
+ut kommentarerna som en del av att posten skrivs ut. 
+
 
 ## Deluppgift 9: Throttling 
 
@@ -596,3 +604,35 @@ HTML-dokumentation.
 
 I samband med detta, gör ett refaktoreringspass för att se om det
 inte går att hitta bättre namn på klasser och variabler.
+
+
+## Rekommenderade mål på nivå tre
+
+1. [Inluppsmål 4](http://auportal.herokuapp.com/achievements/103)
+2. [A2](http://auportal.herokuapp.com/achievements/2) - Fundera på
+   vad varje klass behöver veta om de andra klasserna de använder.
+   Hur hade du skrivit motsvarande kod i C?
+3. [E11](http://auportal.herokuapp.com/achievements/11) - Används
+   redan på ett flertal ställen i koden. 
+4. [G16](http://auportal.herokuapp.com/achievements/16) - Vilka
+   attribut (om några) ska vara synliga utifrån? Jämför att ha
+   privata attribut med getters och setters med att bara ha
+   publika attribut.
+5. [H19](http://auportal.herokuapp.com/achievements/19) - kommer in
+   direkt på grund av alla kopior av allt, t.ex. när vi vill ändra namn.
+6. [N40](http://auportal.herokuapp.com/achievements/40) - Vad
+   händer när vi kompilerar vårt program? Vilka filer skapas? Vad
+   händer om man byter ut någon av filerna och kör programmet? Hur
+   skulle motsvarande program (med samma modularisering) fungera i
+   C?
+
+## Rekommenderade mål på nivå fyra/fem
+
+1. [H21](http://auportal.herokuapp.com/achievements/21) - Om du
+   refaktorerar meddelandeklasserna till en klasshierarki. (Detta
+   gås igenom i nästa sprint!)
+2. [G17](http://auportal.herokuapp.com/achievements/17) - Används 
+   redan. Finns det fler möjligheter?
+3. [I24](http://auportal.herokuapp.com/achievements/24) och [I25](http://auportal.herokuapp.com/achievements/25) - finns mycket som kan gå fel i detta program.
+4. [J28](http://auportal.herokuapp.com/achievements/28) - När
+   frigörs kund-objekten i programmet?
