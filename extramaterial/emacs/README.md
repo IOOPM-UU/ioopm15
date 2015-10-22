@@ -33,8 +33,8 @@ Kopiera filerna `ioopm.el` och `ioopm-install.el` till din dator.
 Står du redan i terminalen är ett enkelt sätt att göra:
 
 ```
-$ curl -O https://github.com/IOOPM-UU/ioopm15/tree/master/extramaterial/emacs/ioopm.el 
-$ curl -O https://github.com/IOOPM-UU/ioopm15/tree/master/extramaterial/emacs/ioopm-install.el 
+$ curl -O https://raw.githubusercontent.com/IOOPM-UU/ioopm15/master/extramaterial/emacs/ioopm.el
+$ curl -O https://raw.githubusercontent.com/IOOPM-UU/ioopm15/master/extramaterial/emacs/ioopm-install.el
 ```
 
 Kör sedan följande kommandon (i samma katalog som filerna ligger):
