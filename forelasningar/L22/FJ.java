@@ -3,7 +3,11 @@ import java.util.concurrent.RecursiveTask;
 
 public class FJ {
     public static void main(String[] args) {
-        System.out.println(Sum.sumArray(new int[] { 1, 234, 43, 345, 2, 445, 56456, 546, 345435, 234, 1 }));
+        try { System.in.read(); } catch (Exception e) {}
+        int[] is = new int[4 * 16 * 1024* 1024];
+        for (int i = 0; i < is.length; ++i)
+            is[i] = i;
+        System.out.println(Sum.sumArray(is));
     }
 }
 

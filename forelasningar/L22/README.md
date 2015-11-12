@@ -1,6 +1,8 @@
-# Parallellprogrammering
+# Parallellprogrammering + Undantagshantering
 
 Denna föreläsning introducerar parallelprogrammering och "concurrency", specifikt "task-based parallelism".
+
+Sista 10 bilder behandlar undantagshantering. 
 
 * [Bilder](f22.pdf)
 
