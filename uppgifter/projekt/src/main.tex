@@ -1,0 +1,1716 @@
+\documentclass[openright]{tufte-book}
+
+\synctex=1
+
+\usepackage[swedish]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{xspace}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{latexsym}
+\usepackage{amsmath}
+\usepackage{listings}
+
+\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=20]{microtype}
+
+\hyphenation{minnes-använd-ning}
+
+%% T1 Fonts %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+\DeclareFontFamily{T1}{lmtt}{} 
+\DeclareFontShape{T1}{lmtt}{m}{n}{<-> ec-lmtl10}{} 
+\DeclareFontShape{T1}{lmtt}{m}{\itdefault}{<-> ec-lmtlo10}{} 
+\DeclareFontShape{T1}{lmtt}{\bfdefault}{n}{<-> ec-lmtk10}{} 
+\DeclareFontShape{T1}{lmtt}{\bfdefault}{\itdefault}{<-> ec-lmtko10}{} 
+
+\usepackage[noopticals]{MinionPro}
+\usepackage{sourcesanspro}
+
+%% PARALIST %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{paralist}
+\setlength{\pltopsep}{1ex}
+\setlength{\plitemsep}{1ex}
+\newcommand{\DUEDATE}{\TODO{17:e december}}
+\newcommand{\FINALDATE}{\TODO{10:e januari 2014}}
+
+%% LISTINGS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\hypersetup{colorlinks}
+
+% \usepackage{draftwatermark}
+% \SetWatermarkText{.~Utkast 14/10/16~.}
+
+%%
+% Book metadata
+\title[Projektspec]{\bfseries{}\,\,Specifikation\\för projektarbete\\på IOOPM'15}
+\author[Tobias Wrigstad]{Tobias Wrigstad}
+\publisher{IOOP/M 2015}
+% \begin{document}
+% \maketitle
+
+\setcounter{secnumdepth}{2}
+
+%%
+% For nicely typeset tabular material
+\usepackage{booktabs,fancybox}
+\usepackage{titlesec}
+
+\newcommand*{\justifyheading}{\raggedleft}
+\titleformat{\chapter}[block]
+  {}
+  {\llap{\color{gray}\chapterNumber\thechapter
+   \hspace{10pt}\vline}} %Espacio hacia la izquierda del número
+  {10pt} %espacio del texto hacia derecha
+  {\formatchaptertitle}
+
+\newcommand{\formatchaptertitle}[1]{%
+  \parbox[t]{\dimexpr\textwidth-10pt}{\raggedright\huge\scshape#1}}
+
+\newcommand{\chapterNumber}{%
+  \fontsize{60}{60}\usefont{U}{eur}{b}{n}}
+
+
+%%
+% For graphics / images
+\usepackage{graphicx}
+\setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio}
+
+
+%%
+% Prints argument within hanging parentheses (i.e., parentheses that take
+% up no horizontal space).  Useful in tabular environments.
+\newcommand{\hangp}[1]{\makebox[0pt][r]{(}#1\makebox[0pt][l]{)}}
+
+%%
+% Prints an asterisk that takes up no horizontal space.
+% Useful in tabular environments.
+\newcommand{\hangstar}{\makebox[0pt][l]{*}}
+
+\newcommand{\Ref}[1]{\S\,\ref{sec:#1}}
+
+\newcommand{\TODO}[1]{\textcolor{red}{\textsc{todo}:\,#1}}
+\newenvironment{Note}[1]%
+       {\begin{Sbox}\begin{minipage}{.9\linewidth}\begin{center}\textsc{#1}\end{center}}%
+       {\end{minipage}\end{Sbox}\fbox{\TheSbox}}
+
+\lstnewenvironment{ccode}
+{\lstset{language=C,
+    basicstyle=\small\tt\color{black},
+    commentstyle=\color{magenta},
+    belowskip=1em,
+    tabsize=2,
+    columns=fullflexible,
+    xleftmargin=1em,
+    resetmargins=true,
+    showstringspaces=false,
+    morecomment=[l]{//},
+    morecomment=[s]{/*}{*/)},
+    escapeinside=??,
+    morekeywords={},
+    moredelim=[is][\textit]{___}{___},
+    moredelim=[is][\textbf]{__*}{*__}}}{}
+
+%%\renewcommand{\bfdefault}{b}
+
+\newcommand{\RED}[1]{\textcolor{red}{#1}}
+\renewcommand{\c}[1]{\lstinline[language=C,basicstyle=\tt]@#1@}
+
+
+
+\begin{document}
+
+% r.3 full title page
+\maketitle
+
+
+\chapter{Inledning}
+
+Projektarbetet består av en specifikation (detta dokument) som skall
+implementeras i programspråket C. Arbetet skall utföras i team om 6
+personer som jobbar i roterande par. Vårt mål är att två team skall
+bilda en grupp som kommer att redovisa samtidigt. Denna koordination
+sköts internt av kursledningen.
+
+\begin{marginfigure}
+  \begin{center}
+    \textsc{work breakdown structure}
+  \end{center}
+  \setlength{\plitemsep}{2pt}
+  \setlength{\pltopsep}{2pt}
+  \begin{compactenum}
+  \item Se till att sätta teamet i samband
+  \item Läs dessa instruktioner noggrant, sedan en gång till
+  \item Löpande under projektet, dokumentera \& versionshantera
+  \item Planering och design ($\approx$2\,dgr)
+    \begin{compactenum}
+    \item Gör en övergripande design för systemet
+    \item Dela upp systemet i lika många ''delsystem'' som det
+      finns par
+    \item Definiera gränssnitten mellan delsystemen
+    \end{compactenum}
+  \item Implementation,
+    parallellt i paren ($>$2\,v)\\
+    \begin{compactenum}
+    \item Dela upp ditt delsystem i delar $\Delta,\Delta'\ldots$
+    \item Fundera ut hur man testar del $\Delta$
+    \item Implementera testerna $T_\Delta$ för $\Delta$,
+    \item Implementera $\Delta$ och testa löpande mot $T_\Delta$
+    \end{compactenum}
+    (Upprepa steg b--d\ldots)
+  \item Integration ($\approx$1\,v)
+    \begin{compactenum}
+    \item Sätt ihop delsystemen, testa, åtgärda fel
+    \end{compactenum}
+  \item Reflektera kort över projektet
+  \end{compactenum}
+\end{marginfigure}
+
+Projektet har många syften: att fördjupa kunskaperna i C, att
+bygga programmeringserfarenhet på djupet och bygga på den kunskap
+som byggts upp under föregående faser, samt att ge en plattform för
+ytterligare redovisning av mål inom ramarna för ett ''riktigt
+program''. Ett av huvudsyftena är också att introducera element
+från \emph{programvarutekniken}, d.v.s. den ingenjörsdisciplin som
+sysslar med utveckling av mjukvara inom givna tids-, kostnads- och
+kvalitetsramar och här specifikt testning. Genom att utföra en
+litet större uppgift än enkla laborationer och
+inlämningsuppgifter, och införa samarbetselement mellan par
+som utför olika delar av uppgiften, kommer ni att få uppleva
+vikten av klart definierade processer och roller och klart
+definierade gränssnitt mellan programmoduler. Målet är inte ''att
+visa hur man gör'', utan snarare att försöka ge en bakgrund till
+varför metoder och tekniker som tas upp på senare kurser är
+nödvändiga för systematisk utveckling av mjukvara.
+
+
+\section{Processen}
+
+Arbetet skall utföras i team om 6 personer updelade i 3
+programmeringspar\footnote{Ett programmeringspar består
+  naturligtvis av två personer som skall tillämpa
+  \emph{parprogrammering}. Försök att följa instruktionerna på
+  \url{http://www.wikihow.com/Pair-Program}.} uppdelade i två
+team. Arbetet delas upp i minst lika många uppgifter som par.
+Teamen slumpas fram, som vanligt. Ni skall i den mån det är
+lämpligt följa Scrum\footnote{En ganska lagom beskrivning finns på
+  \url{http://sv.wikipedia.org/wiki/Scrum}} som
+utvecklingsprocess.
+
+Varje vecka skall paren roteras; en person fortsätter med samma
+uppgift ytterligare en vecka, och den andra personen byter till
+ett annat par. När ni programmerar bör ni förstås också byta vem
+som sitter framför tangentbordet ofta, t.ex. efter varje logisk
+uppgift, dvs. gärna flera gånger i timmen!
+
+Vid projektets slut skall varje projektmedlem skriva ett antal reflektioner 
+om parprogrammering, egna prestationen etc., se
+\Ref{reflektioner}.
+
+I slutet av projektet skall teamet skriva en gemensam
+rapport/reflektion om hur ni har arbetat, vilka
+rutiner/processer/hjälpmedel som har fungerat och inte, och vilka
+svårigheter som uppstod under implementation och integration. Det
+skall inte ta mer än en dag att göra reflektionsarbetet och skriva
+ned dokumentationen, och även om skriftlig framställning är
+extremt viktigt i all form av mjukvaruutveckling så avser uppgiften
+inte främst rapportskrivning. Se \Ref{gruppreflektioner} för
+vidare information.
+
+\begin{marginfigure}
+    Gränssnitten mellan delarna specificeras i headerfilen
+    \c{gc.h} (given) som inte får modifieras, samt andra
+    ''privata'' headerfiler som ni själva skapar.
+\end{marginfigure}
+
+Ni måste själva göra uppdelningen av uppgiften i ''delsystem''. Då
+delarna med stor sannolikhet är beroende av varandra är det av
+stor vikt att ni tidigt definierar \emph{gränssnitten} mellan
+delarna så att \emph{integrationsfasen}, d.v.s. då delarna sätts
+samman till ett fungerande bibliotek, fungerar så smärtfritt som
+möjligt.
+
+
+\section{Coachen}
+
+Varje team får en coach tilldelad sig, för att få hjälp och svara
+på frågor. Dessa anslås på kursens webbsida i samband med
+grupperna. Tidigt under projektets gång bör man ha ett möte med
+coachen. Vid detta första möte skall teamet presentera sin tänkta
+högnivådesign för coachen, samt sin planering, d.v.s. hur systemet
+är uppdelat i delsystem, gränssnittet mellan delsystemen, hur
+delsystemen är fördelade över programmeringspar, och några första
+grova deadlines.
+
+Teamet ansvarar för att boka ett avstämningsmöte med sin coach
+någon gång under projektets gång. Vid detta möte skall teamet kort
+rapportera om hur arbetet fortskrider, om man räknar med att bli
+klar i tid, eventuella stora problem, etc. Vid behov kan
+ytterligare möten bokas. Vid problem skall man i första hand
+kontakta sin coach.
+
+
+\section{Aktivt deltagande}
+
+Studenter som inte aktivt deltar i projektet får göra om
+projektdelen av kursen ett annat år. Teamen uppmanas att göra
+kursansvariga uppmärksamma på sådana studenter. Poängen med
+projektet är lärdomarna från att göra det, inte att leverera ett
+färdigt system. Om man låter någon åka snålskjuts gör man
+vederbörande en otjänst!
+
+
+\section{Planering och uppföljning}
+
+Under projektet uppmuntrar vi till aktivt användande av något
+verktyg, gärna Trello (\url{http://trello.com}). Ni ansvarar
+själva för att sätta upp ett ''bräde'' på Trello med lämpliga
+rättigheter. Bjud in er coach så att hen kan följa arbetet! Använd
+listorna i Trello för att fånga enheter att implementera i olika
+kort, tilldela ansvar genom att knyta personer till kort,
+etc.\footnote{En möjlighet med Trello är att använda olika listor
+  för olika moduler, etc.} 
+
+
+\section{Versionshantering och issue tracking}
+
+Under projektet skall ni använda er av Github för att
+versionshantera koden. Ni kommer att få ett \emph{privat} konto på
+Github, som ni \emph{måste} använda. Av uppenbara och
+fuskrelaterade skäl får koden inte göras publik eller delas med
+andra utanför teamet (undantaget coachen och kursledningen).
+Versionshistoriken på Github visar om versionshantering använts på
+ett vettigt sätt.
+
+Github har ett utmärkt stöd för issue tracking, d.v.s.
+buggrapporter och diskussioner kring buggar. Spårbarhet är oerhört
+viktigt i systemutveckling, så använd en issue
+tracker/bug tracker, även om alla sitter i samma rum.
+
+
+\subsection{Övriga obligatoriska Verktyg}
+
+Det är ett krav att använda följande verktyg:
+
+\begin{center}
+  \begin{tabular}{lp{8.3cm}}
+    \c{valgrind} & för att verifiera att koden inte läcker minne
+    eller gör andra dumma läsningar eller skrivningar utanför
+    allokerat minne. \\
+% ----------------------
+  \c{cunit} & för att skriva tester; ingen funktion utan tester! \\
+% ----------------------
+  \c{gcov} & för att kontrollera hur stor del av koden som
+  faktiskt testas! \\    
+  \end{tabular}
+\end{center}
+
+
+\section{Personliga Produktivitetsmått}
+
+Möjligen något inspirerad av Watts Humphrey's ''Personal Software
+Process'' är ett av målen med projektet att uppmuntra till
+kontinuerlig förbättring av ditt eget arbetssätt, bland annat:
+
+\begin{compactenum}
+\item Bli bättre på att planera och uppskatta tidsåtgång för uppgifter
+\item Bli bättre på att göra ''commitments'' som du kan hålla 
+\item Bli bättre på att reducera mängden defekter i din kod
+\end{compactenum}
+
+\noindent
+För att börja jobba med dessa aspekter av ditt arbetssätt
+\emph{skall} du kontinuerligt skriva ned\footnote{En bra idé är
+  att ha t.ex. ett kalkylark i Google docs i vilket du gör löpande
+  anteckningar om nedanstående. (Det går också att ha mer publika
+  och mer ostrukturerade noter i Trello.) På så sätt blir det
+  enkelt att visualisera trender etc.}:
+
+\begin{compactitem}[--]
+\item Alla uppgifter du skall utföra. (Det är vettigt att ha ett
+  antal uppgifter per dag. Försök att bryta ned arbetet i enheter
+  om 30--60 minuter. Bryt upp enheter som visar sig vara större än
+  vad du trodde, etc.)
+\item Din \emph{uppskattning} av uppgiftens tidsåtgång.
+\item Det \emph{faktiska utfallet}, dvs. om du utförde uppgiften och den tid det tog.
+\item ''Biggest fail'' och ''biggest win'', dvs. det största problem som du stötte på och det smartaste eller bästa du gjorde.
+\item Logga din arbetstid och kategorisera varje timme som möte,
+  planering, design, implementation, testning, dokumentation eller
+  postmortem\footnote{Postmortem är t.ex. all reflektion och
+    sammanfattning och rapport i projektets slut.}.
+\end{compactitem}
+
+I slutet av projektet skall du sammanställa hur många timmar du
+faktiskt arbetade och hur många timmar du uppskattade att du
+skulle behöva arbeta. Antalet timmar du arbetade har ingen
+inverkan på betyget -- du gör detta mest för din egen skull så det
+är superviktigt att du är ärlig i dina siffror! 
+
+Finns det återkommande wins och fails? Underskattar du konsekvent
+tiden det kommer att ta att utföra en uppgift? Verkar det som om
+du tar på dig för mycket i relation till din kapacitet?
+
+
+
+\chapter{Inlämning}
+
+Vid det datum som angivits på kurswebben är det dags att lämna in,
+oavsett status på implementationen. För projektet skall följande
+lämnas in (och motsvarar målet Y68):
+
+\begin{description}
+
+\item[Övergripande designdokument.] Uppdelningen i delsystem,
+  delsystemens moduler om lämpligt och deras gränssnitt, lämpligen
+  dokumenterat med hjälp av doxygen. Målgruppen för denna
+  dokumentation är alltså en \emph{de andra utvecklarna} av
+  biblioteket och målet är att möjliggöra parallell utveckling --
+  dvs. att flera programmerare samtidigt kan skriva olika delar av
+  ett system som i slutändan skall prata med varandra. Det betyder
+  att interna implementationsdetaljer som t.ex. bitmönster etc.
+  skall finnas med i dokumentationen\footnote{I viss utsträckning,
+    främst initialt, betyder det att man kopierar vissa detaljer
+    från denna specifikation för att ha allt på samma ställe.}.
+  
+\item[Koddokumentation på gränssnittsnivå.] Se motsvarande mål
+  eller ta ledning av man-sidorna för C eller JavaDoc. Målgruppen
+  för denna dokumentation är alltså \emph{en klient} av
+  biblioteket. Informationen här skall vara precis tillräcklig för
+  att skriva programmen i \Ref{prestandamatningar}.
+
+\item[Själva koden.] Inklusive en makefil som kan bygga den på 
+  Linux (X86) och Solaris (både X86 och SPARC). (Alltså 3 plattformar totalt.)
+
+\item[Enhetstester i CUnit.] Med instruktioner om hur de kan köras
+  (helst en makefil som kör alla), tillsammans med en
+  sammanställning av hur många tester som finns, hur många som
+  passerar, samt code coverage-data från
+  \c{gcov}\footnote{Börja t.ex. på \url{http://en.wikipedia.org/wiki/Gcov}.} på
+  lämpligt format.
+
+\item[Vid behov -- dokumentation av vad som saknas och varför.] Om
+  projektet inte är komplett bör man \emph{utöver ovanstående}
+  lämna in ett dokument som beskriver vilka funktioner som
+  återstår, och en översiktlig beskrivning av hur dessa kan
+  implementeras i den existerande koden.
+
+  \begin{marginfigure}[-3em]
+    Exempelvis, projektet funkar inte på SPARC (beskriv varför,
+    vad måste till, när uppstår felen, etc. -- använd ert
+    historikdata för att göra en informerad gissning om hur lång
+    tid det skulle ta att fixa!).
+  \end{marginfigure}
+
+\item[Prestandatester \& Integration med existerande program]
+  Se \Ref{prestandamatningar} och \Ref{integration}.
+
+\end{description}
+
+\noindent
+Vid inlämningen bedöms projektet och en av tre saker händer: (a)
+projektet blir godkänt, (b) projektet får en ny deadline för
+restinlämning eller (c) projektet blir underkänt. I fall (b) sker
+en ny inlämning och redovisning senare, där betyget godkänt eller
+underkänt ges. \emph{Ett underkänt projekt kan kompletteras först
+  nästa gång kursen går}.
+
+\begin{marginfigure}
+  Bra beskrivningar av bristerna och hur dessa skulle kunna åtgärdas kan medföra godkänt.
+\end{marginfigure}
+
+Det kan hända att implementationen inte är färdigställd vid
+deadline. En ofärdig implementation skall ändå lämnas in och
+ackompanjeras av ett dokument som beskriver vilka funktioner som
+återstår, och en översiktlig beskrivning av hur dessa kan
+implementeras i den existerande koden. En buggig implementation
+bör ackompanjeras av ett testfall som reproducerar felet, och om
+möjligt en beskrivning av varför buggen uppstår.
+
+
+\section{Individuella reflektioner}
+\label{sec:reflektioner}
+
+Nedan beskriver vi individuella aspekter av arbetet. 
+
+
+\subsection{Parprogrammering}
+
+Varje projektmedlem skall skriva en kort reflektion\footnote{Ca
+  1000 tecken.} om parprogrammering. Exempel på saker att
+reflektera kring är:
+
+\begin{compactitem}[--] 
+\item Upplever du att det bidrar till bättre kod, eller borde/kan
+  man sitta enskilt och att få dubbel produktionstakt?
+
+\item Fungerar vissa par bättre än andra? Varför -- är det t.ex.
+  bättre med en jämnare kunskapsnivå, eller sämre? 
+
+\item Vilket råd skulle du ge någon som aldrig har varit i en
+  parprogrammeringssituation förut?
+
+\end{compactitem}
+
+
+\subsection{Självreflektion}
+
+Varje projektmedlem skall skriva en kort
+självreflektion\footnote{Ca 1000 tecken.} om sin prestation. Vilka
+är dina styrkor och svagheter i ett projektarbete? Vilka
+egenskaper bör du förstärka och vilka behöver du bli bättre på?
+Titta på t.ex. wins och fails här. Ytterligare exempel på saker
+att reflektera kring är:
+
+\begin{compactitem}[--]
+\item Hur fungerar du i ett team? Faller du in i ett särskilt
+  mönster, eller tar du återkommande en särskild roll?
+
+\item Får du ut något av att jobba i en grupp, eller jobbar du
+  helst ensam?
+
+\item Jämför hur mycket du lärt dig under projektarbetet kontra
+  kursens övriga delar, och fundera över hur du bäst lär dig
+  saker.
+
+\end{compactitem}
+
+
+\section{Gemensam reflektion för teamet}
+\label{sec:gruppreflektioner}
+
+I en kort text\footnote{Ca 1000--1500 tecken. Använd tydliga
+  rubriker och passa gärna på att bocka av S52.} Reflektera
+tillsammans över hur det har gått att:
+
+\begin{compactitem}[--]
+\item \emph{Kommunicera} inom projektgruppen och mot externa.
+\item \emph{Samarbeta} inom projektgruppen -- diskutera även
+  parprogrammeringen då kanske inte alla delar samma uppfattning
+  om hur det har fungerat.
+\item \emph{Koordinera} aktiviteterna i projektet.
+\item \emph{Ta beslut} speciellt kring planering, eller när saker
+  gått fel eller man varit oense.
+\item \emph{Komma fram till -- och följa -- en process} och om
+  processen har varit ett stöd. 
+\end{compactitem}
+
+Sammanställ också samtliga gruppmedlemmars tidsloggar och ta fram
+en gemensam sammanställning av tidsåtgång och fördelning över
+olika kategorier.
+
+
+
+\section{Bedömningskriterier}
+
+Projektet/teamet bedöms på:
+
+\begin{compactenum}
+\item den slutinlämnade kodens kvalitet och kompletthet,
+\item inlämnad dokumentation, 
+\item kvalitet på egna testfall, samt
+\item aktivt deltagande i utvecklingsprocessen.
+\end{compactenum}
+
+\noindent
+Observera att det inte är ett strikt krav att ha ett fullt
+fungerande system vid deadline för att bli godkänd. Däremot krävs
+att man gjort ett allvarligt \emph{försök} att leverera ett fullt
+fungerande system med för 5 HP rimlig arbetsinsats. 
+\begin{marginfigure}
+  {\bf \RED{Ändring 2015-12-01:} Tillägg av denna marginalanteckning.\\[1ex]}
+
+  \noindent
+  Notera att 5HP motsvarar ungefär 133 arbetstimmar. Dock har viss
+  del av projektets tid redan ''använts'' detta år till planering
+  och uppföljning, dvs. sådant som vi arbetat med löpande under
+  kursens gång. För studenter som aktivt deltagit i detta arbete
+  och kommit på uppföljningsmöten är en rimlig arbetsinsats
+  snarare 115-120 timmar.
+\end{marginfigure}
+Alla brister i systemet\footnote{Inklusive utelämnade funktioner.}
+skall vara dokumenterade, kvarvarande buggar skall ha testfall som
+exponerar dem, och det skall finnas en plan för hur arbetet skall
+fortsätta så att systemet skall uppfylla specifikationen.
+
+Enhetstester skriver ni själva. Integrationstest blir minst de
+prestandatester som ni skall skriva i \Ref{prestandamatningar} och
+integrationen i \Ref{integration}.
+
+
+\subsection{Rest}
+
+En ofullständig inlämning vid deadline kan\footnote{En oseriös
+  eller undermålig inlämning kan medföra underkänt.} medföra rest.
+Teamet får då en skriftlig beskrivning av vad som måste åtgärdas
+före en ny inlämning kan ske, samt ett nytt \emph{sista
+  leveransdatum}. Ett team som inte lämnar in ett system som
+uppfyller specifikationen vid detta datum får göra om projektdelen
+av kursen ett senare år.
+
+
+
+
+\section{Redovisning av mål andra än Y68}
+
+Som en sidoeffekt av projektet får gruppen också möjlighet att
+bocka av vissa mål utöver Y68. Dessa mål kräver särskild
+dokumentation som kan vara rimlig att baka ihop med
+projektreflektionen, och ibland inte. Ni måste klart och tydligt
+skriva ut vilka mål ni vill bli examinerade på, samt vilken
+''dokumentation'' som skall användas. Som vanligt gäller att man
+måste peka ut relevant information -- att mer eller mindre skriva
+''det finns begravet någonstans i projektdokumentationen'' är
+alltså inte okej.
+
+\begin{description}
+\item[Y66 -- löpande Kodgranskning] Diskutera arbetet med pull
+  \begin{marginfigure}\bf
+    \RED{Ändring 2015-12-01}: Hela texten för Y66 byttes ut. 
+  \end{marginfigure}
+  requests (PR) och löpande granskning av kod som går in i
+  ''master''. Vad ledde detta till? Var det endast merarbete eller
+  tjänade det något till? Hur fungerade färgglada diffar på GitHub
+  som stöd för att se vad som ändrats? Hur ofta knuffades en PR
+  tillbaka för förändringar (eller liknande) innan den fick
+  merge:as? Hur många PR gjordes? Låg de länge i snitt? Arbetade
+  alla par lika med PR? Vad fungerade? Vad fungerade inte?
+
+\item[Y63 -- Testdriven utveckling] Utvärdera skriftligt hur
+  \begin{marginfigure}\bf
+    \RED{Ändring 2015-12-01}: Hela texten om Y63
+      utgår. Den rör gamla mål som inte längre finns. Texten står
+      kvar för spårbarhet.
+  \end{marginfigure}
+  testdriven utveckling har fungerat i projektet. Vad har fungerat
+  bra? Vad har fungerat dåligt? Etc. Det kan eventuellt vara
+  lämpligt att baka ihop med reflektionen i projektreflektionen
+  eller som ett separat dokument.
+
+\item[Y64 -- Tillämpa Scrum eller Kanban] Här fungerar
+  förhoppningsvis gruppens gemensamma reflektion över processen
+  bra tillsammans med en beskrivning av den valda processen samt
+  vad i den valda processen som fungerade och inte. 
+
+\item[Y65 -- Kodstandard] En kort diskussion om nyttan av
+  kodstandard, samt en länk till den kodstandard som har använts
+  (alternativt en beskrivning av den kodstandard som tagits fram).
+  Har det givit något att ha en kodstandard? Har läsbarheten
+  påverkats? 
+
+\item[X67 -- Parprogrammering] Här fungerar de individuella
+  reflektionerna och gruppens gemensamma reflektion över
+  parprogrammering och processen bra som dokumentation.
+
+\item[X69 -- Tillämpa regressionstestning under projektet] Tala om
+  var man kan hitta enhetstesterna, vilken code coverage som
+  finns, vilka skript för att köra enhetstesterna, etc.
+
+\end{description}
+
+\noindent
+Givetvis kan man använda koden i projektet för att redovisa
+''vanliga'' mål i labbsal, precis som i resten av kursen, så länge
+som det är delar av systemet och kod som man själv har varit
+aktivt inblandad i.
+
+
+\chapter{Uppgiftsbeskrivning}
+
+\begin{marginfigure}
+    Denna del av specifikationen är ett \emph{levande dokument}
+    som kan komma att uppdateras och förändras under projektets
+    gång. 
+\end{marginfigure}
+
+Uppgiften går ut på att utveckla ett bibliotek, för enkelhets
+skull kallat $\mathcal{GC}$, för minneshantering i form av en
+\emph{konservativ kompakterande skräpsamlare}. En användare kan
+skapa en ''egen heap'' -- ett konsekutivt
+minnesblock\footnote{Skapas under huven t.ex. med hjälp av
+  \c{posix_memalign} i \c{stdlib.h}, eller \c{mmap} i
+  \c{sys/mman.h}.} -- i vilket man sedan kan allokera minne.
+Allokeringar i den egna heapen skall sedan hanteras automatiskt --
+när minnet tar slut\footnote{Eller något annat villkor som
+  användaren anger.} skall skräpsamling automatiskt triggas, och
+alla objekt i detta minne som inte är nåbart via någon rot i
+systemet tas bort\footnote{Vi gör en förenkling och utgår från att
+  programmen är enkeltrådade och att endast en heap skapas per
+  program.}. Ett korrekt implementerat projekt kan (och skall --
+se \Ref{integration}) integreras med en inlämningsuppgift från tidigare
+del av kursen I det förändrade programmet skall all allokering
+skall ske med hjälp av $\mathcal{GC}$-biblioteket och ingen manuell
+avallokering skall ske, utan att programmets minne skall ta slut.
+
+I detta kapitel beskrivs uppgiften. Av pedagogiska skäl beskriver
+vi först skräpsamling med hjälp av mark--sweep (och som redan
+beskrivits på föreläsning), som vi \emph{inte} skall använda innan
+vi går in på den kompakterande skräpsamlaren som använder en
+liknande algoritm.
+
+
+\section{Skräpsamling med mark--sweep}
+\label{sec:ms}
+
+Skräpsamling med mark--sweep vandrar genom (traverserar) den graf
+som heapen utgör för att identifiera objekt som fortfarande
+används. Alla objekt som inte används anses vara skräp och kan
+frigöras utan att programmet kraschar. Vi går igenom algoritmen
+steg-för-steg nedan.
+
+Vi kan tänka oss att varje objekt innehåller en extra
+bit\footnote{Tekniskt kan det också vara en bit om man har en över.
+  Ibland kan man packa in bitar i annat data -- vi skall se
+  exempel på det senare i denna text!}, den s.k.
+\emph{mark-biten}. När denna bit är satt (1) anses objektet vara
+''vid liv''. Annars är objektet skräp som kan tas bort.
+
+Vid skräpsamling sker följande (logiskt sett):
+
+\begin{compactenum}[Steg 1]
+\item Iterera över samtliga objekt på heapen och sätter
+  mark-biten till 0. Detta innebär att alla objekt anses vara
+  skräp initialt.
+
+\item Sök igenom stacken efter pekare till objekt på
+  heapen\footnote{Dessa pekare kallar vi också för ''rötter''.},
+  och med utgångspunkt från dessa, traversera heapen och
+  markera alla objekt som påträffas genom att mark-biten sätts
+  till 1.
+
+\item Iterera över samtliga objekt på heapen och frigör alla
+  objekt vars mark-bit fortfarande är 0.
+
+\end{compactenum}
+
+\noindent
+Steg 2 kallas för ''mark-fasen'' och steg 3 för ''sweep-fasen'',
+härav algoritmens namn, \emph{mark--sweep}.
+
+
+\subsection{Att traversera heapen}
+
+Att traversera heapen i C försvåras av att minnet som standard
+allokeras utan metadata. T.ex. så allokerar detta anrop
+%
+\begin{ccode}
+  void *p = malloc(sizeof(binary_tree_node));
+\end{ccode}
+%
+plats som rymmer en \c{binary_tree_node}, det sparas ingen
+information om innehållet i detta utrymme, mer än hur stort
+utrymmet är som \c{p} pekar på. Vi skulle vilja ''fråga'' minnet
+vilka pekare det innehåller och hur stort det är, men det kan vi
+alltså inte göra. Vi måste själva implementera stöd för detta.
+
+Rimligtvis har en \c{binary_tree_node} åtminstone två pekare till
+höger respektive vänster subträd -- så hur gör man för att hitta dem?
+
+Ett sätt är att leta igenom det minne som pekas ut av \c{p} och
+tolka varje möjlig \c{sizeof(void *)} i detta utrymme som en
+adress. Om adressen pekar in i den aktuella
+heapens\footnote{Alltså dess pekaren är en adress i den egna
+  heapens adressrymd -- dvs. mellan dess startadress och
+  slutadress.} anser vi att den är en pekare till det objekt som
+finns lagrat där (observera att pekaren inte måste peka på starten
+av det objektet). Då skall vi markera detta objekt som levande
+(dess mark-bit sätts till 1), varefter dess utrymme också letas
+igenom på samma sätt som \c{binary_tree_node}:en i jakt på andra
+pekare in i den aktuella heapen. Om ett objekt redan markerats och
+traverserats behöver man inte göra det igen.
+
+Men hur vet man då vilka pekare som finns som pekar in i heapen?
+För att hitta dessa, de s.k. ''rotpekarna'', måste man leta igenom
+stacken efter pekare till heapen på samma sätt som ovan, alltså gå
+igenom hela stackens adressrymd, inklusive register och de
+statiska dataareorna och leta efter pekare in i heapens
+adressrymd. 
+
+
+\subsection*{Tillåtna förenklingar map. ovanstående}
+
+Vi tillåter flera förenklingar i denna uppgift -- vi kräver inte
+stöd för pekare ''in i objekt'' (alltså som inte pekar till
+starten av ett objekt)\footnote{Implementerar du inte stöd för
+  detta blir det heller inte säkert att använda sådana pekare i de
+  program som använder minneshanteraren.}, eller scanning av den
+statiska dataarean\footnote{Dvs. globala variabler -- samma som
+  föregående not gäller. Notera att vissa förenklingar kan kräva
+  att man ändrar de program som man vill integrera med sitt
+  bibliotek senare.}. Vi uppmuntrar förstås till stöd för dessa
+vanliga C-idiom, men det är inte nödvändigt.
+
+\begin{center}
+  \it Nu har vi sett hur man kan leta igenom både stacken och
+  heapen efter pekare. Då skall vi titta på hur man kompakterar
+  heapen i syfte att minska fragmentering.
+\end{center}
+
+
+\section{Kompakterande skräpsamlare} 
+
+En kompakterande skräpsamlare är en relativt vanlig skräpsamlartyp
+som vid skräpsamling flyttar samman objekt i minnet. Det finns
+åtminstone tre goda skäl till att göra detta:
+
+\begin{enumerate}\raggedright
+\item Det undviker fragmentering, eftersom allt använt minne och
+  allt icke-använt minne ligger var för sig, konsekutivt.
+
+\item Objekt som pekar på varandra tenderar att hamna nära
+  varandra vilket förbättrar minneslokaliteten hos programmet.
+
+\item Det ger möjlighet till en mycket effektiv implementation av
+  allokering.
+\end{enumerate}
+
+
+\subsection{Effektiv allokering och avallokering}
+
+Om alla levande objekt flyttas samman vid allokering kommer allt
+ledigt minne att vara konsekutivt och vi behöver inte föra bok
+över var ledigt minne finns, vilket vore fallet för mark--sweep.
+Därför kan allokering implementeras med så-kallad ''bump
+pointer''. Det går till så att man har en pekare till starten av
+det fria minnet, ''fronten'', och att allokering av $n$ bytes
+returnerar den nuvarande addressen till fronten, varefter fronten
+flyttas $n$ bytes. Denna typ av allokering är betydligt snabbare
+än en implementation som söker bland en lista av fria block för
+att hitta ett av lämplig storlek\footnote{Jmf. \c{malloc} som vi
+diskuterat på föreläsning}.
+
+Vidare, om vi enbart opererar på levande objekt och ignorerar
+skräp blir tidskomplexiteten $O(\mbox{\#levande objekt})$ istället
+för $O(\mbox{\#objekt})$. Det tillåter oss att skriva en
+implementation som undviker alltså steg 1 och steg 3 i
+beskrivningen av mark--sweep i \Ref{ms}.
+
+Det är inte ovanligt att 90--95\% av alla objekt är skräp vid en
+skräpsamling\footnote{Den s.k. ''weak generational hypothesis.''}, så detta
+är en stor tidsvinst, även om kopiering är dyrt.
+
+
+\subsection{Naiv implementation: Två minnesareor (eng. two-space)}
+
+\begin{marginfigure}
+  Vi kommer att implementera en variant av denna efter Bartlett,
+  se \Ref{bartlett}. För en illustration av den naiva implementationen, se \ref{fig:twospace}.
+\end{marginfigure}
+
+Det enklaste sättet att implementera en kompakterande skräpsamlare
+är att dela upp minnet i två olika minnesareor, en passiv och en
+aktiv. Alla objekt finns i den aktiva arean, och all allokering
+sker där -- den passiva arean används inte. 
+
+Om man fyller den aktiva arean triggas skräpsamlingen. Den utgår
+från samtliga rötter och traverserar samtliga levande objekt i den
+aktiva arean. Varje objekt som hittas på detta sätt kopieras
+över\footnote{Vid denna kopiering används bump pointer-allokering
+  i den passiva arean och den initiala fronten är areans start.}
+in i den passiva heapen, och vi noterar kopians adress\footnote{En
+  s.k. forwarding-adress.}. Varje pekare vi hittar i objekt under
+traverseringens gång ersätter vi med adressen till dess
+överflyttade kopia så att vi till slut kopierat över alla levande
+objekt från den aktiva arean till den passiva, och uppdaterat alla
+pekare mellan objekten så att kopiorna pekar ut varandra. På samma
+sätt uppdaterar vi också alla rotpekare att peka på kopiorna.
+(Hela detta motsvarar alltså steg 2 i beskrivningen av mark--sweep
+i \Ref{ms}.)
+
+När traverseringen och kopieringen är klar byter vi så att den
+passiva arean blir aktiv, och den aktiva passiv.
+
+Vad vi har åstadkommit nu är alltså att alla objekt innan
+skräpsamlingen finns i den numer passiva arean och betraktas som
+skräp. Endast de objekt som programmet kunde nå har flyttats över
+in i den nya aktiva arean vilket betyder att den använder minsta
+möjliga minne som fortfarande garanterar att programmets alla
+pekare är korrekta.
+
+Notera att uppdelningen av minnet i två areor varav endast den ena
+är i bruk vid varje givet tillfälle (förutom vid skräpsamlingen då
+båda används) effektivt dubblar ett programs minnesanvändande.
+Detta har inte hindrat denna teknik från att användas i praktiken;
+de flesta program använder relativt lite minne, och smidig och
+korrekt minnesanvändning är ofta viktigare än \emph{yteffektiv}.
+(Generationsbaserade skräpsamlare där flera olika
+skräpsamlingstekniker kombineras kan också hjälpa till att minska
+''slöseriet'' med minne.)
+
+\begin{figure*}[t]
+  \flushright
+  \emph{Tid T} \\
+  \includegraphics[width=.8\linewidth]{figs/two-space-1} \\
+
+  \emph{Tid T+1} \\
+  \includegraphics[width=.8\linewidth]{figs/two-space-2} \\
+
+  \caption{Naiv implementation av en kopierande skräpsamlare. Minnet
+    är indelat i två areor, en aktiv och en passiv. När skräpsamling
+    triggas kopieras alla levande objekt över från den aktiva till den
+    passiva arean, varefter den passiva arean blir aktiv och den
+    aktiva passiv. Notera att i den nya aktiva arean är objekten
+    kompakterade, dvs. lagda intill varandra. På detta vis undviks
+    minnesfragmentering.}
+  \label{fig:twospace}
+\end{figure*}
+
+
+
+
+\subsection{En kompakterande, konservativ skräpsamlare för C}
+
+Ett problem med skräpsamling i språk som C är avsaknaden av
+metadata i minnet. Eftersom en pekare och en integer ser identiska
+ut (och en adress är ett positivt heltal!) är det möjligt att
+tolka \emph{heltalet} 3786230 (som kanske avser slutpriset på en
+enrummare i Stockholms innerstad) som \emph{pekaren} 0x39C5F6 
+(samma tal skrivet i bas 16). Har vi otur kan 0x39C5F6 råka vara
+en valid adress i den heap som hanteras av $\mathcal{GC}$.
+
+Vi kommer att hantera detta problem med en kombination av fyra
+tekniker:
+
+\begin{enumerate}
+\item Konservativ kompaktering efter Bartlett (\Ref{bartlett})
+\item Allokeringskarta (\Ref{allokeringskarta}) (\emph{frivilligt att implementera})
+\item Höga adresser (\Ref{bigaddresses}) (\emph{frivilligt att implementera})
+\item Allokering med metadata (\Ref{metadata})
+\end{enumerate}
+
+
+\subsection{Konservativ kompaktering efter Bartlett}
+\label{sec:bartlett}
+
+\begin{marginfigure}
+  Se \ref{fig:bartlett} för en bild som visar denna implementation.
+\end{marginfigure}
+
+Bartlett skiljer mellan säkra och osäkra pekare. En säker pekare
+är en adress som vi säkert vet är en pekare. En osäker pekare är
+en vars data vi inte säkert vet är en pekare. Ett typiskt
+användande av Bartletts teknik är för skanning av stacken i ett
+C-liknande språk, där vi inte vet vad det är för data vi tittar
+på. 
+
+Vi klassificerar alltså alla pekare vi hittar som säkra eller
+osäkra. Att vara konservativ innebär att vi måste utgå från att en
+osäker pekare faktiskt är en pekare i bemärkelsen att vi måste
+betrakta dess utpekade objekt som levande, och samtidigt att vi
+måste utgå från att den osäkra pekaren faktiskt inte är en pekare
+vilket innebär att vi inte kan flytta dess utpekade objekt i
+minnet eftersom det kräver att vi ändrar pekarvärdet till den nya
+adressen. Exempel, om vi hittar 0x39C5F6 (slutpriset på en
+lägenhet) på stacken måste det objekt som ligger på den adressen
+överleva och inte flyttas. Flyttade vi det till t.ex. adressen
+0x1C0030 måste vi uppdatera värdet på stacken till 0x1C0030 (peka
+om ''pekaren''), vilket skulle betyda att vi ändrat slutpriset på
+lägenheten!
+
+För att använda Bartletts trick för att hantera osäkerhet delar vi
+in minnet som vi hanterar i ett antal diskreta
+''sidor''\footnote{För enkelhets skull använder vi storleken 2048
+  bytes per sida. Observera att man måste se till att objekt inte
+  korsar sidgränser. För enkelhets skull kan vi sätta en maxgräns
+  på objektstorlek så att alla objekt ryms på en sida.}. Istället
+för att dela in hela heapen i två delar -- passiv och aktiv -- ger
+vi \emph{varje sida} statusen passiv eller aktiv. En osäker pekare
+till en adress $A$ medför nu att den omslutande sidan $P$ inte får
+flyttas vid kompaktering.
+
+När man skapar sin minnesarea skall man kunna kontrollera om
+pekare på stacken skall anses som säkra eller osäkra.
+
+
+\begin{figure*}[t]
+  \flushright
+  \emph{Tid T} \\
+  \includegraphics[width=.8\linewidth]{figs/bartlett-1} \\[1em]
+
+  \emph{Tid T+1} \\
+  \includegraphics[width=.8\linewidth]{figs/bartlett-2} \\[1ex]
+
+  \caption{I en skräpsamlare av Bartlett-typ är minnet indelat i många
+    små sidor som var och en kan vara aktiv (grå) eller passiv (vit).
+    Pekare kan också vara säkra eller osäkra (streckad pil). Objekt
+    som utpekas av osäkra pekare får inte flyttas. Detta implementeras
+    genom att hela sidan som objektet ligger på är oförändrad. Detta
+    leder i exemplet i figuren till att ett skräp-objekt inte tas bort
+    för att det råkar ligga på samma sida som ett osäkert utpekat
+    objekt.}
+  \label{fig:bartlett}
+\end{figure*}
+
+
+\subsection{Allokeringskarta}
+\label{sec:allokeringskarta}
+
+Ytterligare ett sätt att minska risken för felaktiga pekarvärden
+är att använda allokeringskarta. En allokeringskarta är en array
+av booleans där varje plats i arrayen motsvarar en valid adress
+för en allokering, och där \c{true} betyder att något allokerats
+på den platsen (\c{false} -- inte). Om man t.ex. har (vilket är
+rimligt) en minsta objektstorlen på 16 bytes\footnote{Inklusive
+  header, se \Ref{XXX}.} behöver man alltså en array med 1024
+element för att hålla reda på 16 kb. Om man använder en
+\c{bitvektor} där en enskild bit är en boolean behövs alltså bara
+128 bytes för att hålla reda på 16 kb, vilket är <1\% overhead.
+
+Om vi återgår till vårt exempel där vi hittar 0x39C5F6 (slutpriset
+på en lägenhet) på stacken kan vi se om den boolean som motsvarar
+den adressen i allokeringskartan är \c{true} eller \c{false}. Om
+värdet är \c{false} kan vi helt ignorera 0x39C5F6. Om värdet är
+\c{true} måste vi behandla det som en säker eller osäker pekare.
+
+
+\subsection{Höga adresser}
+\label{sec:bigaddresses}
+
+Detta är enkelt att implementera och brukar ge hög avkastning.
+Använd t.ex. \c{posix_memalign} för att allokera minnet till
+programmets egen heap och ange en mycket hög adress som alignment.
+Det medför att alla pekaradresser som skapas kommer att vara
+väldigt stora. Eftersom program sällan manipulerar väldigt stora
+tal minskar risken för att ett heltal i programmet skulle råka
+sammanfalla med en valid minnesadress.
+
+
+\subsection{Allokering med metadata}
+\label{sec:metadata}
+
+För att slippa leta igenom heapen på samma sätt som stacken kommer
+vi att använda ett format för allokering som kräver att användaren
+ger den information vi behöver. Vårt skall stödja tre typer av
+allokering:
+
+\begin{enumerate}
+\item \c{h_alloc_struct} -- där programmeraren anger en slags
+  formatsträng som beskriver minneslayouten hos objektet som skall
+  allokeras\footnote{Analogt med hur en formatsträng till
+    \c{printf} beskriver hur en utskriven sträng ser ut och var
+    olika värden skall stoppas in. Se nedan.}. Formatsträngen
+  beskriver var i ett objekt eventuella pekare finns som också
+  skall traverseras för att markera objekt som levande.
+
+\item \c{h_alloc_raw} -- där programmeraren anger storleken på ett
+  utrymme som skall reserveras\footnote{Analogt med \c{malloc}.}.
+  Detta utrymme \emph{får} inte innehålla pekare till andra objekt.
+
+\item \c{h_alloc_union} -- där programmeraren utöver storlek också
+\begin{marginfigure}
+  Det är frivilligt att implementera stöd för \c{h_alloc_union}, se vidare \Ref{union}. 
+\end{marginfigure}
+  skickar med en pekare till en funktion som används för att
+  traversera objekt av denna typ, se vidare \Ref{union}. 
+
+\end{enumerate}
+
+I alla fall ovan skall det allokerade minnet nollställas, dvs.
+samma beteende som \c{calloc}.
+
+\subsection*{Formatsträng för \c{h_alloc_struct}}
+\label{sec:formatstrang}
+
+Formatsträngen förklaras enklast genom exempel. Antag att vi har en typ
+\c{binary_tree_node}, deklarerad enligt följande.
+
+\begin{ccode}
+  struct binary_tree_node {
+    void *value;
+    struct binary_tree_node *left;
+    struct binary_tree_node *right;
+    int balanceFactor;
+  }
+\end{ccode}
+
+\noindent
+Detta utrymme kan beskrivas av formatsträngen \texttt{''***i''} som
+betyder att utrymme skall allokeras för 3 pekare, följt av en
+\c{int}, dvs.,
+
+\begin{ccode}
+  alloc("***i");
+\end{ccode}
+%
+är analogt med
+%
+\begin{ccode}
+  alloc(3 * sizeof(void *) + sizeof(int));
+\end{ccode}
+
+Notera att data alignment kan påverka en strukturs layout för mer
+effektiv minnesåtkomst i en strukt. Detta kan betyda att två fält
+efter varandra i en strukt har ''tomt utrymme'' mellan sig för att
+värdens plats i minnet skall bättre passa med ord-gränser. Man kan
+antingen sätta sig in i hur detta fungerar\footnote{En bra plats
+  att börja på är
+  \url{http://en.wikipedia.org/wiki/Data_structure_alignment}} --
+notera att det är plattformsberoende -- eller fundera ut hur man
+stänger av det.\footnote{En bra plats att börja på är
+  \url{http://gcc.gnu.org/onlinedocs/gcc/Structure_002dPacking-Pragmas.html}
+  och
+  \url{http://gcc.gnu.org/onlinedocs/gcc/Type-Attributes.html}}
+Ange tydligt i dokumentationen hur detta har hanterats.
+
+En bra första iteration i implementationen av stödet för
+allokering med formatsträng implementerar stöd för \texttt{''*''}
+och \texttt{''r''}, där det sistnämnda står för \c{sizeof(int)},
+vilket på en 64-bitars platform ger möjligheten att allokera
+antingen i ''byggklossar'' om 8 respektive 4
+bytes\footnote{Faktiskt så räcker detta bra som en ''intern
+  representation'' av formatsträngen, oavsett vad användaren
+  skriver (se nästa \S).}.
+
+
+
+%% Definiera termen objekt
+
+
+Åtminstone följande styrkoder skall kunna ingå i en
+formatsträng:
+
+\begin{center}
+  \begin{tabular}{rl}
+    \c{*} & pekare \\
+    \c{c} & char \\
+  \end{tabular}
+  \qquad
+  \begin{tabular}{rl}
+    \c{i} & int \\
+    \c{l} & long \\
+  \end{tabular}
+  \qquad
+  \begin{tabular}{rl}
+    \c{f} & float \\
+    \c{d} & double \\
+  \end{tabular}
+\end{center}
+%
+Ett heltal före ett specialtecken avser repetition; till exempel
+är \texttt{"***ii"} ekvivalent med \texttt{"3*2i"}. Man kan se det
+som att default-värdet 1 inte måste sättas ut explicit, alltså
+\texttt{*} är kortform för \texttt{1*}. En tom formatsträng är
+inte valid. En formatsträng som bara innehåller ett heltal, t.ex.
+\texttt{"32"}, tolkas som \texttt{"32c"}. Detta innebär att
+\c{h_alloc_struct("32")} är semantiskt ekvivalent med
+\c{h_alloc_raw(32)}.
+
+
+
+
+\section{Implementationsdetaljer}
+
+Eftersom objekt i C inte har något metadata måste implementationen
+hålla reda på två saker:
+
+\begin{compactenum}
+\item Hur stort varje objekt är (annars kan vi inte kopiera det),
+  samt
+\item Var i objektet dess pekare till andra objekt finns.
+\end{compactenum}
+
+Formatsträngen innehåller information för att räkna ut båda dessa,
+men formatsträngen är inte helt oproblematisk, t.ex. eftersom den
+ägs av klienten som kan förändra den\footnote{Eller avallokera
+  den.} och därmed få en formatsträng att avvika från ett objekt
+som det förväntas beskriva, och också för att den inte stöder
+unioner i struktar. Om varje formatsträng kopierades med motsvarande
+\texttt{strdup} skulle vi vara mer skyddade mot fel på grund av
+förändringar i formatsträngar, men det skulle bli ett påtagligt
+slöseri att skapa många kopior av strängar. En bättre
+implementation skulle använda en mer kompakt representation av
+formatsträngen \emph{som kunde bakas in i det allokerade
+  objektet}.
+
+I implementationen av den kompakterande skräpsamlaren skall varje
+objekt ges en \emph{header} (metadata), men vi är intresserade av
+att denna header är så liten som möjligt eftersom program som
+allokerar många små objekt annars blir för ineffektiva. En god
+design är att spara headern precis innan varje objekt i minnet.
+Låt oss börja med att titta på vad headern skall kunna innehålla
+för information:
+
+\begin{compactenum}\raggedright
+\item En pekare till en formatsträng
+\item En mer kompakt representation av objektets layout
+\item En pekare till en funktion som hanterar skräpsamling av ett
+  objekt med komplex layout (t.ex. struktar med unioner, se \Ref{union}, om detta implementeras)
+\item En forwarding-adress 
+\item En flagga som anger om objektet redan är överkopierat till
+  den passiva arean vid skräpsamling
+\end{compactenum}
+
+Lyckligtvis kan vi representera samtliga dessa data i ett enda
+utrymme av storlek \c{sizeof(void *)} med hjälp av litet klassisk
+C-slughet. Vi kan börja med att notera att alternativ 1--3 är
+ömsesigt uteslutande, dvs., finns en kompakt representation av
+objektets layout behövs varken formatsträng eller en
+objektspecifik skräpsamlingsfunktion, osv. Vidare behövs
+forwarding-adress enbart när en kopia redan har gjorts av
+objektet, vilket t.ex. betyder att forwarding-adressen kan skriva
+över objektets data eftersom allt överskrivet data går att hitta
+om man bara följer forwarding-pekaren. Slutligen kan vi konstatera
+att flaggan i 5 enbart behövs i samband med 4.
+
+\subsection{Vilken information finns i headern}
+
+\begin{marginfigure}
+  Om vi använder adresser som är ''alignade'' mot ord i minnet,
+  och varje ord är minst 4 bytes, så kommer alla addresser att
+  vara en multipel av 4, vilket betyder att de sista två bitarna i
+  en adress i praktiken inte används. (Virtuellt minne kan medföra
+  att vi har ett stort antal insignifikanta bitar i varje adress,
+  detta är maskin och OS-specifikt.) Notera att man kan använda
+  t.ex. \c{-falign-functions=16} för att även styra vilka adresser
+  funktionspekare får.
+\end{marginfigure}
+
+För att inte slösa med minnet skall vi använda de två minst
+signifikanta bitarna i en pekare för att koda in information om
+vad som finns i headern. Alltså, om en 32-bitars pekare binärt är
+(med little-endian) \c{1001000111101100}-\c{01100101000001000}
+pratar vi om att gömma information i de sista två, dvs.
+\c{1001000111101100011001010000010__}.
+
+Två bitar
+är tillräckligt för att koda in fyra olika tillstånd, t.ex.:
+
+\begin{center}\small
+  \begin{tabular}{cl}
+    Mönster & Headern är en\ldots \\
+    \hline % ----------------------------------------
+    \c{00}      & pekare till en formatsträng (alt. 1) \\
+    \c{01}      & forwarding-adress (alt. 4 ) \\
+    \c{10}      & pekare till en objektspecifik skräpsamlingsfunktion (alt. 3) \\
+    \c{11}      & bitvektor med layoutinformation (alt. 2, se nedan) \\
+  \end{tabular}
+\end{center}
+
+Notera att de två minst signifikanta bitarna måste ''maskas ut''
+ur pekaren innan pekaren används -- annars kan pekarvärde bli
+ogiltigt på grund av att datat vi gömt där tolkas som en del av
+adressen. Det betyder att varje läsning av headern som en pekare
+skall sätta de två minst signifikanta bitarna\footnote{Notera
+  skillnader mellan big-endian och little-endian i hur adresser
+  representeras binärt.} till 0 i det utlästa resultatet.
+
+
+\subsection{Objektpekare pekar förbi headern}
+
+Objektets header ligger alltid först i objektet, men skall inte
+vara synlig i några struktar (det skulle göra programmet beroende
+av en specifik skräpsamlare, vilket vore dåligt). Därför kommer en
+pekare till ett objekt alltid att peka på struktens första byte,
+dvs. den ''pekar förbi'' headern. Och om man vill komma åt headern
+måste man använda pekararitmetik och ''backa''
+\c{sizeof(header)} bytes. Denna typ av design tillåter att
+skräpsamlaren modiferas så att headern växer och krymper utan att
+program som använder skräpsamlaren måste modifieras. 
+
+
+\subsection{En mer kompakt layoutspecifikation}
+
+Vi skall använda en bitvektor för att koda in en layoutspecifikation
+på ett sätt som är betydligt mer yteffektivt än en formatsträng.
+Vi kan t.ex. använda en bit för att ange antingen en pekare eller
+''data'', t.ex. \texttt{11001} är samma som formatsträngen
+\texttt{"**ii*"}, som ger en objektstorlek på $32$
+bytes\footnote{$8+8+4+4+8=32$} om en pekare är 8 bytes och
+\c{sizeof(int)} är 4~bytes. Vi behöver också information om
+bitvektorns längd.
+
+För större allokeringar av enbart data behöver
+layoutspecifikationen enbart vara en storleksangivelse. I likhet
+med headern kan vi reservera en bit för att ange om
+layoutspecifikationen är en storlek i bytes, eller om det är en
+vektor med mer precis layoutinformation.
+
+På en maskin där en pekare är 64 bitar skulle alltså 2 bitar gå åt
+till metadata om headern, ytterligare 1 bit gå åt till att koda in
+typ av layoutspecifikation, och resterande 61 bitar antingen vara
+en storlek i bytes eller en bitvektor och dess
+längd\footnote{Faktiskt behövs inte längden. Om man kodar varje
+  byggkloss som två bitar, t.ex. \c{01} för \c{r} och \c{11} för
+  \c{*} och \c{00} för inget mer så räcker det med att scanna
+  bitvektorn tills man hittar \c{00} för att avgöra längden och
+  maxlängden blir 30.}.
+
+Notera att eftersom den kompakta layoutspecifikationen har en fix
+längd fungerar denna representation bara för data av begränsad
+storlek (som också styrs av huruvida headern är 32 eller 64
+bitar). 
+
+
+\subsection{Objektspecifika skräpsamlingsfunktioner}
+\label{sec:union}
+
+\begin{marginfigure}
+  \bf OBS! Det är frivilligt att implementera stöd för denna funktion (\Ref{union}).
+\end{marginfigure}
+
+Objektspecifika skräpsamlingsfunktioner är användbara för objekt
+med komplex layout, t.ex. en union mellan en pekare och annat
+data. En sådan skräpsamlingsfunktion tar lämpligen som argument
+objektet, heapen, samt den funktion som normalt anropas för
+samtliga pekare i objektet\footnote{Vi kallar detta för en
+  trace-funktion eftersom syftet med denna funktion är att
+  ''trace:a'' -- traversera alla pekare och därigenom besöka alla
+  nåbara objekt på heapen.}. Skräpsamlingsfunktionen ansvarar
+också för att kopiera objektet självt (det är enkelt om man byter
+aktiv och passiv area först i skräpsamlingsfunktionen) och
+returnerar en pekare till kopian som resultat. 
+
+\begin{ccode}
+// Typen för den interna trace-funktionen
+typedef void *(*trace_f)(heap_t *h, void *obj);
+
+// Typen för objektspecifika trace-funktioner
+typedef void *(*s_trace_f)(heap_t *h, trace_f f, void *obj);
+\end{ccode}
+
+\noindent
+(Se \Ref{gch} för information om typen \c{heap_t}.)
+Låt säga att vi ville ha en strukt med en union så här: 
+
+\begin{ccode}
+enum type { INT, PTR }; // integer or pointer
+
+struct example {
+  enum type type; 
+  union { // type indicates type in union
+    void *pointer;
+    uint32_t integer;
+  };
+};
+\end{ccode}
+
+Att ange en formatsträng för denna strukt går inte med vårt
+begränsade språk eftersom vi varken har notation för unioner eller
+möjlighet att uttrycka att om variabeln \c{type} har ett visst
+värde är värdet i unionen en pekare (som bör trace:as), annars är
+värdet i unionen inte en pekare (i detta fall en 32 bitars
+\c{unsigned int}). Därför måste vi använda en objektspecifk
+funktion som till exempel kan se ut så här (ofärdigt kodskelett):
+
+\begin{ccode}
+void *trace_example_struct(heap_t *h, trace_f f, void *obj)
+{
+  struct example *e = (struct example *)obj;
+
+  // ... kopiera e till e', spara addressen till e' i e:s header ...
+
+  if (e->type == PTR)
+    {
+      f(h, e->pointer);
+    }
+  else
+    {
+      // inget behöver göras, e->integer är inte en pekare
+    }
+}
+\end{ccode}
+
+
+\section{Att skapa och riva ned en heap}
+
+Funktionen \c{h_init} som ni skall implementera för skapar en ny
+heap med en angiven storlek och returnerar en pekare till den.
+Utöver storlek skall det gå att ställa in två ytterligare
+parametrar: 
+
+\begin{compactenum}
+\item Huruvida pekare på stacken skall anses som säkra eller osäkra
+\item Vid vilket minnestryck skräpsamling skall köras 
+\end{compactenum}
+
+Eftersom det måste vara möjligt att resonera om minneskraven för
+en applikation skall \emph{allt} metadata om heapen också rymmas i
+det angivna storleksutrymmet. Funktionen \c{h_avail} returnerar
+antalet tillgängliga bytes i en heap, dvs. så många bytes som kan
+allokeras innan minnet är fullt (dvs. minnestrycket är 100\%).
+
+Det skall finnas två funktioner för att frigöra en heap och
+återställa allt minne:
+
+\begin{enumerate}
+\item \c{h_delete} som frigör allt minne som heapen använder.
+
+\item \c{h_delete_dbg} som utöver ovanstående också ersätter
+  alla variabler på stacken som pekar in i heapens adressrymd med
+  ett angivet värde, t.ex. \c{NULL} eller \c{0xDEADBEEF} så att
+  ''skjutna pekare'' (eng. dangling pointers) lättare kan
+  upptäckas.
+
+\end{enumerate}
+
+
+\section{Att hitta rötterna för skräpsamlingen}
+
+Att hitta rötterna (eng. root set) kräver att man letar igenom
+stacken efter samtliga bitmönster som kan tolkas som pekare och
+som har en adress som pekar in i den aktuella heapen. Detta kan
+man göra genom betrakta stacken som en array från $B$ till $E$ och
+pröva alla möjliga \c{sizeof(void *)}-block mellan $B$ och $E$.
+Eftersom värden kan hållas i register kan det vara lämpligt att
+använda någon C-funktion som tvingar alla register att sparas på
+stacken. Här är ett lämpligt makro som gör det. Man behöver
+\emph{inte} scanna \c{env} på något sätt, utan innehållet dumpas
+på stacken (verifiera gärna detta genom att ta reda på hur \c{env}
+är definierad på de aktuella maskiner du vill köra på genom att
+läsa deras \c{setjmp.h}).
+
+\begin{ccode}
+#include <setjmp.h>
+
+#define Dump_registers()                        \
+  jmp_buf env;                                  \
+  if (setjmp(env)) abort();                     \
+\end{ccode}
+
+Toppen på stacken kan man approximera genom att t.ex. ta adressen till
+en stackvariabel på den översta stack-framen. Ett bättre sätt, som
+dock inte fungerar på alla kompilatorer, är att använda
+\c{__builtin_frame_address(lvl)} som returnerar adressen till den
+översta framen på stacken när \c{lvl} är 0, den anropande funktionens
+stack frame när \c{lvl} är 1, etc. För att få toppen på stacken i användarens program i 
+\c{h_gc} kan man alltså bara skriva \c{void *top =
+  __builtin_frame_address(1)}. Botten på stacken kan man också få fram
+genom att läsa adressen till den globala variabeln \c{environ} som
+enligt C-standarden skall ligga ''under'' starten på stacken.
+
+\begin{marginfigure}[-1cm]
+  Läs mer på \url{https://gcc.gnu.org/onlinedocs/gcc/Return-Address.html}.
+\end{marginfigure}
+
+Åtkomst till \c{environ} ges genom att man deklarerar den som en
+\emph{extern}, analogt med en global variabel:
+
+\begin{ccode}
+extern char **environ;
+\end{ccode}
+
+Notera att huruvida stacken växer uppåt eller nedåt i adressrymden
+är plattformsspecifikt. Betänk också \emph{data alignment} vid
+genomsökning av stacken -- på vilka adresser kan man hitta
+adresser?
+
+
+
+\section{Gränssnittet \c{gc.h}}
+\label{sec:gch}
+
+Nedanstående headerfil sammanfattar det publika gränssnitt som
+skall implementeras. En doxygen-dokumenterad version finns också
+tillgänglig i kursens repo.
+
+\begin{ccode}
+#include <stddef.h>
+#include <stdbool.h>
+
+#ifndef __gc__
+#define __gc__
+
+typedef struct heap heap_t;
+
+typedef void *(*trace_f)(heap_t *h, void *obj);
+typedef void *(*s_trace_f)(heap_t *h, trace_f f, void *obj);
+
+heap_t *h_init(size_t bytes, bool unsafe_stack, float gc_threshold);
+void h_delete(heap_t *h);
+void h_delete_dbg(heap_t *h, void *dbg_value);
+
+void *h_alloc_struct(heap_t *h, char *layout);
+void *h_alloc_union(heap_t *h, size_t bytes, s_trace_f f);
+void *h_alloc_raw(heap_t *h, size_t bytes);
+
+size_t h_avail(heap_t *h);
+size_t h_used(heap_t *h);
+size_t h_gc(heap_t *h);
+size_t h_gc_dbg(heap_t *h, bool unsafe_stack);
+
+#endif
+\end{ccode}
+
+
+\section{Enkla prestandamätningar}
+\label{sec:prestandamatningar}
+
+Beroende på vilken implementation av \c{malloc} du använder
+används olika strategier för att allokera minne. Gör några enkla
+prestandatest för ett program som allokerar
+många objekt\footnote{10-tals megabyte minne totalt för programmet.} och mät:
+
+\begin{enumerate}
+\item För ett stort program som ryms i minnet (alltså där
+  skräpsamlaren aldrig körs), går det att observera
+  prestandaskillnader mellan er minneshanterare och \c{malloc}? 
+  Detta test mäter allokeringens effektivitet. 
+
+\item För ett stort program som \emph{inte} ryms i minnet, går det
+  att observera prestandaskillnader mellan er minneshanterare och
+  \c{malloc}? Detta test mäter allokeringens effektivitet, men
+  också skräpsamlingens. Traversering av objekt kostar, men
+  samtidigt krävs endast att man bearbetar data som är levande,
+  till skillnad från \c{malloc}/\c{free} där allt skräp måste
+  explicit lämnas tillbaka, vilket förstås tar tid.
+
+\item Skriv ett program som skapar 4 länkade listor av
+  heltal\footnote{Som alla skall rymmas i den allokerade heapen.},
+  där varje lista håller i tal inom ett visst intervall,
+  $[0,1\times10^9)$, $[1\times10^9,2\times10^9)$, etc. upp till
+  $4\times10^9$. Slumpa fram $M$ tal i intervallet
+  $[0,4\times10^9)$ och stoppa in dem i rätt listor\footnote{Det
+    är viktigt att varje slumptal tas fram ur intervallet
+    $[0,4\times10^9)$ och inte att man först slumpar lista ett,
+    sedan lista två etc.}. $(*)$ Slumpa sedan fram $N$ tal och sök
+  igenom rätt lista och svara på om talet finns där.
+
+  Använd både \c{malloc} och er egen minneshanterare i ovanstående
+  program och jämför körtiderna. Storleksförhållandet mellan $M$
+  och $N$ bör vara $M\approx 10\times N$. Pröva också att göra en
+  skräpsamling vid punkten $(*)$ i programmet och justera $N$
+  uppåt utan att ändra $M$. Kan man se en skillnad i körtider? 
+
+\end{enumerate}
+
+\noindent
+Resultatet av prestandatesterna kommer att efterfrågas i samband
+med redovisningen. (Grafer är ett bra sätt att förmedla
+information!)
+
+Körtid kan man mäta t.ex. med \c{time} (ett POSIX-program) eller
+genom att använda C:s inbyggda funktioner för att läsa av
+systemklockan (t.ex. \c{time.h}).
+
+\section{Integration med existerande program}
+\label{sec:integration}
+
+Kronan på verket när skräpsamlaren är klar är att integrera den med
+ett existerande program. Välj valfritt program från en godkänd
+redovisning av Z101 (fas 1/sprint 2). Detta program skall inte ha
+några globala pekare och allokera sitt minne dynamiskt (jmf. krav på
+denna inlämningsuppgift). 
+
+Här är ett förslag för hur detta kan göras: 
+
+\begin{compactenum}
+\item Ersätt alla anrop till \c{malloc} med anrop till en funktion som
+  räknar ut summan av alla allokeringar, samt anropar \c{malloc} och
+  returnerar pekaren till det allokerade minnet, ungefär i denna stil
+  (och motsvarande för \c{calloc}):
+
+  \begin{ccode}
+    void malloc_indirection(size_t size) 
+    {
+      global_counter += size;
+      return malloc(size); 
+    }
+  \end{ccode}
+
+\noindent
+  I slutet av programmet kan du skriva ut hur mycket minne ($M$) det använde:
+
+\begin{ccode}
+    printf("Total memory: %zu\n", global_counter);
+\end{ccode}
+
+\item Döp om \c{main}-funktionen till \c{old_main} och lägg till
+  ytterligare en parameter: 
+
+\begin{ccode}
+    int __attribute__ ((noinline)) old_main(int argc, char *argv[], heap_t *h)
+\end{ccode}
+
+  Attributet \c{__attribute__ ((noinline))} förhindrar att kompilatorn
+  slår samman funktionerna \c{main} och \c{old_main}. Vi vill inte det
+  eftersom vi vill vara säkra på att \c{old_main}:s stack frame har
+  förstörts när vi triggar en sista skräpsamling nedan.
+
+\item
+  Skapa en ny \c{main}-funktion så här:
+
+\begin{ccode}
+    int main(int argc, char *argv[])
+    {
+      // med lämpliga parametrar, se nedan
+      heap_t *h = h_init(...); 
+      int result = old_main(argc, argv, h);
+      h_gc_dbg(h, true);
+
+      size_t b = h_used(h);
+      printf("Memory used at end of program: %zu b\n", b);
+      h_delete(h);
+      return result;
+    }
+\end{ccode}
+
+  För enkelhets skull kan du vilja göra \c{h} till en global variabel.
+  Storleken på heapen som du skapar kan vara t.ex. hälften av den
+  siffra $M$ som du nyss tog fram. Eftersom de flesta objekt som
+  skapas är temporära är det rimligt att tänka sig att minnestrycket
+  vid varje givet tillfälle är mindre än $M$. (Experimentera gärna med
+  olika heapstorlekar och/eller tröskelvärden för skräpsamling!)
+
+\item
+  Skriv om alla anrop till \c{malloc_indirection} till
+  motsvarande \c{h_alloc}-funktion (t.ex. \c{_raw} för strängar,
+  \c{_struct} för noder i länkade listor och träd, etc.). Ta också
+  bort alla anrop till \c{free}.
+
+\end{compactenum}
+
+\noindent
+När programmet körs \emph{bör} slutligen ''Memory used at end of
+program: 0 b'' skrivas ut, eftersom inget minne längre används av
+programmet.
+
+\begin{center}
+  \noindent\emph{Demonstrera detta vid slutseminarium!}
+\end{center}
+
+
+
+\section*{Plattformsoberoende}
+
+Det bibliotek som ni implementerar \emph{skall} fungera under
+Linux på X86 (t.ex. \c{tussilago.it.uu.se}) och Solaris på X86
+(t.ex. \c{fries.it.uu.se}) och SPARC (t.ex. \c{yxan.it.uu.se}).
+Alla dessa miljöer finns tillgängliga på institutionen. Notera att
+t.ex. bitmanipulering är högeligen
+plattformsberoende\footnote{T.ex. big endian vs. little endian.}
+(även storleken på en \c{int}!) så det lönar sig snabbt att ha
+tester och köra dem på flera plattformar löpande under
+utvecklingens gång.
+
+
+\chapter{Frivilliga utökningar}
+
+\begin{marginfigure}
+  Dessa kan förstås användas för att redovisa mål.
+\end{marginfigure}
+
+\begin{description}
+\item[Stöd för dynamiskt växande heap] (Enkelt) Istället för att ha en
+  heap vars storlek är fix kan man tänka sig att heapens storlek växer
+  dynamiskt. Detta är möjligt genom att helt enkelt lägga till fler
+  sidor i Barlett-kollektorn. Extra plus i kanten om minne också
+  lämnas tillbaka när minnestrycket är lågt.
+
+\item[Stöd för grundläggande telemetri] (Enkelt) Implementera
+  funktioner som monitorerar minnestrycket, dvs. hur mycket minne är
+  faktiskt levande vid varje skräpsamling.
+
+% \item[Flexibelt storleksförhållande mellan de två minnesareorna.]
+%   (Enkel) Att dela upp minnesareorna i två lika stora delar gör
+%   att ett program med en heap på 2 megabyte aldrig kan använda mer
+%   än 1 megabyte i praktiken. För små program är inte detta ett
+%   problem, men för stora program, eller många små program som kör
+%   samtidigt kan ''slöseriet'' bli kännbart. Om man allokerar
+%   väldigt många temporära objekt som ''direkt'' kastas bort är det
+%   inte ovanligt att 90--95\% av alla objekt är skräp vid
+%   skräpsamling -- det betyder att man i praktiken skulle kunna
+%   klara sig med en passiv area som var 5--10\% av storleken av den
+%   aktiva!
+
+%   Utöka skräpsamlaren så att användaren kan ställa in förhållandet
+%   mellan den aktiva och den passiva minnesarean vid skapandet av
+%   heapen. Vid skräpsamling skall förhållandet mellan skräp och
+%   levande objekt noteras, så att man kan justera
+%   storleksförhållandet automatiskt och dynamiskt (dvs. under
+%   körning). Om man t.ex. börjar med 50\%--50\% och noterar att
+%   endast 25\% överlever kan man byta till exempelvis
+%   20\%--80\%.\footnote{Eftersom 25\% av 80\% = 20\%, men det känns
+%     väldigt optimistiskt att lägga gränsen exakt vid förra
+%     skräpsamlingens ratio.} Några frågeställningar:
+
+%   \begin{enumerate}
+%   \item Vad är en bra algoritm för att justera
+%     storleksförhållandet? Hur många datapunkter bör man ha för att
+%     se en trend?
+%   \item Vad händer om man måste spara 33\% av alla objekt men den
+%     passiva arean bara är 28\% -- finns det någon lösning?
+%   \end{enumerate}
+
+% \item[Stöd för att falla tillbaka på mark--sweep.] (Medelsvår) En
+%   enkel lösning till den andra frågan i föregående utökning är att
+%   helt enkelt byta skräpsamlingsstrategi om den passiva arean inte
+%   räcker till. När man slår i taket kan man helt enkelt byta till
+%   mark--sweep utan kopiering. Detta minskar lokaliteten och ökar
+%   fragmenteringen, men kan använda hela minnet. De två stora
+%   ''problemet'' med denna utökning är:
+
+%   \begin{enumerate}
+%   \item Det måste vara möjligt att ''spåra'' alla objekt på heapen
+%     och kunna ''frigöra dem'' till skillnad från den eleganta
+%     lösning vi använt hittills där vi bara flyttar mellan två
+%     minnesareor i konstant tid.
+%   \item Allokering efter att vi bytt till mark--sweep kan inte ske
+%     med bump pointer, eftersom det inte längre finns en start på
+%     det fria minnet. Istället måste man leta efter en plats där
+%     det finns tillräckligt med ledigt utrymme.
+%   \end{enumerate}
+
+%   En enkel (men inte nödvändigtvis bra ur prestandasynpunkt)
+%   lösning är att utöka headern med en pekare så att alla objekt
+%   hänger samman som en länkad lista. Det gör det möjligt att
+%   enkelt hitta alla objekt i minnet. Detta löser dock inte
+%   fragmenteringen -- två angränsande objekt som båda är skräp bör
+%   behandlas som ett sammahängande ledigt utrymme.
+  
+\item[Parallellisera skräpsamlingen.] (Svår) Ett problem med
+  denna typ av automatisk skräpsamling är att allt skräp samlas
+  vid en enda tidpunkt. I interaktiva program kan detta upplevas
+  som en tydlig \emph{paus} under körning. Ett sätt att minska
+  paustiden är att traversera heapen med hjälp av flera parallella
+  trådar. Notera att detta inte är detsamma som stöd för
+  multitrådade program (se utökning nedan) -- trådningen är i
+  detta fall helt inkapslad i skräpsamlaren och inte synlig
+  utanför. De stora problemen som måste lösas är:
+
+  \begin{enumerate}
+  \item Koordination av trådar som vill kopiera samma objekt
+    samtidigt.
+  \item Koordination av trådar som vill kopiera över ett objekt
+    från den aktiva arean till den passiva arean samtidigt -- var
+    finns starten på det lediga minnet?
+  \end{enumerate}
+
+\item[Stöd för att använda heapen med multipla trådar.] (Mycket
+  svår) Förenklingen att endast fungera med enkeltrådade program
+  är tyvärr inte en rimlig förenkling i praktiken i väldigt många
+  program. Utöka biblioteket för att fungera med skräpsamling med
+  multipla trådar. Detta kan inte lösas lika transparent som för
+  enkeltrådar. De stora problemen som måste lösas är:
+
+  \begin{enumerate}
+  \item Koordination av trådar som vill allokera minne samtidigt.
+  \item Samtliga trådars stackar måste scannas för att rötterna
+    skall hittas.
+  \item Skräpsamling kan inte ske samtidigt med vare sig
+    \emph{allokering} eller \emph{användning} av levande objekt
+    eftersom objekt flyttas i minnet.\footnote{Det finns förstås
+      flera skräpsamlare som klarar av detta, men deras arbetssätt
+      skiljer sig från det som vi har beskrivit här.} Samtliga
+    trådars exekvering måste följaktligen ''avbrytas'' för att
+    skräpsamling skall kunna ske.
+  \end{enumerate}
+
+  Det enklaste sättet att implementera denna utökning är att utöka
+  protokollet så att ett program som använder multipla trådar
+  måste göra vissa saker för att skräpsamlingen skall fungera
+  korrekt.
+
+\end{description}
+
+
+
+\end{document}
+
+%%% Local Variables: ***
+%%% mode: latex ***
+%%% TeX-master: "main.tex"  ***
+%%% ispell-local-dictionary: "svenska"  ***
+%%% End: ***
